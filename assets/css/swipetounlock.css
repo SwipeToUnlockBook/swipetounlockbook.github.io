@@ -35,3 +35,13 @@ h1, h2, h3, h4, h5, h6 {
     background: rgba(255, 255, 255, 0.68);
     padding: 1em;
 }
+
+.topic-card {
+    max-width: 564px;
+    text-align: center;
+    color: white;
+}
+
+#card-bigdata {
+    background-image: url(../img/bigdata.png);
+}
