@@ -10,3 +10,20 @@ body {
     text-align: center;
     margin: auto;
 }
+
+#the_idea {
+    background-image: url(../img/the_idea_background.png);
+    background-position: center right;
+    background-size: cover;
+    min-height: 350px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+}
+
+.frosted-overlay {
+    background: rgba(255, 255, 255, 0.68);
+    padding: 1em;
+}
