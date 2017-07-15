@@ -1,7 +1,12 @@
 body {
-  padding-top: 70px;
+  padding-top: 50px;
 }
 
 .navbar-brand, .navbar-nav {
     text-transform: uppercase !important;
+}
+
+.centered {
+    text-align: center;
+    margin: auto;
 }
