@@ -9,36 +9,168 @@
 		<title>Swipe to Unlock</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
 	<body>
 
-		<!-- Header -->
-			<header id="header">
-				<h1>Swipe to Unlock</h1>
-				<p>The Secrets Behind Everyday Technology. Coming Soon!</p>
-			</header>
+		<!-- Nav Bar -->
+		<div id="nav_bar">
+			<a href="#home">SWIPE TO UNLOCK</a>
+			<a href="#the_idea">THE IDEA</a>
+			<a href="#the_book">THE BOOK</a>
+			<a href="#endorsements">ENDORSEMENTS</a>
+			<a href="#authors">AUTHORS</a>
+			<a href="#connect">CONNECT</a>
+			<a href="https://www.amazon.com/">BUY NOW</a>
+		</div>
 
-		<!-- Signup Form -->
-			<form id="signup-form" method="post" action="#">
-				<input type="email" name="email" id="email" placeholder="Email Address" />
-				<input type="submit" value="Sign Up" />
+		<!-- Video 
+		TODO: swap video link with ours leter-->
+		<div id="home">
+			<video controls autoplay>
+				<source src="https://www.youtube.com/watch?v=kCg0tSyNIqM" type="video/mp4">
+			</video>
+		</div>
+
+		<!-- Amazon Button-->
+		<div id="amazon_button">
+			<a href="https://www.amazon.com/"><img src="assets/img/amazonButton.png"></a>
+		</div>
+
+		<!-- The Idea
+		TODO: add background image in css-->
+		<div id="the_idea">
+			<!-- Use this image for the background  -->
+			<img src="assets/img/the_idea_backgrouond.png">
+			<p>THE IDEA</p>
+			<p>You probably search on Google every day. But have you ever wondered how Google makes billions of dollars while providing search, email, and maps for free? How do they figure out which ads perfectly capture your interests? And how do they search the entire internet so quickly, anyway? Using real-world examples, Swipe to Unlock gives you a peek under the hood of the technology you use every day, decodes technologists’ weirdest jargon, and shows you how technology is changing the society we live in for better or for worse. Unlock the answers you need to become a better-educated consumer, digital citizen, or technology professional.</p>
+		</div>
+
+		<div id="the_book">
+			<p>TOPICS EXPLAINED</p>
+			<div id="leftcol_thebook">
+				<img src="assets/img/book.png">
+				<a href="https://www.amazon.com/"><img src="assets/img/amazonButton.png"></a>
+			</div>
+			<div id="rightcol_thebook">
+				<a href="bigdata_modal">
+					<img src="assets/img/bigdata.png">
+					<p>BIG DATA</p>
+					<p>How did Target know that a teenager was pregnant before her own father did?</p>
+				</a>
+				<a href="thecloud_modal">
+					<img src="assets/img/thecloud.png">
+					<p>THE CLOUD</p>
+					<p>Why can't you buy Photoshop in a box anymore?</p>
+				</a>
+				<a href="internetsecurity_modal">
+					<img src="assets/img/internetsecurity.png">
+					<p>INTERNET SECURITY</p>
+					<p>The Dark Web: How do people sell drugs and stolen credit card numbers online?</p>
+				</a>
+				<p>...AND MORE!</p>
+			</div>
+		</div>
+
+		<!-- Endorsements -->
+		<div id="#endorsements">
+			<div>
+				<img src="assets/img/news.png">
+			</div>
+			<div>
+				<img src="assets/img/Tencent.png">
+				<p>“I never took a CS class in college, but with this book I got job offers from Google, Facebook, and Microsoft.”</p>
+				<img src="assets/img/star.png">
+				<img src="assets/img/star.png">
+				<img src="assets/img/star.png">
+				<img src="assets/img/star.png">
+				<img src="assets/img/star.png">
+				<p>New York Times</p>
+			</div>
+			<div>
+				<img src="assets/img/news.png">
+			</div>
+			<div>
+				<img src="assets/img/Tencent.png">
+				<p>“I never took a CS class in college, but with this book I got job offers from Google, Facebook, and Microsoft.”</p>
+				<img src="assets/img/star.png">
+				<img src="assets/img/star.png">
+				<img src="assets/img/star.png">
+				<img src="assets/img/star.png">
+				<img src="assets/img/star.png">
+				<p>New York Times</p>
+			</div>
+		</div>
+		<!-- Authors -->
+		<div id="authors">
+			<div id="adi">
+				<img src="assets/img/Adi.png">
+				<img src="assets/img/ribbon.png">
+				<p>Adi Agashe</p>
+				<p>A recent graduate of Cornell University and an incoming Program Manager at Microsoft.</p>
+				<a href="http://whoisadi.com/"><img src="assets/img/link.png"></a>
+				<a href="https://www.linkedin.com/in/adityaagashe/"><img src="assets/img/linkedin.png"></a>
+				<a href="mailto:ava9@cornell.edu"><img src="assets/img/email2.png"></a>
+			</div>
+			<div id="parth">
+				<img src="assets/img/Parth.png">
+				<img src="assets/img/ribbon.png">
+				<p>Parth Detroja</p>
+				<p>A recent graduate of Cornell University and an incoming Product Manager at Facebook.</p>
+				<a href="http://whoisadi.com/"><img src="assets/img/link.png"></a>
+				<a href="https://www.linkedin.com/in/parthdetroja/"><img src="assets/img/linkedin.png"></a>
+				<a href="mailto:ppd25@cornell.edu"><img src="assets/img/email2.png"></a>
+			</div>
+			<div id="neel">
+				<img src="assets/img/Neel.png">
+				<img src="assets/img/ribbon.png">
+				<p>Neel Mehta</p>
+				<p>Studies computer science at Harvard University and interned most recently at Microsoft.</p>
+				<a href="http://hathix.com/"><img src="assets/img/link.png"></a>
+				<a href="https://www.linkedin.com/in/neelmehta18/"><img src="assets/img/linkedin.png"></a>
+				<a href="mailto:neelmehta@college.harvard.edu "><img src="assets/img/email2.png"></a>
+			</div>
+		</div>
+
+		<!-- Educator -->
+		<div id="edu">
+			<p>ARE YOU AN EDUCATOR?</p>
+			<p>Sign up to learn how Swipe to Unlock can be used in the classroom.</p>
+
+			<form id="edu_form" method="post" action="#">
+				<input type="email" name="edu_email" id="edu_email" placeholder="Email Address" />
+				<input type="submit" value="Join" />
+			</form>
+		</div>
+
+		<!-- Connect -->
+		<div id="connect">
+			<p>CONNECT</p>
+			<p>Join the list to be notified when the book comes out!</p>
+
+			<form id="edu_form" method="post" action="#">
+				<input type="email" name="connect_email" id="connect_email" placeholder="Email Address" />
+				<input type="submit" value="Join" />
 			</form>
 
-		<!-- Footer -->
+			<a href="https://www.amazon.com/"><img src="assets/img/amazonButton.png"></a>
+		</div>
+
+		<!-- Footer 
+		TODO: fix links-->
 			<footer id="footer">
 				<ul class="icons">
-					<li><a href="https://github.com/SwipeToUnlockBook/swipetounlockbook.github.io" class="icon fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+					<li><a href="https://facebook.com"><img src="assets/img/facebook.png"></a></li>
+					<li><a href="mailto:swipetounlockbook@gmail.com"><img src="assets/img/email.png"></a></li>
 				</ul>
 			</footer>
 
 		<!-- Scripts -->
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]
+			<script src="assets/js/main.js"></script> -->
 
 	</body>
 </html>
