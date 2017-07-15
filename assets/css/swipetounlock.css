@@ -16,8 +16,16 @@ body {
     background-position: center right;
     background-size: cover;
     min-height: 350px;
+
+    /* Use Flexbox to vertically center content */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
+#idea_core {
+    flex: auto;
+}
 
 h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
