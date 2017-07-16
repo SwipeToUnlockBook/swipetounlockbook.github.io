@@ -8,12 +8,19 @@
  * VARIABLES
  */
 
-$stu_blue = #33B5E5;
-$stu_white = white;
+$stu_blue: #33B5E5;
+$stu_white: white;
 
 /**
  * DECLARATIONS
  */
+
+// fonts
+// @include @font-face(LeagueGothic, ../fonts/LeagueGothic/LeagueGothic-Regular);
+@font-face {
+    font-family: "LeagueGothic";
+    src: url(../fonts/League-Gothic/LeagueGothic-Regular.otf);
+}
 
 body {
   padding-top: 50px;
@@ -21,6 +28,10 @@ body {
 
 .navbar-brand, .navbar-nav {
   text-transform: uppercase !important;
+}
+
+.navbar-brand {
+    font-family: LeagueGothic !important;
 }
 
 .centered {
@@ -45,6 +56,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
+  font-family: LeagueGothic !important;
 }
 
 .frosted-overlay {
