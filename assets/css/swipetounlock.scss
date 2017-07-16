@@ -1,0 +1,103 @@
+---
+---
+
+// Swipe to Unlock SCSS
+// Jekyll auto-compiles this to css
+
+/**
+ * VARIABLES
+ */
+
+$stu_blue = #33B5E5;
+$stu_white = white;
+
+/**
+ * DECLARATIONS
+ */
+
+body {
+  padding-top: 50px;
+}
+
+.navbar-brand, .navbar-nav {
+  text-transform: uppercase !important;
+}
+
+.centered {
+  text-align: center;
+  margin: auto;
+}
+
+#the_idea {
+  background-image: url(../img/the_idea_background.png);
+  background-position: center right;
+  background-size: cover;
+  min-height: 350px;
+  /* Use Flexbox to vertically center content */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#idea_core {
+  flex: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+}
+
+.frosted-overlay {
+  background: rgba(255, 255, 255, 0.68);
+  padding: 1em;
+}
+
+.topic-card {
+  max-width: 564px;
+  text-align: center;
+  color: $stu_white;
+}
+
+#card-bigdata {
+  background-image: url(../img/bigdata.png);
+}
+
+#card-thecloud {
+  background-image: url(../img/thecloud.png);
+}
+
+#card-internetsecurity {
+  background-image: url(../img/internetsecurity.png);
+}
+
+.author-section{
+    margin-top: -200px;
+}
+
+.slider-bar {
+    background-image: url(../img/ribbon.png);
+    width: 194px;
+    padding: 2em;
+    color: $stu_white;
+    text-align: center;
+    height: 480px;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding-top: 200px;
+}
+
+.author-pic {
+    max-width: 230px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    bottom: -200px;
+}
+
+.social-badges i {
+    /*border-radius: 50%;
+    background-color: white;
+    padding: 0.3em;*/
+
+    padding: 0.3em;
+}
