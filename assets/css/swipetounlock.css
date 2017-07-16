@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 480px;
     background-repeat: no-repeat;
     margin: auto;
-    padding-top: 220px;
+    padding-top: 200px;
 }
 
 .author-pic {
@@ -77,6 +77,10 @@ h1, h2, h3, h4, h5, h6 {
     bottom: -200px;
 }
 
-.social-badges a {
+.social-badges i {
+    /*border-radius: 50%;
+    background-color: white;
+    padding: 0.3em;*/
 
+    padding: 0.3em;
 }
