@@ -1,4 +1,6 @@
---- ---
+---
+---
+
 // Swipe to Unlock SCSS
 // Jekyll auto-compiles this to css
 /**
@@ -28,10 +30,12 @@ body {
 
 .navbar-brand {
   font-family: LeagueGothic !important;
+  font-size: 32px;
 }
 
 .centered {
   text-align: center;
+  display: block;
   margin: auto;
 }
 

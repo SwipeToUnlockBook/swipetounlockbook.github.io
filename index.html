@@ -75,7 +75,7 @@
     <!-- Amazon Button-->
     <div id="amazon_button" class="centered">
       <br />
-      <p><a href="https://www.amazon.com/"><img src="assets/img/amazonButton.png"></a></p>
+      <p><a href="https://www.amazon.com/"><img src="assets/img/amazon-button.png"></a></p>
 
       <br />
   </section>
@@ -100,7 +100,7 @@
       <div class="row">
         <div class="col-md-4">
           <img src="assets/img/swipe-to-unlock-book-cover.jpg" class="img-responsive">
-          <a href="https://www.amazon.com/"><img src="assets/img/amazonButton.png"></a>
+          <a href="https://www.amazon.com/"><img src="assets/img/amazon-button.png"></a>
         </div>
         <div class="col-md-8">
           <div class="topic-card panel" id="card-bigdata">
@@ -241,31 +241,42 @@
       <h2>Are you an educator?</h2>
       <p>Sign up for our mailing list to learn how Swipe to Unlock can be used in the classroom.</p>
 
-      <form id="edu_form" method="post" class="form-inline" action="#">
-        <input type="email" name="edu_email" id="edu_email" class="form-control" placeholder="Email Address" />
-        <input type="submit" value="Join" class="btn btn-primary" />
-      </form>
+      <div class="row">
+        <form id="edu_form" method="post" class="form" action="#">
+          <div class="col-md-6">
+            <input type="email" name="edu_email" id="edu_email" class="form-control" placeholder="Email Address" />
+          </div>
+          <div class="col-md-2">
+            <input type="submit" value="Join" class="btn btn-primary btn-block" />
+          </div>
+        </form>
+      </div>
     </div>
-
   </section>
 
   <!-- Connect -->
   <section id="connect" class="section">
     <div class="container">
-
-
-      <h2>Connect</h2>
+      <h2>Be the first to know!</h2>
       <p>Join the mailing list to be notified when the book comes out!</p>
 
-      <form id="edu_form" method="post" action="#">
-        <input type="email" name="connect_email" id="connect_email" placeholder="Email Address" />
-        <input type="submit" value="Join" />
-      </form>
-
-      <a href="https://www.amazon.com/"><img src="assets/img/amazonButton.png"></a>
-
+      <div class="row">
+        <form id="edu_form" method="post" class="form" action="#">
+          <div class="col-md-6">
+            <input type="email" name="connect_email" id="connect_email" class="form-control" placeholder="Email Address" />
+          </div>
+          <div class="col-md-2">
+            <input type="submit" value="Join" class="btn btn-default btn-block" />
+          </div>
+        </form>
+      </div>
     </div>
   </section>
+
+  <section class="section">
+      <a href="https://www.amazon.com/" class="centered"><img src="assets/img/amazon-button.png"></a>
+  </section>
+
 
   <!-- Footer
     TODO: fix links-->
