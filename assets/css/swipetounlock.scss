@@ -1,42 +1,33 @@
----
----
-
+--- ---
 // Swipe to Unlock SCSS
 // Jekyll auto-compiles this to css
-
 /**
  * VARIABLES
  */
-
 $stu_blue: #33B5E5;
 $stu_white: white;
-
 /**
  * DECLARATIONS
  */
-
 // fonts
 // @include @font-face(LeagueGothic, ../fonts/LeagueGothic/LeagueGothic-Regular);
 @font-face {
-    font-family: "LeagueGothic";
-    src: url(../fonts/League-Gothic/LeagueGothic-Regular.otf);
+  font-family: "LeagueGothic";
+  src: url("../fonts/League-Gothic/LeagueGothic-Regular.otf");
 }
-
-@import url('https://fonts.googleapis.com/css?family=Lato');
-
-
+@import url( 'https://fonts.googleapis.com/css?family=Lato');
 
 body {
   padding-top: 50px;
-  font-family: Lato, sans-serif;
 }
 
-.navbar-brand, .navbar-nav {
+.navbar-brand,
+.navbar-nav {
   text-transform: uppercase !important;
 }
 
 .navbar-brand {
-    font-family: LeagueGothic !important;
+  font-family: LeagueGothic !important;
 }
 
 .centered {
@@ -45,7 +36,7 @@ body {
 }
 
 #the_idea {
-  background-image: url(../img/the_idea_background.png);
+  background-image: url("../img/the_idea_background.png");
   background-position: center right;
   background-size: cover;
   min-height: 350px;
@@ -59,12 +50,14 @@ body {
   flex: auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   text-transform: uppercase;
-  font-family: LeagueGothic !important;
 }
-
-
 
 .frosted-overlay {
   background: rgba(255, 255, 255, 0.68);
@@ -78,45 +71,54 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #card-bigdata {
-  background-image: url(../img/bigdata.png);
+  background-image: url("../img/bigdata.png");
 }
 
 #card-thecloud {
-  background-image: url(../img/thecloud.png);
+  background-image: url("../img/thecloud.png");
 }
 
 #card-internetsecurity {
-  background-image: url(../img/internetsecurity.png);
+  background-image: url("../img/internetsecurity.png");
 }
 
-.author-section{
-    margin-top: -200px;
+.author-section {
+  margin-top: -200px;
 }
 
 .slider-bar {
-    background-image: url(../img/blue-swipe-ribbon.png);
-    width: 194px;
-    padding: 2em;
-    color: $stu_white;
-    text-align: center;
-    height: 480px;
-    background-repeat: no-repeat;
-    margin: auto;
-    padding-top: 200px;
+  background-image: url("../img/blue-swipe-ribbon.png");
+  width: 194px;
+  padding: 2em;
+  color: $stu_white;
+  text-align: center;
+  height: 480px;
+  background-repeat: no-repeat;
+  margin: auto;
+  padding-top: 200px;
 }
 
 .author-pic {
-    max-width: 230px;
-    text-align: center;
-    margin: auto;
-    position: relative;
-    bottom: -200px;
+  max-width: 230px;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  bottom: -200px;
 }
 
 .social-badges i {
-    /*border-radius: 50%;
+  /*border-radius: 50%;
     background-color: white;
     padding: 0.3em;*/
+  padding: 0.3em;
+}
 
-    padding: 0.3em;
+.section {
+  padding-top: 2bem;
+  padding-bottom: 3em;
+}
+
+.section-primary {
+  color: $stu_white !important;
+  background: $stu_blue;
 }
