@@ -22,8 +22,13 @@ $stu_white: white;
     src: url(../fonts/League-Gothic/LeagueGothic-Regular.otf);
 }
 
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+
 body {
   padding-top: 50px;
+  font-family: Lato, sans-serif;
 }
 
 .navbar-brand, .navbar-nav {
@@ -58,6 +63,8 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   font-family: LeagueGothic !important;
 }
+
+
 
 .frosted-overlay {
   background: rgba(255, 255, 255, 0.68);
