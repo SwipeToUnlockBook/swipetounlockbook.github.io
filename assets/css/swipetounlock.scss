@@ -100,7 +100,6 @@ h6 {
   height: 480px;
   background-repeat: no-repeat;
   margin: auto;
-
   padding-top: 230px;
   margin-top: -200px;
   // padding-top: 200px;
@@ -132,19 +131,19 @@ h6 {
 }
 
 .section-super-padded {
-    padding-top: 5em;
-    padding-bottom: 6em;
+  padding-top: 5em;
+  padding-bottom: 6em;
 }
 
 .link-white {
-    color: $stu_white;
+  color: $stu_white;
 
-    &:hover {
-        color: darken($stu_white, 15%);
-        // color: mix($stu_white, $stu_blue, 75%);
-    }
+  &:hover {
+    color: darken($stu_white, 15%);
+    // color: mix($stu_white, $stu_blue, 75%);
+  }
 }
 
 .text-white {
-    color: white;
+  color: white;
 }
