@@ -88,7 +88,7 @@ h6 {
 }
 
 .author-section {
-  margin-top: -200px;
+  // margin-top: -200px;
 }
 
 .slider-bar {
@@ -100,15 +100,18 @@ h6 {
   height: 480px;
   background-repeat: no-repeat;
   margin: auto;
-  padding-top: 200px;
+
+  padding-top: 230px;
+  margin-top: -200px;
+  // padding-top: 200px;
 }
 
 .author-pic {
   max-width: 230px;
   text-align: center;
   margin: auto;
-  position: relative;
-  bottom: -200px;
+  // position: relative;
+  // bottom: -200px;
 }
 
 .social-badges i {
