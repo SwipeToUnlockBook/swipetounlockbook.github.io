@@ -11,13 +11,13 @@
   <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 
   <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
 
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
 
   <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
@@ -65,22 +65,22 @@
 
   <!-- Video
     TODO: swap video link with ours leter-->
-  <div id="home">
+  <section id="home">
     <!-- 16:9 aspect ratio -->
     <div class="embed-responsive embed-responsive-16by9">
       <iframe width="1280" height="720" src="https://www.youtube.com/embed/OYbXaqQ3uuo?rel=0?ecver=1" frameborder="0" allowfullscreen></iframe>
     </div>
-  </div>
+    </div>
 
-  <!-- Amazon Button-->
-  <div id="amazon_button" class="centered">
-    <br />
-    <p><a href="https://www.amazon.com/"><img src="assets/img/amazonButton.png"></a></p>
+    <!-- Amazon Button-->
+    <div id="amazon_button" class="centered">
+      <br />
+      <p><a href="https://www.amazon.com/"><img src="assets/img/amazonButton.png"></a></p>
 
-    <br />
-  </div>
+      <br />
+  </section>
 
-  <div id="the_idea">
+  <section id="the_idea" class="section">
     <div class="container">
       <div class="row">
         <div id="idea_core" class="col-sm-8 frosted-overlay">
@@ -91,11 +91,11 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div id="the_book">
+  <section id="the_book" class="section">
     <div class="container">
-      <h2>TOPICS EXPLAINED</h2>
+      <h2>Topics Explained</h2>
 
       <div class="row">
         <div class="col-md-4">
@@ -137,7 +137,7 @@
 
     </div>
 
-  </div>
+  </section>
 
   <!-- Endorsements -->
   <!-- <div id="endorsements">
@@ -169,7 +169,7 @@
     </div>
   </div> -->
   <!-- Authors -->
-  <div id="authors">
+  <section id="authors" class="section">
 
     <div class="container">
 
@@ -233,39 +233,39 @@
 
     </div>
 
-  </div>
+  </section>
 
   <!-- Educator -->
-  <div id="education" class="primary-block">
-      <div class="container">
-          <h2>Are you an educator?</h2>
-          <p>Sign up for our mailing list to learn how Swipe to Unlock can be used in the classroom.</p>
+  <section id="education" class="section section-primary">
+    <div class="container">
+      <h2>Are you an educator?</h2>
+      <p>Sign up for our mailing list to learn how Swipe to Unlock can be used in the classroom.</p>
 
-          <form id="edu_form" method="post" class="form-inline" action="#">
-            <input type="email" name="edu_email" id="edu_email" class="form-control" placeholder="Email Address" />
-            <input type="submit" value="Join" class="form-control" />
-          </form>
-      </div>
+      <form id="edu_form" method="post" class="form-inline" action="#">
+        <input type="email" name="edu_email" id="edu_email" class="form-control" placeholder="Email Address" />
+        <input type="submit" value="Join" class="btn btn-primary" />
+      </form>
+    </div>
 
-  </div>
+  </section>
 
   <!-- Connect -->
-  <div id="connect">
-      <div class="container">
+  <section id="connect" class="section">
+    <div class="container">
 
 
-    <h2>Connect</h2>
-    <p>Join the mailing list to be notified when the book comes out!</p>
+      <h2>Connect</h2>
+      <p>Join the mailing list to be notified when the book comes out!</p>
 
-    <form id="edu_form" method="post" action="#">
-      <input type="email" name="connect_email" id="connect_email" placeholder="Email Address" />
-      <input type="submit" value="Join" />
-    </form>
+      <form id="edu_form" method="post" action="#">
+        <input type="email" name="connect_email" id="connect_email" placeholder="Email Address" />
+        <input type="submit" value="Join" />
+      </form>
 
-    <a href="https://www.amazon.com/"><img src="assets/img/amazonButton.png"></a>
+      <a href="https://www.amazon.com/"><img src="assets/img/amazonButton.png"></a>
 
     </div>
-  </div>
+  </section>
 
   <!-- Footer
     TODO: fix links-->
