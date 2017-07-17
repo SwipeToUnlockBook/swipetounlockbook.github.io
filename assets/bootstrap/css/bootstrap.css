@@ -5,8 +5,8 @@
  */
 
 /*!
- * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=6f722773e3dee66a2425a91e8a743a61)
- * Config saved to config.json and https://gist.github.com/6f722773e3dee66a2425a91e8a743a61
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=b4c4ab673f9f4b6e1b17f65212062447)
+ * Config saved to config.json and https://gist.github.com/b4c4ab673f9f4b6e1b17f65212062447
  */
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -3235,26 +3235,26 @@ fieldset[disabled] .btn-success.focus {
 }
 .btn-info {
   color: #ffffff;
-  background-color: #5bc0de;
-  border-color: #46b8da;
+  background-color: #4bbbe8;
+  border-color: #34b2e5;
 }
 .btn-info:focus,
 .btn-info.focus {
   color: #ffffff;
-  background-color: #31b0d5;
-  border-color: #1b6d85;
+  background-color: #1eaae2;
+  border-color: #116689;
 }
 .btn-info:hover {
   color: #ffffff;
-  background-color: #31b0d5;
-  border-color: #269abc;
+  background-color: #1eaae2;
+  border-color: #1993c3;
 }
 .btn-info:active,
 .btn-info.active,
 .open > .dropdown-toggle.btn-info {
   color: #ffffff;
-  background-color: #31b0d5;
-  border-color: #269abc;
+  background-color: #1eaae2;
+  border-color: #1993c3;
 }
 .btn-info:active:hover,
 .btn-info.active:hover,
@@ -3266,8 +3266,8 @@ fieldset[disabled] .btn-success.focus {
 .btn-info.active.focus,
 .open > .dropdown-toggle.btn-info.focus {
   color: #ffffff;
-  background-color: #269abc;
-  border-color: #1b6d85;
+  background-color: #1993c3;
+  border-color: #116689;
 }
 .btn-info:active,
 .btn-info.active,
@@ -3283,11 +3283,11 @@ fieldset[disabled] .btn-info:focus,
 .btn-info.disabled.focus,
 .btn-info[disabled].focus,
 fieldset[disabled] .btn-info.focus {
-  background-color: #5bc0de;
-  border-color: #46b8da;
+  background-color: #4bbbe8;
+  border-color: #34b2e5;
 }
 .btn-info .badge {
-  color: #5bc0de;
+  color: #4bbbe8;
   background-color: #ffffff;
 }
 .btn-warning {
@@ -4895,11 +4895,11 @@ a.label:focus {
   background-color: #449d44;
 }
 .label-info {
-  background-color: #5bc0de;
+  background-color: #4bbbe8;
 }
 .label-info[href]:hover,
 .label-info[href]:focus {
-  background-color: #31b0d5;
+  background-color: #1eaae2;
 }
 .label-warning {
   background-color: #f0ad4e;
@@ -5176,7 +5176,7 @@ a.thumbnail.active {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 .progress-bar-info {
-  background-color: #5bc0de;
+  background-color: #4bbbe8;
 }
 .progress-striped .progress-bar-info {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);

@@ -8,7 +8,7 @@
     "@gray-lighter": "lighten(@gray-base, 93.5%)",
     "@brand-primary": "#33B5E5",
     "@brand-success": "#5cb85c",
-    "@brand-info": "#5bc0de",
+    "@brand-info": "#4BBBE8",
     "@brand-warning": "#f0ad4e",
     "@brand-danger": "#d9534f",
     "@body-bg": "#fff",
@@ -431,5 +431,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=6f722773e3dee66a2425a91e8a743a61"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=b4c4ab673f9f4b6e1b17f65212062447"
 }
