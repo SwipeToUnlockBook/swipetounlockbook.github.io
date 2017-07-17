@@ -132,5 +132,6 @@ a.link-white {
 
     &:hover {
         color: darken($stu_white, 15%);
+        // color: mix($stu_white, $stu_blue, 75%);
     }
 }
