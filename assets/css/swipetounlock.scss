@@ -128,11 +128,20 @@ h6 {
   background: $stu_blue;
 }
 
-a.link-white {
+.section-super-padded {
+    padding-top: 5em;
+    padding-bottom: 6em;
+}
+
+.link-white {
     color: $stu_white;
 
     &:hover {
         color: darken($stu_white, 15%);
         // color: mix($stu_white, $stu_blue, 75%);
     }
+}
+
+.text-white {
+    color: white;
 }
