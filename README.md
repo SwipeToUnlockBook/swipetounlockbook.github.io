@@ -17,4 +17,4 @@ bundle exec jekyll serve
 
 ## Bootstrap customization
 
-Edit our customized Bootstrap config at <http://getbootstrap.com/customize/?id=297ccfa68daf8db318f7f44e540c6ce9>.
+<!-- Edit our customized Bootstrap config at <http://getbootstrap.com/customize/?id=297ccfa68daf8db318f7f44e540c6ce9>. -->
