@@ -118,11 +118,19 @@ h6 {
 }
 
 .section {
-  padding-top: 2bem;
+  padding-top: 2em;
   padding-bottom: 3em;
 }
 
 .section-primary {
   color: $stu_white !important;
   background: $stu_blue;
+}
+
+a.link-white {
+    color: $stu_white;
+
+    &:hover {
+        color: darken($stu_white, 15%);
+    }
 }
