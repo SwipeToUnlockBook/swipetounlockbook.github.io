@@ -9,12 +9,10 @@ sudo gem install bundler
 bundle install
 ```
 
-To run:
+To run the app, run this in your terminal:
 
 ```
 bundle exec jekyll serve
 ```
 
-## Bootstrap customization
-
-<!-- Edit our customized Bootstrap config at <http://getbootstrap.com/customize/?id=297ccfa68daf8db318f7f44e540c6ce9>. -->
+Then open up <http://127.0.0.1:4000> in your browser to view the site.
