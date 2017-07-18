@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
 
   <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+ 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
   <!-- Latest compiled and minified JavaScript -->
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
@@ -31,6 +31,10 @@
 </head>
 
 <body>
+
+	<!-- Script variables for educator and connect forms -->
+	<script type="text/javascript">var submitted=false;</script>
+	<script type="text/javascript">var submitted2=false;</script>
 
   <!-- Nav Bar -->
   <div class="navbar navbar-default navbar-fixed-top">
@@ -290,14 +294,24 @@
       <p>Sign up for our mailing list to learn how Swipe to Unlock can be used in the classroom.</p>
 
       <div class="row">
-        <form id="edu_form" method="post" class="form" action="#">
+        <!-- <form id="edu_form" method="post" class="form" action="#"> -->
+        <form name="edu_form" id="edu_form" enctype="text/plain" class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSdh9HmfhJMRImpGycoKVbFlw-shP-k70XA3wrZ2VYzE6lUb5g/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
           <div class="col-md-6 col-xs-9">
-            <input type="email" name="edu_email" id="edu_email" class="form-control" placeholder="Email Address" />
+            <!-- <input type="email" name="edu_email" id="edu_email" class="form-control" placeholder="Email Address" /> -->
+            <input type="email" name="entry.242048438" id="entry.242048438" class="form-control" placeholder="Email Address" />
           </div>
           <div class="col-md-2 col-xs-3">
+            <!-- <input type="submit" value="Join" class="btn btn-primary btn-block" /> -->
             <input type="submit" value="Join" class="btn btn-primary btn-block" />
           </div>
         </form>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+        <script type="text/javascript">
+					$('#edu_form').on('submit', function(e) {
+						$('#edu_form').fadeOut(2000);
+						$('#edu_form').prepend('Your submission has been processed...'); 
+					});
+				</script>
       </div>
     </div>
   </section>
@@ -309,14 +323,21 @@
       <p>Join the mailing list to be notified when the book comes out!</p>
 
       <div class="row">
-        <form id="edu_form" method="post" class="form" action="#">
+        <form name="connect_form" id="connect_form" enctype="text/plain" class="form" action="https://docs.google.com/forms/d/e/1FAIpQLScqDei-K1Bk1T6obVSotG0hQtz_LE5M96plxBoaCxfYSrb3CQ/formResponse?" target="hidden_iframe2" onsubmit="submitted2=true;">
           <div class="col-md-6 col-xs-9">
-            <input type="email" name="connect_email" id="connect_email" class="form-control" placeholder="Email Address" />
+            <input type="email" name="entry.788298650" id="entry.788298650" class="form-control" placeholder="Email Address" />
           </div>
           <div class="col-md-2 col-xs-3">
             <input type="submit" value="Join" class="btn btn-default btn-block" />
           </div>
         </form>
+        <iframe name="hidden_iframe2" id="hidden_iframe2" style="display:none;" onload="if(submitted2) {}"></iframe>
+        <script type="text/javascript">
+					$('#connect_form').on('submit', function(e) {
+						$('#connect_form').fadeOut(2000);
+						$('#connect_form').prepend('Your submission has been processed...'); 
+					});
+				</script>
       </div>
     </div>
   </section>
