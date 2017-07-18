@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
 
   <!-- jQuery -->
- 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
   <!-- Latest compiled and minified JavaScript -->
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
@@ -31,10 +31,6 @@
 </head>
 
 <body>
-
-	<!-- Script variables for educator and connect forms -->
-	<script type="text/javascript">var submitted=false;</script>
-	<script type="text/javascript">var submitted2=false;</script>
 
   <!-- Nav Bar -->
   <div class="navbar navbar-default navbar-fixed-top">
@@ -306,12 +302,6 @@
           </div>
         </form>
         <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-        <script type="text/javascript">
-					$('#edu_form').on('submit', function(e) {
-						$('#edu_form').fadeOut(2000);
-						$('#edu_form').prepend('Your submission has been processed...'); 
-					});
-				</script>
       </div>
     </div>
   </section>
@@ -332,12 +322,6 @@
           </div>
         </form>
         <iframe name="hidden_iframe2" id="hidden_iframe2" style="display:none;" onload="if(submitted2) {}"></iframe>
-        <script type="text/javascript">
-					$('#connect_form').on('submit', function(e) {
-						$('#connect_form').fadeOut(2000);
-						$('#connect_form').prepend('Your submission has been processed...'); 
-					});
-				</script>
       </div>
     </div>
   </section>
@@ -374,6 +358,7 @@
   <!-- Scripts -->
   <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]
     <script src="assets/js/main.js"></script> -->
+  <script src="/assets/js/main.js"></script>
 
 </body>
 
