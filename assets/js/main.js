@@ -8,7 +8,7 @@ $(function() {
       $('#edu_form')
         .fadeOut(2000);
       $('#edu_form')
-        .prepend('Your submission has been processed...');
+        .prepend('Your submission has been processed!');
     });
 
   $('#connect_form')
@@ -16,6 +16,6 @@ $(function() {
       $('#connect_form')
         .fadeOut(2000);
       $('#connect_form')
-        .prepend('Your submission has been processed...');
+        .prepend('Your submission has been processed!');
     });
 });
