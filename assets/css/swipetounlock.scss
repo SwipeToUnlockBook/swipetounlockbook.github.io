@@ -94,7 +94,14 @@ h6 {
 }
 
 .slider-bar {
-  background-image: url("../img/blue-swipe-ribbon.png");
+  // background-image: url("../img/blue-swipe-ribbon.png");
+
+  background-color: $stu_blue;
+  // TODO: in SASS, don't hardcode this.
+  // the 97px is half the 194px width.
+  // this is complicated by the / sign... overloaded between dividing and the CSS use
+  border-radius: 97px / 65px;
+
   width: 194px;
   padding: 2em;
   color: $stu_white;
