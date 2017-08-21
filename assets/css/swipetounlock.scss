@@ -113,6 +113,9 @@ h6 {
   margin: auto;
   // position: relative;
   // bottom: -200px;
+
+  // shadowing
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
 .social-badges i {
@@ -148,8 +151,4 @@ h6 {
 
 .text-white {
   color: white;
-}
-
-.shadowed {
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
