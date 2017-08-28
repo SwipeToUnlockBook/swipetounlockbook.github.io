@@ -159,3 +159,10 @@ h6 {
 .text-white {
   color: white;
 }
+
+.book-shadow {
+    border: 1px solid #ccc;
+
+  // shadowing
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
