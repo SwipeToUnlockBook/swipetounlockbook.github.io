@@ -66,15 +66,14 @@
             description: |
                 "The Human Resources Development Program (HRDP) is a three year program with four nine month rotations through Visa’s HR functions. The HRDP supports Visa’s mission to recruit and develop future HR leaders with cross-functional knowledge and experience. The program provides exposure to multiple areas of Human Resources including Talent Acquisition, Talent Management, Total Rewards and HR Consulting. In addition to meaningful rotations, associates are given training & development, mentoring, networking and leadership exposure."
             url: https://www.smartrecruiters.com/Visa/98194532-human-resources-development-program-business-associate?trid=623f64f4-c657-499b-989f-16ab0ccee0d9
-#
-#
-#
-# Microsoft
-# Various Roles Available
-# Similar to Amazon in that there are lots of roles across HR, finance, marketing, logistics, etc. Many are rotational programs, such the marketing one. Note: Product Manager is actually a role that falls under the marketing org at Microsoft. (They also have a more technical PM role known as Program Manager). I almost accepted my Product Manager return offer at Microsoft because I had so much fun interning there.
-#
-# The link included is for the marketing program, but use the drop down menu on the left side of the screen to find loads more roles across various areas of focus.
-# https://careers.microsoft.com/students/apply?rg=US&jf=17&el=2&jt=1
+-   company: Microsoft
+    jobs:
+        -   role: Many roles
+            description: |
+                Similar to Amazon in that there are lots of roles across HR, finance, marketing, logistics, etc. Many are rotational programs, such the marketing one.
+            comments: |
+                Product Manager is actually a role that falls under the marketing org at Microsoft. (They also have a more technical PM role known as Program Manager). I almost accepted my Product Manager return offer at Microsoft because I had so much fun interning there. The link included is for the marketing program, but use the drop down menu on the left side of the screen to find loads more roles across various areas of focus.
+            url: https://careers.microsoft.com/students/apply?rg=US&jf=17&el=2&jt=1
 #
 #
 # HubSpot
