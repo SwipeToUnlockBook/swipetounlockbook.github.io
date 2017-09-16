@@ -22,42 +22,50 @@
             description: |
                 "LinkedIn’s Business Leadership Program – Global Sales is a 6-month rotational program designed to identify, inspire and develop LinkedIn’s future leaders. Your first week will focus on building a foundational knowledge of what matters to us most: our mission, culture, and leadership. You will then spend 6 months rotating through Global Customer Operations, Business Bootcamp and Talent Acquisition before moving into a full-time sales role."
             url: https://studentcareers.linkedin.com/careers/business/globalsales/namer
-#
-# Box
-# Rotational Associate Program (RAP)
-# RAP involves an initial eight-month rotation followed by two six-month rotations. Rotations include time in Product, Sales, Customer Success, Marketing, Business Operations, or Business Development.
-# https://betalist.com/jobs/22117-rotational-associate-program-2017-graduates-at-boxhq
-#
-#
-# Facebook
-# Rotational Product Manager Program (RPM)
-# Facebook’s RPM program is similar to Associate Product Manager (APM) programs at other tech companies, but unlike many of those companies, Facebook does not require an engineering background to apply. It’s also the best job on this list. I’m totally not biased because I’m in it or anything :P
-# http://fbrpms.com/apply
-# Associate Product Marketing Manager
-# Facebook's Associate Product Marketing Manager (APMM) Program is a full-time, two-year training and development program to accelerate marketing and leadership skills. You’ll bring products to market, drive adoption, and develop product positioning, external communications, campaign and marketing collateral for Facebook’s 1.8 billion users. I have a lot of friends in this program and highly recommend it!
-# https://www.facebook.com/careers/jobs/a0I1200000LTOijEAH/
-# Kleiner Perkins Caufield Byers                                                                                              KPCB Product Fellows Program
-#  Applications should open January 1, 2018, for KPCB’s Product Fellows Program, which involves a one-year fellowship as a product manager at one of KPCB’s portfolio companies. Previous Product Fellows have worked at companies including Uber, Square, Zynga, DocuSign, One Kings Lane, Kinsa, AppDynamics, and Drawbridge. In the past, KPCB has shared advice on how to apply successfully. This is probably the best program for someone who wants to work at a startup, but only one that is highly vetted and relatively low risk (compared to other startups, not compared to like an established big company like Google, of course).
-#
-# http://kpcbfellows.com/#apply
-#
-#
-# Amazon
-# Lots of roles
-# Amazon has a ton of programs on the business side ranging from finance to HR to marketing to sales and everything in between. Use the link below to stay up to date while the jobs get posted.
-# https://www.amazon.jobs/en-gb/teams/university-non-tech-full-time?base_query=&loc_query=&job_count=20&result_limit=10&sort=relevant&team_category%5B%5D=university-non-tech-full-time&cache
-#
-#
-#
-# Visa
-# New Graduate Development Program-Business Associate
-# “The New Graduate Development Rotation Program (NGDP) is a two year program with four six month rotations through Visa’s functions. The NGDP program supports Visa’s mission to build a strong entry level pipeline of talent with cross-functional knowledge and experience. Associates rotate through various parts of the business, including but not limited to: Digital Solutions, Marketing, Processing, Product, Sales and Strategy. In addition to meaningful rotations, Associates are given training & development, mentoring, networking and leadership exposure.”
-# https://www.smartrecruiters.com/Visa/98192686-new-graduate-development-program-business-associate?trid=623f64f4-c657-499b-989f-16ab0ccee0d9
-#
-#
-# Human Resources Development Program - Business Associate
-# “The Human Resources Development Program (HRDP) is a three year program with four nine month rotations through Visa’s HR functions. The HRDP supports Visa’s mission to recruit and develop future HR leaders with cross-functional knowledge and experience. The program provides exposure to multiple areas of Human Resources including Talent Acquisition, Talent Management, Total Rewards and HR Consulting. In addition to meaningful rotations, associates are given training & development, mentoring, networking and leadership exposure.”
-# https://www.smartrecruiters.com/Visa/98194532-human-resources-development-program-business-associate?trid=623f64f4-c657-499b-989f-16ab0ccee0d9
+-   company: Box
+    jobs:
+        -   role: Rotational Associate Program (RAP)
+            description: |
+                RAP involves an initial eight-month rotation followed by two six-month rotations. Rotations include time in Product, Sales, Customer Success, Marketing, Business Operations, or Business Development.
+            url: https://betalist.com/jobs/22117-rotational-associate-program-2017-graduates-at-boxhq
+-   company: Facebook
+    jobs:
+        -   role: Rotational Product Manager Program (RPM)
+            description: |
+                Facebook’s RPM program is similar to Associate Product Manager (APM) programs at other tech companies, but unlike many of those companies, Facebook does not require an engineering background to apply.
+            comments: |
+                It’s also the best job on this list. I’m totally not biased because I’m in it or anything :P
+            url: http://fbrpms.com/apply
+        -   role: Associate Product Marketing Manager
+            description: |
+                Facebook's Associate Product Marketing Manager (APMM) Program is a full-time, two-year training and development program to accelerate marketing and leadership skills. You’ll bring products to market, drive adoption, and develop product positioning, external communications, campaign and marketing collateral for Facebook’s 1.8 billion users.
+            comments: |
+                I have a lot of friends in this program and highly recommend it!
+            url: https://www.facebook.com/careers/jobs/a0I1200000LTOijEAH/
+-   company: Kleiner Perkins Caufield Byers
+    jobs:
+        -   role: KPCB Product Fellows Program
+            description: |
+                Applications should open January 1, 2018, for KPCB’s Product Fellows Program, which involves a one-year fellowship as a product manager at one of KPCB’s portfolio companies. Previous Product Fellows have worked at companies including Uber, Square, Zynga, DocuSign, One Kings Lane, Kinsa, AppDynamics, and Drawbridge. In the past, KPCB has shared advice on how to apply successfully.
+            comments: |
+                This is probably the best program for someone who wants to work at a startup, but only one that is highly vetted and relatively low risk (compared to other startups, not compared to like an established big company like Google, of course).
+            url: http://kpcbfellows.com/#apply
+-   company: Amazon
+    jobs:
+        -   role: Many roles
+            description: |
+                Amazon has a ton of programs on the business side ranging from finance to HR to marketing to sales and everything in between. Use the link below to stay up to date while the jobs get posted.
+            url: https://www.amazon.jobs/en-gb/teams/university-non-tech-full-time?base_query=&loc_query=&job_count=20&result_limit=10&sort=relevant&team_category%5B%5D=university-non-tech-full-time&cache
+-   company: Visa
+    jobs:
+        -   role: New Graduate Development Program-Business Associate
+            description: |
+                "The New Graduate Development Rotation Program (NGDP) is a two year program with four six month rotations through Visa’s functions. The NGDP program supports Visa’s mission to build a strong entry level pipeline of talent with cross-functional knowledge and experience. Associates rotate through various parts of the business, including but not limited to: Digital Solutions, Marketing, Processing, Product, Sales and Strategy. In addition to meaningful rotations, Associates are given training & development, mentoring, networking and leadership exposure."
+            url: https://www.smartrecruiters.com/Visa/98192686-new-graduate-development-program-business-associate?trid=623f64f4-c657-499b-989f-16ab0ccee0d9
+        -   role: Human Resources Development Program - Business Associate
+            description: |
+                "The Human Resources Development Program (HRDP) is a three year program with four nine month rotations through Visa’s HR functions. The HRDP supports Visa’s mission to recruit and develop future HR leaders with cross-functional knowledge and experience. The program provides exposure to multiple areas of Human Resources including Talent Acquisition, Talent Management, Total Rewards and HR Consulting. In addition to meaningful rotations, associates are given training & development, mentoring, networking and leadership exposure."
+            url: https://www.smartrecruiters.com/Visa/98194532-human-resources-development-program-business-associate?trid=623f64f4-c657-499b-989f-16ab0ccee0d9
 #
 #
 #
