@@ -7,24 +7,10 @@ layout: default
 
 
 
-  <!-- Video
-    TODO: swap video link with ours leter-->
+  <!-- Video -->
   <section id="home">
-    <!-- 16:9 aspect ratio -->
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe width="1280" height="720" src="https://www.youtube.com/embed/KqCcDS63hZE" frameborder="0" allowfullscreen></iframe>
-    </div>
-
-
-    <!-- Amazon Button-->
-    <div id="amazon_button">
-      <br />
-      <p>
-        <a href="https://www.amazon.com/dp/B0756MTX6K/" class="centered">
-              <img src="assets/img/amazon-button.png">
-          </a>
-      </p>
-      <br />
+      {% include trailer.html %}
+      {% include amazon_button.html %}
   </section>
 
   <section id="the_idea" class="section">
