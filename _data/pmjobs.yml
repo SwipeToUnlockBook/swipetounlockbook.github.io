@@ -1,0 +1,67 @@
+-   company: Google
+    jobs:
+        -   role: Associate Product Manager Program
+            description: |
+                This is Google’s premiere product management program. It’s a two year rotational program and requires a CS background. Applications for the US positions should open soon.
+            comments: |
+                I know a few friends who are in the Google APM program and have heard wonderful things!
+            url: https://careers.google.com/jobs#!t=jo&jid=/google/associate-product-manager-university-1600-amphitheatre-pkwy-mountain-view-ca-2699840090&
+-   company: Facebook
+    jobs:
+        -   role: Rotational Product Manager Program (RPM)
+            description: |
+                Facebook’s RPM program is similar to Associate Product Manager (APM) programs at other tech companies, but unlike many of those companies, Facebook does not require an engineering background to apply.
+            comments: |
+                My co-author, Parth is in this program and he really likes the autonomy and imapct that RPM projects are given. 
+            url: http://fbrpms.com/apply
+-   company: Kleiner Perkins Caufield Byers
+    jobs:
+        -   role: KPCB Product Fellows Program
+            description: |
+                Applications should open January 1, 2018 for KPCB’s Product Fellows Program, which involves a one-year fellowship as a product manager at one of KPCB’s portfolio companies. Previous Product Fellows have worked at companies including Uber, Square, Zynga, DocuSign, One Kings Lane, Kinsa, AppDynamics, and Drawbridge. In the past, KPCB has shared advice on how to apply successfully.
+            comments: |
+                This is probably the best program for someone who wants to work at a startup, but only one that is highly vetted and relatively low risk (compared to other startups, not compared to like an established big company like Google, of course).
+            url: http://kpcbfellows.com/#apply
+-   company: Microsoft
+    jobs:
+        -   role: Program Manager
+            description: |
+                Program management is a role at Microsoft that combines product management, project management, and user iterface design. PMs own the product spec and their job is to make sure the product is built the way customers will want it.
+            comments: |
+                The link included is for the program management program, but use the drop down menu on the left side of the screen to find loads more roles across various areas of focus.
+            url:    https://careers.microsoft.com/students
+-   company: Amazon
+    jobs:
+        -   role: Product and Program Manager
+            description: |
+                Amazon has a ton of different product and program management jobs for specific teams. Use the link below to stay up to date while the jobs get posted.
+            url: https://www.amazon.jobs/team/product-and-program-management
+-   company: Box
+    jobs:
+        -   role: Rotational Associate Program (RAP)
+            description: |
+                RAP involves an initial eight-month rotation followed by two six-month rotations. Rotations include time in Product, Sales, Customer Success, Marketing, Business Operations, or Business Development.
+            url: https://betalist.com/jobs/22117-rotational-associate-program-2017-graduates-at-boxhq
+-   company: Uber
+    jobs:
+        -   role: Associate Product Manager Program
+            description: |
+                Similar to other APM programs and you will work on defining and executing on Uber's mission of creating possibilities for riders, drivers, and cities. Uber is one of the companies that participates in the KPCB Product Fellows Program (mentioned above).
+            comments: |
+                The job description mentions wanting two years of work experience, but I’ve heard they consider straight out of undergrad if they have strong previous internship experience.
+            url: https://www.uber.com/careers/list/33253/
+-   company: Intuit
+    jobs:
+        -   role: Rotational Product Manager
+            description: |
+                You’ll spend your first 2 years as a rotational product manager at Intuit where you’ll get the opportunity to work on a new high-impact project in a different business unit every 6 months to prepare you to become a product leader of tomorrow.  Example projects range from creating a new mobile app to launching a product into a new country. You’ll also receive professional development through mentoring and coaching from product executives, and you’ll get the chance to bond closely with other rotational PMs. After the two-year program, RPM’s will no longer rotate and officially join a product team.
+            url: http://careers.intuit.com/job-category/3/product-management/job/00129064/product-manager-1
+-   company: Workday
+    jobs:
+        -   role: Associate Product Manager
+            description: |
+                Workday Associate Product Manager's will drive new projects on existing products. You will be creating project roadmaps and collaborating with cross-functional groups to roll out the latest and greatest features on Workday’s diverse platforms
+            url: https://www.workday.com/en-us/company/careers/open-positions/job-details.html?id=JR20292
+
+
+
