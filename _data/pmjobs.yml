@@ -2,66 +2,123 @@
     jobs:
         -   role: Associate Product Manager Program
             description: |
-                This is Google’s premiere product management program. It’s a two year rotational program and requires a CS background. Applications for the US positions should open soon.
+                This is Google’s premiere product management program that trains fresh college grads that was stared by Marissa Mayer. It’s a two year rotational program and requires a CS background. Applications for the US positions should open soon.
             comments: |
-                I know a few friends who are in the Google APM program and have heard wonderful things!
+                I know a few friends who are in the Google APM program and have heard that APMs typically get a lot of responsility. Even though they lack experience, they are given ownership over important projects. Also, one of the perks of the program is the APM trip that each APM class goes on!
             url: https://careers.google.com/jobs#!t=jo&jid=/google/associate-product-manager-university-1600-amphitheatre-pkwy-mountain-view-ca-2699840090&
 -   company: Facebook
     jobs:
         -   role: Rotational Product Manager Program (RPM)
             description: |
-                Facebook’s RPM program is similar to Associate Product Manager (APM) programs at other tech companies, but unlike many of those companies, Facebook does not require an engineering background to apply.
+                Facebook’s RPM program is similar to Associate Product Manager (APM) programs at other tech companies, but unlike many of those companies, Facebook does not require an engineering background to apply. The program optimizes for impact and many RPM projects affect millions, if not billions, of people directly. 
             comments: |
-                My co-author, Parth is in this program and he really likes the autonomy and imapct that RPM projects are given. 
+                My co-author, Parth, is in this program and he really likes the incredibly supportive community at the RPM program builds. Mentorship is at the core of the RPM program and each RPM has a PM manager who stays with them throughout their program experience to make sure you are developing and growing. 
             url: http://fbrpms.com/apply
 -   company: Kleiner Perkins Caufield Byers
     jobs:
         -   role: KPCB Product Fellows Program
             description: |
-                Applications should open January 1, 2018 for KPCB’s Product Fellows Program, which involves a one-year fellowship as a product manager at one of KPCB’s portfolio companies. Previous Product Fellows have worked at companies including Uber, Square, Zynga, DocuSign, One Kings Lane, Kinsa, AppDynamics, and Drawbridge. In the past, KPCB has shared advice on how to apply successfully.
+                Applications should open January 1, 2018 for KPCB’s Product Fellows Program, which involves a one-year fellowship as a product manager at one of KPCB’s portfolio companies. Previous Product Fellows have worked at companies including Uber, Square, Zynga, DocuSign, Handshake, Area 1, One Kings Lane, Kinsa, AppDynamics, and Drawbridge. In the past, KPCB has shared advice on how to apply successfully.
             comments: |
-                This is probably the best program for someone who wants to work at a startup, but only one that is highly vetted and relatively low risk (compared to other startups, not compared to like an established big company like Google, of course).
+                This is probably the best program for someone who wants to work at a startup, but only one that is highly vetted and relatively low risk (compared to other startups, not compared to like an established big company like Google, of course). KPCB released a <a href="http://www.kpcb.com/blog/how-to-hack-your-kpcb-fellows-application">blog post</a> that gives advice for how the selection process for KPCB fellows works and how to build your application to maximize your chances of getting in.
             url: http://kpcbfellows.com/#apply
 -   company: Microsoft
     jobs:
         -   role: Program Manager
             description: |
-                Program management is a role at Microsoft that combines product management, project management, and user iterface design. PMs own the product spec and their job is to make sure the product is built the way customers will want it.
+                Program management is a role at Microsoft that combines user interface design, product management, product development, and business management. PMs own the product spec and their job is to make sure the product is built the way customers will want to use it.
             comments: |
+                I really like the program manager role at Microsoft because it allows you to really own a product/feature. Microsoft's new culture shift has made it a priority to be very customer focsued and really focus on building features that customers will love. I think this role is very unique because in the day to day I am able to handle the business management (owing the P&L, forming partnerships, negotiating with vendors, develop marketing channels) and also focus on product development (making technical product decisions with engineers, understanding customer needs and product positioning, analyzing telemetry data and running A/B tests). I am totally not biased because I work here :P </br> </br>
+
                 The link included is for the program management program, but use the drop down menu on the left side of the screen to find loads more roles across various areas of focus.
             url:    https://careers.microsoft.com/students
--   company: Amazon
+-   company: Uber
     jobs:
-        -   role: Product and Program Manager
+        -   role: Associate Product Manager Program
             description: |
-                Amazon has a ton of different product and program management jobs for specific teams. Use the link below to stay up to date while the jobs get posted.
-            url: https://www.amazon.jobs/team/product-and-program-management
+                This is similar to other APM programs and at Uber you will work on defining and executing on Uber's mission of creating possibilities for riders, drivers, and cities. Uber typically has a homework challenge that you have a few days to complete where you have to design a new feature to build and write a report justifying why.
+            comments: |
+                Uber is one of the companies that participates in the KPCB Product Fellows Program (mentioned above), so if you get accepted to both positions you could be a KPCB Product Fellow and an Uber APM. The job description mentions wanting a year of product management work experience, but I know some people who have gotten the role straight out of undergrad if they have strong previous internship experience. When I completed the homework challenge, I spent time talking to users to see what problems they faced with Uber and tried to address one of the most common concerns. I inculded mockups and a strong justification (market, customer, and finanical research) in my report. My advice would be to spend a lot of time on the homework challenge because every interview I had (3 phone interviews and 2 of the 4 onsite interviews) referenced it.
+            url: https://www.uber.com/careers/list/33253/
 -   company: Box
     jobs:
         -   role: Rotational Associate Program (RAP)
             description: |
                 RAP involves an initial eight-month rotation followed by two six-month rotations. Rotations include time in Product, Sales, Customer Success, Marketing, Business Operations, or Business Development.
-            url: https://betalist.com/jobs/22117-rotational-associate-program-2017-graduates-at-boxhq
--   company: Uber
-    jobs:
-        -   role: Associate Product Manager Program
-            description: |
-                Similar to other APM programs and you will work on defining and executing on Uber's mission of creating possibilities for riders, drivers, and cities. Uber is one of the companies that participates in the KPCB Product Fellows Program (mentioned above).
             comments: |
-                The job description mentions wanting two years of work experience, but I’ve heard they consider straight out of undergrad if they have strong previous internship experience.
-            url: https://www.uber.com/careers/list/33253/
--   company: Intuit
-    jobs:
-        -   role: Rotational Product Manager
-            description: |
-                You’ll spend your first 2 years as a rotational product manager at Intuit where you’ll get the opportunity to work on a new high-impact project in a different business unit every 6 months to prepare you to become a product leader of tomorrow.  Example projects range from creating a new mobile app to launching a product into a new country. You’ll also receive professional development through mentoring and coaching from product executives, and you’ll get the chance to bond closely with other rotational PMs. After the two-year program, RPM’s will no longer rotate and officially join a product team.
-            url: http://careers.intuit.com/job-category/3/product-management/job/00129064/product-manager-1
+                Box's program is pretty unique because you can try out product management and also other business roles if you are interested. The first step in the interview process involves recording a video of yourself answering some prerecorded questions, so make sure to get comfortable speaking answering behavioral interview questions while speaking to a camera with no response. I made sure to record myself a few times so that I could carefully craft my answers and body language.
+            url: https://betalist.com/jobs/22117-rotational-associate-program-2017-graduates-at-boxhq
 -   company: Workday
     jobs:
         -   role: Associate Product Manager
             description: |
                 Workday Associate Product Manager's will drive new projects on existing products. You will be creating project roadmaps and collaborating with cross-functional groups to roll out the latest and greatest features on Workday’s diverse platforms
+            comments: |
+                Workday’s team was very friendly when I interviewed. I know a few APMs at Workday and they really like working there because the company is very focused on creating a easy to understand user experience in all of their products, while many of their competitors struggle with. Overall, I was impressed with the simplicity of their products. My advice would be to research Workday's business model and products before the interviews because many of the questions I was asked dealt with that.
             url: https://www.workday.com/en-us/company/careers/open-positions/job-details.html?id=JR20292
-
+-   company: Intuit
+    jobs:
+        -   role: Rotational Product Manager
+            description: |
+                You’ll spend your first 2 years as a rotational product manager at Intuit where you’ll get the opportunity to work on a new high-impact project in a different business unit every 6 months to prepare you to become a product leader of tomorrow.  Example projects range from creating a new mobile app to launching a product into a new country. You’ll also receive professional development through mentoring and coaching from product executives, and you’ll get the chance to bond closely with other rotational PMs. After the two-year program, RPM’s will no longer rotate and officially join a product team.
+            comments: |
+                You may not have heard of Intuit, but they make financial management tools like QuickBooks, TurboTax, and Mint. They have a very strong lockhold on tax advising software as most businesses or individuas who use software for tax preparation use QuickBooks and TurboTax. Also, their acquisition of Mint is really exciting because I see a lot of opportunity for growth. Since Mint aggregates all your financial life in one, easy-to-understand place, they will probably start developing machine learning models to recommend advice on how to save money, manage your finances, and invest your savings. 
+            url: http://careers.intuit.com/job-category/3/product-management/job/00129064/product-manager-1
+-   company: APT (Applied Predictive Technologies)
+    jobs:
+        -   role: Associate Product Manager
+            description: |
+                As an APM you have primary responsibility for driving the evolution of our software. You will be a part of a highly creative, entrepreneurial, self-directed group of individuals equally comfortable with the business decision making, analytics, and technology. APMs are involved in all aspects of product development from defining strategy to product design and building client & internal usage. You will interact with all parts of APT and its customers' organizations in order to understand the highest profile analytic challenges facing Fortune 500 companies today. You will work closely with small teams of engineers to ensure that our software is of the highest quality with a highly intuitive user experience focused first on driving significant value for APT's clients (no small task given the complexity of our analytic approach).
+            comments: |
+                In case you don't know, APT is a software company that provides business analytics software. They help businesses who are B2C (consumer-facing) by allowing them to test ideas with a small subset of stores, customers, or employees. So, what this means is that for APT's predictive analytics software can reveal that answers to "did it work?", "which elements worked the best?", and "how should we roll it out?" APT was acquired by MasterCard in 2015. 
+            url: https://www.predictivetechnologies.com/en/jobs/associate-product-manager
+-   company: Twitter
+    jobs:
+        -   role: Rotational Associate Product Manager
+            description: |
+                The mission of the program is to develop the next generation of product leaders. Through training, mentorship, and rotating assignments within various product teams at Twitter, APMs gain a unique view into how we design products and bring them to market. APMs work at the intersection of engineering, design, marketing, and sales. As an APM, you will perform market and competitor analyses, recommend priorities for your team’s roadmap, articulate your product vision to stakeholders, and ship your ideas to millions of users.
+            comments: |
+                I have a few friends who have worked at Twitter and I have heard great things about the culture at Twitter. They've told me that Twitter has found how to strike a good balance between their product and engineering teams. This is a really good environment for a new APM because there will be a mutually shared genuine respect from both parties. The mission at Twitter is also deeply engrained in the team - the management team is very receptive to ideas that further the mission, which is "to give everyone the power to create and share ideas and information instantly, without barriers."
+            url: http://www.twitterapm.com/
+-   company: Asana
+    jobs:
+        -   role: Associate Product Manager
+            description: |
+                Asana's APM program looks for entrepreneurial minds to help shape and improve both our product and this inaugural APM program. You’ll rotate between teams and take on company-wide responsibilities. You’ll also gain mentorship in key skills: how to lead a team, product design, customer research, data analysis, communication, and launching products.
+            comments: |
+                Asana's PM team is very strong (former Google, Facebook, and Micrsoft PMs), including Jackie Bavaro (the author of Cracking the PM Interview book). Asana's PM team is very self-aware and they make sure that they strike a balance between engineering, design, ideology, sales, and product teams. This discipline helps Asana iterate quickly and not get carried away with any one initiative, which is why Asana can make big strides in their mission to "empower teams to do great things together."
+            url: https://asana.com/jobs/Associate-Product-Manager
+-   company: Dropbox
+    jobs:
+        -   role: Product Manager
+            description: |
+                As a product manager, you’ll have an impact on a variety of products crucial to Dropbox’s strategy by both setting vision for your team, and getting hands on with execution. In doing so, you’ll collaborate with other extraordinary product managers, engineers, designers, and diverse business functions like sales and marketing. Ultimately, to achieve growth and scale for Dropbox, you’ll develop new product initiatives, drive their implementation, and own their outcomes.
+            comments: |
+                Over 200,000 companies use Dropbox, so over a billion files a day are managed at Dropbox. So, there are a lot of opportunities to make an impact on the existing product or even some of the new products that they are developing (like Mailbox, Dropbox paper, and Dropbox Carousel).
+            url: https://www.dropbox.com/jobs/listing/753559
+-   company: Yahoo
+    jobs:
+        -   role: Associate Product Manager
+            description: |
+                The mission of the Yahoo APM Program is to transform recent college grads, who have demonstrated the potential for strong technology leadership, into world-class Product Managers with foundational business finesse and a deep understanding of the technical space. Over a 2-year period, you will be given two 1-year rotations placed on top-priority projects within Yahoo’s various business units, and will be responsible for leading products that impact Yahoo’s most essential current businesses.
+            comments: |
+                Marissa Mayer started the original APM program at Google, so Yahoo's APM program is very similar. Yahoo specifically studies how different cultures perceive the web and consumer technology products to develop products that work well for global users. APMs at yahoo are given a very strong mentorship network and have the opportunity to work with an executive coach on areas like public speaking, presentation skills, time management, etc. Yahoo Directors and VPs host frequent and selective talks for the group, and APMs are expected to attend product reviews with Senior VPs and C-Suite officers.
+            url: http://yahooapms.tumblr.com/
+-   company: eBay
+    jobs:
+        -   role: Product Manager
+            description: |
+                The eBay Product Management team is at the intersection of the awesome technology, design, and execution that helps eBay bring great experiences to millions of users worldwide. We collaborate with some of the best engineers, business teams, designers, and partners across the globe to design and execute on experiences to help our customers succeed, from selling the latest gadget to finding a vintage dress. PMs help ideate, build a roadmap, design an experience, and lead through to execution. They have access to massive amounts of data and customer feedback that help drive our design and decision making.
+            comments: |
+                PMs at eBay follow a specific product development cycle that involves 5 stages: planning, defining, building, launching, and tuning. In the planning stage, PMs evangelize and prioritize projects across eBay in order to optimize our customer experience. When defining the product, the technical depth of eBay PMs allows them to create a solid, feasible product definition in conjunction with the engineering teams. In the building stage, PMs are responsibile for making sure a top quality product is made so they must remain closely involved with engineers. Launching is exiting since the product is now live! Here, PMs communicate the product improvements within eBay and to customers. Once the new product is launched to eBay customers, PMs assess how well the product meets customer needs. They work with analysts to blend quantitative and qualitative sources of data to understand customer reactions and financial implications. Then they determine whether any changes need to be made to the new product.
+            url: http://pages.ebay.com/pm/
+-   company: LinkedIn
+    jobs:
+        -   role: Associate Product Manager
+            description: |
+                From day one, LinkedIn APMs are treated like experienced PMs and given ownership and responsibility of impactful projects, while still receiving mentorship and guidance from some of the best product leaders and entrepreneurs in the industry. As an APM at LinkedIn, you will partner with a team of engineers, designers, product marketers, and others to execute and launch your roadmap. Company leadership interacts frequently with APMs as part of their training program and organized events.
+            comments: |
+                Many of the APMs that LinkedIn hires are former APM interns, which is why the link I posted below is for the APM internship. Because of the unparalleled level of responsibility granted to LinkedIn APMs, they seek candidates with a track record of entrepreneurship or leadership experience, in addition to technical and product expertise.
+            url: https://betalist.com/jobs/43978-associate-product-manager-intern-2017-at-linkedin
 
 
