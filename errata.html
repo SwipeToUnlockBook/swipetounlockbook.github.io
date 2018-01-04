@@ -1,0 +1,38 @@
+---
+layout: default
+permalink: errata
+---
+
+    <div class="container">
+        <section>
+            <h1>Errata</h1>
+
+            <p class="lead">
+                Below are all the typos and factual errors we've fixed since the 1st Edition, 3rd Revision (November 2017). Thanks to everyone who pointed out errors!
+            </p>
+
+            <p class="lead">
+                If you've found any errors in your copy of <em>Swipe to Unlock</em>, <a href="mailto:swipetounlockbook@gmail.com">please let us know</a>!
+            </p>
+
+            {% for version in site.data.errata %}
+                <h2 class="text-info">
+                    {{ version.edition }} Edition, {{ version.revision }} Revision
+                    ({{ version.date }})
+                </h2>
+
+                <ol>
+                    {% for error in version.errata %}
+                        <li>
+                            <strong>Page {{ error.page }}</strong>: {{ error.description }}
+                            {% if error.thanks %}
+                                <em>Thanks to {{ error.thanks }}!</em>
+                            {% endif %}
+                        </li>
+                    {% endfor %}
+                </ol>
+            {% endfor %}
+
+
+        </section>
+    </div>
