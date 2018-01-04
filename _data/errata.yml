@@ -1,0 +1,10 @@
+-   edition: 1st
+    revision: 4th
+    errata:
+        -   page: 248
+            description: Amazon is predicted to be the first $1 trillion company, not the first $1 billion company.
+            thanks: Amy Zhao
+        -   page: 84
+            description: Change "leasing a car instead of renting it" to "leasing a car instead of buying it".
+        -   page:
+            description: In "As we hinted at earlier, renting servers with Amazon Web Services far easier...", add "is" between "Services" and "far easier".
