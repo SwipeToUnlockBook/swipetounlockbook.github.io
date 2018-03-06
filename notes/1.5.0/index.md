@@ -1,9 +1,8 @@
 ---
-layout: default
+layout: notes
+edition: 1st
+revision: 5th
 ---
-
-<div class="container">
-<div markdown="1">
 
 ## Chapter 1: Introduction
 1. <https://www.wired.com/2014/06/ai-healthcare/>
@@ -1331,6 +1330,3 @@ layout: default
 1. <http://www.investopedia.com/terms/r/returnoninvestment.asp>
 1. <http://fortune.com/2013/09/19/50-best-small-and-medium-size-companies-to-work-for/>
 1. <https://www.lean-labs.com/blog/25-companies-who-absoluteluy-nailed-their-unique-value-proposition>
-
-</div>
-</div>
