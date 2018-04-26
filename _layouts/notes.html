@@ -3,7 +3,8 @@
 <div class="container">
 
   <h1 class="text-info">
-    Notes for <em>Swipe to Unlock</em>: the {{ page.edition }} edition, {{ page.revision }} revision
+    Notes for <em>Swipe to Unlock</em>: the {{ page.edition }}
+    edition{% if page.revision %}, {{ page.revision }} revision {% endif %}
   </h1>
 
   <div markdown="1" class="notes-container">
