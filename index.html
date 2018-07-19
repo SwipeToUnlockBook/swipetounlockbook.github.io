@@ -222,15 +222,21 @@ layout: default
 
   </section>
 
+<section id="use-cases" class="section section-primary">
+  <div class="container">
+    <h2 class="h1">Use cases</h2>
+  </div>
+</section>
+
   <!-- Educator -->
-  <section id="education" class="section section-primary section-super-padded">
+  <section id="education" class="section section-super-padded">
     <div class="container">
       <h2 class="h1">Are you an educator?</h2>
-      <p>Sign up for our mailing list to learn how Swipe to Unlock can be used in the classroom.</p>
+      <p>Sign up for our mailing list to learn how <em>Swipe to Unlock</em> can be used in the classroom.</p>
 
       <div class="row">
         <!-- <form id="edu_form" method="post" class="form" action="#"> -->
-        <form name="edu_form" id="edu_form" enctype="text/plain" class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSdh9HmfhJMRImpGycoKVbFlw-shP-k70XA3wrZ2VYzE6lUb5g/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+        <form name="edu_form" id="edu_form" enctype="text/plain" class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSdh9HmfhJMRImpGycoKVbFlw-shP-k70XA3wrZ2VYzE6lUb5g/formResponse?" target="hidden_iframe" onsubmit="window.submitted=true;">
           <div class="col-md-6 col-xs-9">
             <!-- <input type="email" name="edu_email" id="edu_email" class="form-control" placeholder="Email Address" /> -->
             <input type="email" name="entry.242048438" id="entry.242048438" class="form-control" placeholder="Email Address" />
@@ -240,7 +246,7 @@ layout: default
             <input type="submit" value="Join" class="btn btn-primary btn-block" />
           </div>
         </form>
-        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(window.submitted) {}"></iframe>
       </div>
     </div>
   </section>
@@ -248,11 +254,11 @@ layout: default
   <!-- Connect -->
   <section id="connect" class="section section-super-padded">
     <div class="container">
-      <h2 class="h1">Be the first to know!</h2>
-      <p>Join the mailing list to be notified when the book comes out!</p>
+      <h2 class="h1">Join our mailing list!</h2>
+      <p>We'll let you know when we make updates, release new books, publish resources, or speak at major events.</p>
 
       <div class="row">
-        <form name="connect_form" id="connect_form" enctype="text/plain" class="form" action="https://docs.google.com/forms/d/e/1FAIpQLScqDei-K1Bk1T6obVSotG0hQtz_LE5M96plxBoaCxfYSrb3CQ/formResponse?" target="hidden_iframe2" onsubmit="submitted2=true;">
+        <form name="connect_form" id="connect_form" enctype="text/plain" class="form" action="https://docs.google.com/forms/d/e/1FAIpQLScqDei-K1Bk1T6obVSotG0hQtz_LE5M96plxBoaCxfYSrb3CQ/formResponse?" target="hidden_iframe2" onsubmit="window.submitted2=true;">
           <div class="col-md-6 col-xs-9">
             <input type="email" name="entry.788298650" id="entry.788298650" class="form-control" placeholder="Email Address" />
           </div>
@@ -260,7 +266,7 @@ layout: default
             <input type="submit" value="Join" class="btn btn-default btn-block" />
           </div>
         </form>
-        <iframe name="hidden_iframe2" id="hidden_iframe2" style="display:none;" onload="if(submitted2) {}"></iframe>
+        <iframe name="hidden_iframe2" id="hidden_iframe2" style="display:none;" onload="if(window.submitted2) {}"></iframe>
       </div>
     </div>
   </section>
