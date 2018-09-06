@@ -2,14 +2,19 @@
 <html>
 
 <head>
-  <title>{{ site.book_title }}: {{ site.book_subtitle }}</title>
+  <title>
+      {% if page.title %}{{ page.title }} |{% endif %}
+      {{ site.book_title }}
+  </title>
+
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <meta property="og:title" content="{{ site.book_title }}: {{ site.book_subtitle }}" />
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} |{% endif %}
+        {{ site.book_title }}" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="http://swipetounlock.com/" />
   <meta property="og:image" content="http://swipetounlock.com/assets/img/cover/swipetounlock-cover-v7.png" />
-  <meta property="og:description" content="Authored by Product Managers at Google, Microsoft, and Facebook, Swipe to Unlock enables anyone to understand the core concepts of tech and the business strategy behind it in order to succeed in the tech industry or just be a more informed digital citizen and consumer." />
+  <meta property="og:description" content="{{ site.description }}" />
 
   <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]
     <link rel="stylesheet" href="assets/css/main.css" />
