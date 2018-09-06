@@ -5,12 +5,27 @@ permalink: joblist
 
 <section class="section">
   <div class="container">
+
     <div class="row">
       <div class="col-md-4">
       </div>
       <div class="col-md-8">
-        <h1 class="h1">Best Business-Side Jobs at Tech Companies</h1>
+          <h1 class="h1">Best Business-Side Jobs at Tech Companies</h1>
+      </div>
+    </div>
 
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="list-group hidden-xs hidden-sm visible-md visible-lg">
+          {% for company in site.data.jobs %}
+          <a class="list-group-item list-group-item-action smooth-scroll" href="#{{ company.slug }}">
+                {{ company.company }}
+              </a>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="col-md-8">
 
         <div class="lead">
           <p> Here's our list the best non-technical roles available at tech companies.</p>
@@ -30,6 +45,14 @@ permalink: joblist
 
         <hr />
 
+        <div class="list-group visible-xs visible-sm hidden-md hidden-lg">
+          {% for company in site.data.jobs %}
+          <a class="list-group-item list-group-item-action smooth-scroll" href="#{{ company.slug }}">
+                {{ company.company }}
+              </a>
+          {% endfor %}
+        </div>
+
         <!-- <p><strong>Interested in a non-developer job at a tech company? <a href="https://www.amazon.com/dp/B0756MTX6K/">Swipe to Unlock</a> was co-authored by a recipient of a fulltime Google APMM offer, Google RPM offer, and Microsoft PMM offer. <a href="https://www.amazon.com/dp/B0756MTX6K/">The book</a> offers valuable tech insights and concept overviews that will be extremely relevant for the Google APMM interview.</strong></p>
 
           <div class="embed-responsive embed-responsive-16by9">
@@ -38,7 +61,7 @@ permalink: joblist
             <br/> -->
 
         {% for company in site.data.jobs %}
-        <div id="{{ company.slug }}">
+        <div id="{{ company.slug }}" class="company-block">
           <h2 class="text-info">{{ company.company }}</h2>
 
           {% for job in company.jobs %}
@@ -62,27 +85,24 @@ permalink: joblist
         {% endfor %}
 
 
-        <hr />
+        <p class="lead">
+          Okay, so now you know where to apply. Now, how do you ace your interview and get an offer? The dirty little secret is you don’t need a technical background or even need to have ever taken a CS class. However, it definitely helps if you understand how technology works at a high level and the business strategy behind it.
+        </p>
 
         <p class="lead">
-          Okay, so now you know where to apply. Now, how do you ace your interview and get an offer? The dirty little secret is you don’t need a technical background or even need to have ever taken a CS class. However, it definitely helps if you
-          understand how technology works at a high level and the business strategy behind it.
+          Check out our new book, <a href="https://www.amazon.com/gp/product/b0756mtx6k/"><em>Swipe to Unlock</em></a>. It contains the key general tech and business concepts that we think everyone should know to get a non-technical job in the tech industry.
         </p>
-        <br/>
-        <div class="text-center">
-          <a href="https://www.amazon.com/gp/product/B0756MTX6K/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0756MTX6K&linkCode=as2&tag=swipetounlock-20&linkId=0788862628123a7609141c7b2c4ae733/" target="_blank" class="btn btn-default btn-lg">Learn more</a>
-        </div>
-        <br/>
 
-        <p style="font-size: 1.35em; line-height: 1.5em;">
-          <!-- <strong>Check out the video trailer for my new book, <i>Swipe to Unlock</i>. It contains the key general tech and business concepts that helped me get offers from Google, Microsoft, Facebook, Amazon, IBM, and more without ever taking a computer science class. </strong> -->
-          <strong>Check out my new book, <i>Swipe to Unlock</i>. It contains the key general tech and business concepts that I think everyone should know.</strong>
-        </p>
+        <!-- <div class="text-center">
+          <a href="https://www.amazon.com/gp/product/B0756MTX6K/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0756MTX6K&linkCode=as2&tag=swipetounlock-20&linkId=0788862628123a7609141c7b2c4ae733/" target="_blank" class="btn btn-primary btn-lg">Learn about <em>Swipe to Unlock</em></a>
+        </div> -->
+
+
+        <section class="text-center">
+          {% include amazon_button.html %}
+        </section>
+        <br/>
       </div>
     </div>
   </div>
-</section>
-
-<section>
-  {% include amazon_button.html %}
 </section>
