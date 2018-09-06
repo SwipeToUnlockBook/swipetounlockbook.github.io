@@ -33,6 +33,7 @@ body {
 .navbar-brand {
   font-family: LeagueGothic !important;
   font-size: 32px;
+  color: $stu_blue !important;
 }
 
 .centered {
@@ -166,4 +167,8 @@ h6 {
 
   // shadowing
   box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.company-block {
+  padding-top: 50px;
 }
