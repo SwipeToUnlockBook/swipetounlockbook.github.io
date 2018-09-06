@@ -3,14 +3,20 @@
 
 <head>
   <title>
-      {% if page.title %}{{ page.title }} |{% endif %}
-      {{ site.book_title }}
+      {% capture title %}
+        {% if page.title %}
+          {{ page.title }} | {{ site.book_title }}
+        {% else %}
+          {{ site.book_title }}: {{ site.book_subtitle }}
+        {% endif %}
+      {% endcapture %}
+
+      {{ title}}
   </title>
 
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <meta property="og:title" content="{% if page.title %}{{ page.title }} |{% endif %}
-        {{ site.book_title }}" />
+  <meta property="og:title" content="{{ title }}" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="http://swipetounlock.com/" />
   <meta property="og:image" content="http://swipetounlock.com/assets/img/cover/swipetounlock-cover-v7.png" />
