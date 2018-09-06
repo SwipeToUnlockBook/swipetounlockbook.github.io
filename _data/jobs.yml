@@ -1,76 +1,37 @@
 -   company: Google
+    slug: google
     jobs:
         -   role: Associate Product Marketing Manager Program
             description: |
-                This is Google’s premiere non-technical program. It’s a two year rotational program. Applications for the US positions should open soon.
+                This is Google’s premiere non-technical program, a two year rotational marketing program.
             comments: |
                 I received a Google APMM fulltime offer and strongly considered it but ultimately decided I wanted to pursue product management instead of product marketing. I have friends in this program though and have heard wonderful things!
             url: https://www.google.com/about/careers/students/apmm.html
-        -   role: Associate Account Strategist, Sales, Google Marketing Solutions
+        -   role: Account Strategist, Mid-Market Sales, Google Marketing Solutions
             description: |
-                You are the frontline of Google’s client-facing teams and will be responsible for a book of business and the business targets that come with it. The majority of your time will be spent on the phone consulting with clients of all sizes and types, advising them on tailored solutions on how to get the best return on their AdWords investment. You will use your problem solving, sales, and objection handling skills to get the job done in a fast-paced, high-performing environment.
-            url: https://careers.google.com/jobs#!t=jo&jid=/google/associate-account-strategist-gms-sales-2300-traverwood-dr-ann-arbor-mi-usa-2605540361&
--   company: LinkedIn
-    jobs:
-        -   role: "Strategy & Analytics — Business Leadership Program"
-            description: |
-                This program involves four six-month rotations including Corporate Development (M&A), Business Operations & Strategy, Sales Operations & Strategy, Product Strategy, Product Finance, Sales Finance, and Investor Relations.
-            comments: |
-                I hear this is LinkedIn’s premiere business program. I have friends of friends in it who love it.
-            url: https://studentcareers.linkedin.com/careers/business/s-and-a
-        -   role: "Global Sales — Business Leadership Program"
-            description: |
-                LinkedIn’s Business Leadership Program – Global Sales is a 6-month rotational program designed to identify, inspire and develop LinkedIn’s future leaders. Your first week will focus on building a foundational knowledge of what matters to us most&colon; our mission, culture, and leadership. You will then spend 6 months rotating through Global Customer Operations, Business Bootcamp and Talent Acquisition before moving into a full-time sales role.
-            url: https://studentcareers.linkedin.com/careers/business/globalsales/namer
--   company: Box
-    jobs:
-        -   role: Rotational Associate Program (RAP)
-            description: |
-                RAP involves an initial eight-month rotation followed by two six-month rotations. Rotations include time in Product, Sales, Customer Success, Marketing, Business Operations, or Business Development.
-            url: https://betalist.com/jobs/22117-rotational-associate-program-2017-graduates-at-boxhq
+                Businesses that partner with Google come in all shapes, sizes and market caps, and no one Google advertising solution works for all. Your knowledge of online media combined with your communication skills and analytical abilities shapes how new and existing business grow. Using your influencing and relationship-building skills, you provide Google-caliber client service, research and market analysis. You anticipate how decisions are made, persistently explore and uncover the business needs of Google's key clients and understand how our range of product offerings can grow their business. Working with them, you set the vision and the strategy for how their advertising can reach thousands of users.
+            url: https://careers.google.com/jobs#!t=jo&jid=/google/account-strategist-mid-market-sales-340-main-st-venice-ca-90291-usa-3854570171&
 -   company: Facebook
+    slug: facebook
     jobs:
         -   role: Rotational Product Manager Program (RPM)
             description: |
                 Facebook’s RPM program is similar to Associate Product Manager (APM) programs at other tech companies, but unlike many of those companies, Facebook does not require an engineering background to apply.
             comments: |
-                This is the best job on the list. I’m totally not biased because I’m in it or anything :P
-            url: http://fbrpms.com/apply
+                I'm an RPM at Facebook and can't stop saying great things about it. Apply!
+            url: http://fbrpms.com
         -   role: Associate Product Marketing Manager
             description: |
                 Facebook's Associate Product Marketing Manager (APMM) Program is a full-time, two-year training and development program to accelerate marketing and leadership skills. You’ll bring products to market, drive adoption, and develop product positioning, external communications, campaign and marketing collateral for Facebook’s 1.8 billion users.
             comments: |
                 I have a lot of friends in this program and highly recommend it!
-            url: https://www.facebook.com/careers/jobs/a0I1200000LTOijEAH/
+            url: https://apmms.fb.com/
         -   role: Finance & Business Operations Analyst Rotation
             description: |
                 Facebook Finance & Business Operations Analyst's will have the unique opportunity to gain invaluable experience across a broad range of functions and have a large impact within a growing Finance organization. You will be deeply involved with a broad range of operational initiatives offering opportunities to interact with management; deliver business analytics and insights; make recommendations for short and long-term decisions; and drive significant contributions across areas including: the corporate planning processes, monitoring financial performance, reporting financial and operational results, and improving existing systems.
-            url: https://www.facebook.com/careers/jobs/a0I1200000LTZ6VEAX/
--   company: Kleiner Perkins Caufield Byers
-    jobs:
-        -   role: KPCB Product Fellows Program
-            description: |
-                Applications should open January 1, 2018, for KPCB’s Product Fellows Program, which involves a one-year fellowship as a product manager at one of KPCB’s portfolio companies. Previous Product Fellows have worked at companies including Uber, Square, Zynga, DocuSign, One Kings Lane, Kinsa, AppDynamics, and Drawbridge. In the past, KPCB has shared advice on how to apply successfully.
-            comments: |
-                This is probably the best program for someone who wants to work at a startup, but only one that is highly vetted and relatively low risk (compared to other startups, not compared to like an established big company like Google, of course).
-            url: http://kpcbfellows.com/#apply
--   company: Amazon
-    jobs:
-        -   role: Many roles
-            description: |
-                Amazon has a ton of programs on the business side ranging from finance to HR to marketing to sales and everything in between. Use the link below to stay up to date while the jobs get posted.
-            url: https://www.amazon.jobs/en-gb/teams/university-non-tech-full-time?base_query=&loc_query=&job_count=20&result_limit=10&sort=relevant&team_category%5B%5D=university-non-tech-full-time&cache
--   company: Visa
-    jobs:
-        -   role: New Graduate Development Program-Business Associate
-            description: |
-                The New Graduate Development Rotation Program (NGDP) is a two year program with four six month rotations through Visa’s functions. The NGDP program supports Visa’s mission to build a strong entry level pipeline of talent with cross-functional knowledge and experience. Associates rotate through various parts of the business, including but not limited to&colon; Digital Solutions, Marketing, Processing, Product, Sales and Strategy. In addition to meaningful rotations, Associates are given training & development, mentoring, networking and leadership exposure.
-            url: https://www.smartrecruiters.com/Visa/98192686-new-graduate-development-program-business-associate?trid=623f64f4-c657-499b-989f-16ab0ccee0d9
-        -   role: Human Resources Development Program - Business Associate
-            description: |
-                The Human Resources Development Program (HRDP) is a three year program with four nine month rotations through Visa’s HR functions. The HRDP supports Visa’s mission to recruit and develop future HR leaders with cross-functional knowledge and experience. The program provides exposure to multiple areas of Human Resources including Talent Acquisition, Talent Management, Total Rewards and HR Consulting. In addition to meaningful rotations, associates are given training & development, mentoring, networking and leadership exposure.
-            url: https://www.smartrecruiters.com/Visa/98194532-human-resources-development-program-business-associate?trid=623f64f4-c657-499b-989f-16ab0ccee0d9
+            url: https://lensa.com/finance--business-operations-analyst-rotation-university-grad-jobs/menlo-park/jd/495c48ccaf781848e9aeec4e07f43551
 -   company: Microsoft
+    slug: microsoft
     jobs:
         -   role: Many roles
             description: |
@@ -78,19 +39,15 @@
             comments: |
                 Product Manager is actually a role that falls under the marketing org at Microsoft. (They also have a more technical PM role known as Program Manager). I almost accepted my Product Manager return offer at Microsoft because I had so much fun interning there. The link included is for the marketing program, but use the drop down menu on the left side of the screen to find loads more roles across various areas of focus.
             url:    https://careers.microsoft.com/students/apply?rg=US&jf=17&el=2&jt=1
--   company: HubSpot
-    jobs:
-        -   role: Leadership Rotational Program
-            description: |
-                The HubSpot Leadership Rotational Program is a two-year program for graduating seniors and an accelerated path toward marketing leadership. This full-time position rotates through three different roles, each eight months in duration, starting in Technical Support followed by two rotations in Marketing.
-            url: https://www.hubspot.com/jobs/students/recent-graduates/leadership-program
--   company: Cisco
+-   company: Amazon
+    slug: amazon
     jobs:
         -   role: Many roles
             description: |
-                Similar to Microsoft and Amazon, there seem to be lots of non-technical roles for new university grads.
-            url: https://www.cisco.com/c/en/us/about/careers/working-at-cisco/students-and-new-graduate-programs/non-technical-programs.html
+                Amazon has a ton of programs on the business side ranging from finance to HR to marketing to sales and everything in between. Use the link below to stay up to date while the jobs get posted.
+            url: https://www.amazon.jobs/en-gb/teams/university-non-tech-full-time?base_query=&loc_query=&job_count=20&result_limit=10&sort=relevant&team_category%5B%5D=university-non-tech-full-time&cache
 -   company: Uber
+    slug: uber
     jobs:
         -   role: Business Analyst
             description: |
@@ -98,59 +55,121 @@
             comments: |
                 The job description mentions wanting two years of work experience, but I’ve heard they consider straight out of undergrad if they have strong previous internship experience.
             url: https://www.uber.com/careers/list/33410/
--   company: Intuit
+-   company: Kleiner Perkins Caufield Byers (KPCB)
+    slug: kpcb
     jobs:
-        -   role: Rotational Product Manager
+        -   role: KPCB Product Fellows Program
             description: |
-                You’ll spend your first 2 years as a rotational product manager at Intuit where you’ll get the opportunity to work on a new high-impact project in a different business unit every 6 months to prepare you to become a product leader of tomorrow.  Example projects range from creating a new mobile app to launching a product into a new country. You’ll also receive professional development through mentoring and coaching from product executives, and you’ll get the chance to bond closely with other rotational PMs. After the two-year program, RPM’s will no longer rotate and officially join a product team.
-            url: http://careers.intuit.com/job-category/3/product-management/job/00129064/product-manager-1
--   company: Workday
-    jobs:
-        -   role: Associate Financial Analyst
-            description: |
-                Workday Financial Analysts will develop, interpret and implement financial concepts for financial planning and control. Performs technical analysis to determine present and future financial performance. Gathers, analyzes, prepares and summarizes recommendations for financial plans, acquisition activity, trended future requirements and operating forecasts. Performs economic research and studies in the areas of rates of return, depreciation, working capital requirements, investment opportunities, investment performance and impact of governmental requirements.
-            url: https://workday.wd5.myworkdayjobs.com/en-US/Workday_University_Careers/job/USA-CA-Pleasanton/Associate-Financial-Analyst_JR-20939-1
-        -   role: Associate Consultant
-            description: |
-                Workday Associate Consultant roles work on project teams to help Workday customers implement our growing catalog of global, cloud-based applications. Learn how to apply Workday’s implementation methodology and technology to customers of all sizes and in any sector, including manufacturing, healthcare, financial services, education, biomed, technology, and others.
-            url: https://workday.wd5.myworkdayjobs.com/en-US/Workday_University_Careers/job/USA-CA-Pleasanton/Associate-Consultant--New-University-Graduate_JR-20476-1
-        -   role: Corporate Sales Development
-            description: |
-                We’re looking for a Corporate Sales Representative for the Corporate Sales Development (CSD) team. This team will offer you an opportunity to develop effective prospecting and selling strategies while making long-standing relationships with potential customers. You will be at the forefront of Workday’s growing influence in the market, as you position Workday as a viable alternative to business software solutions that are chained to the past.
-            url: https://workday.wd5.myworkdayjobs.com/en-US/Workday_University_Careers/job/USA-UT-Salt-Lake-City/Corporate-Sales-Development---New-University-Graduate_JR-21030
--   company: Asana
-    jobs:
-        -   role: Associate Product Manager
-            description: |
-                Asana's APM program looks for entrepreneurial minds to help shape and improve both our product and this inaugural APM program. You’ll rotate between teams and take on company-wide responsibilities. You’ll also gain mentorship in key skills: how to lead a team, product design, customer research, data analysis, communication, and launching products.
-            url: https://asana.com/jobs/Associate-Product-Manager
+                Applications should open every January 1 for KPCB’s Product Fellows Program, which involves a one-year fellowship as a product manager at one of KPCB’s portfolio companies. Previous Product Fellows have worked at companies including Uber, Square, Zynga, DocuSign, One Kings Lane, Kinsa, AppDynamics, and Drawbridge. In the past, KPCB has shared advice on how to apply successfully.
+            comments: |
+                This is probably the best program for someone who wants to work at a startup, but only one that is highly vetted and relatively low risk (compared to other startups, not compared to like an established big company like Google, of course).
+            url: http://fellows.kleinerperkins.com/#apply
 -   company: Dropbox
+    slug: dropbox
     jobs:
         -   role: Product Manager
             description: |
                 As a product manager, you’ll have an impact on a variety of products crucial to Dropbox’s strategy by both setting vision for your team, and getting hands on with execution. In doing so, you’ll collaborate with other extraordinary product managers, engineers, designers, and diverse business functions like sales and marketing. Ultimately, to achieve growth and scale for Dropbox, you’ll develop new product initiatives, drive their implementation, and own their outcomes.
-            url: https://www.dropbox.com/jobs/listing/753559
+            url: https://www.dropbox.com/jobs/listing/1249174
+-   company: LinkedIn
+    slug: linkedin
+    jobs:
+        -   role: "Strategy & Analytics — Business Leadership Program"
+            description: |
+                This program involves four six-month rotations including Corporate Development (M&A), Business Operations & Strategy, Sales Operations & Strategy, Product Strategy, Product Finance, Sales Finance, and Investor Relations.
+            comments: |
+                I hear this is LinkedIn’s premiere business program. I have friends of friends in it who love it.
+            url: https://careers.linkedin.com/students/strategy-and-analytics
+        -   role: "Global Sales — Business Leadership Program"
+            description: |
+                LinkedIn’s Business Leadership Program – Global Sales is a 6-month rotational program designed to identify, inspire and develop LinkedIn’s future leaders. Your first week will focus on building a foundational knowledge of what matters to us most&colon; our mission, culture, and leadership. You will then spend 6 months rotating through Global Customer Operations, Business Bootcamp and Talent Acquisition before moving into a full-time sales role.
+            url: https://careers.linkedin.com/students/business-leadership-program
 -   company: Workday
+    slug: workday
     jobs:
         -   role: Associate Product Manager
             description: |
                 Workday Associate Product Manager's will drive new projects on existing products. You will be creating project roadmaps and collaborating with cross-functional groups to roll out the latest and greatest features on Workday’s diverse platforms.
             url: https://www.workday.com/en-us/company/careers/open-positions/job-details.html?id=JR20292
+        -   role: Associate Financial Analyst
+            description: |
+                Workday Financial Analysts will develop, interpret and implement financial concepts for financial planning and control. Performs technical analysis to determine present and future financial performance. Gathers, analyzes, prepares and summarizes recommendations for financial plans, acquisition activity, trended future requirements and operating forecasts. Performs economic research and studies in the areas of rates of return, depreciation, working capital requirements, investment opportunities, investment performance and impact of governmental requirements.
+            url: https://lensa.com/associate-financial-analyst-jobs/pleasanton/jd/294d03a413aa1f9630c5aadd76815815
+        -   role: Associate Consultant
+            description: |
+                Workday Associate Consultant roles work on project teams to help Workday customers implement our growing catalog of global, cloud-based applications. Learn how to apply Workday’s implementation methodology and technology to customers of all sizes and in any sector, including manufacturing, healthcare, financial services, education, biomed, technology, and others.
+            url: https://www.hirepurpose.com/jobs/associate-consultant-new-university-graduate-jr20476
+        -   role: Corporate Sales Development
+            description: |
+                We’re looking for a Corporate Sales Representative for the Corporate Sales Development (CSD) team. This team will offer you an opportunity to develop effective prospecting and selling strategies while making long-standing relationships with potential customers. You will be at the forefront of Workday’s growing influence in the market, as you position Workday as a viable alternative to business software solutions that are chained to the past.
+            url: https://workday.wd5.myworkdayjobs.com/en-US/Workday_University_Careers/job/USA-UT-Salt-Lake-City/Corporate-Sales-Development---New-University-Graduate_JR-21030
+-   company: Asana
+    slug: asana
+    jobs:
+        -   role: Associate Product Manager
+            description: |
+                Asana's APM program looks for entrepreneurial minds to help shape and improve both our product and this inaugural APM program. You’ll rotate between teams and take on company-wide responsibilities. You’ll also gain mentorship in key skills: how to lead a team, product design, customer research, data analysis, communication, and launching products.
+            url: https://asana.com/jobs/Associate-Product-Manager
+        -   role: Associate Product Marketing Manager
+            description: |
+              The product marketing team at Asana helps the company succeed by connecting our customer's pain to the Asana solution. We develop clear and compelling messaging that inspires our customers to learn about, try, and adopt our product. We use product launches, campaigns, and experimentation to communicate the Asana narrative, reach new audiences, and drive growth across the funnel. As close partners with the product and sales teams, product marketers at Asana collaborate to bring new features to market and connect customers to the value of our product. We are looking for a product marketer to help us scale our efforts across the team. You'll take on core product marketing work like managing the launch calendar, sharing product updates internally, and bringing new features to market.
+            url: https://jobs.livecareer.com/l/associate-product-marketing-manager-asana-af7b78a78245080cf9193ea7484ba38f
+-   company: Box
+    slug: box
+    jobs:
+        -   role: Rotational Associate Program (RAP)
+            description: |
+                RAP involves an initial eight-month rotation followed by two six-month rotations. Rotations include time in Product, Sales, Customer Success, Marketing, Business Operations, or Business Development.
+            url: https://www.box.com/careers/university
+-   company: Visa
+    slug: visa
+    jobs:
+        -   role: Product Manager
+            description: |
+                Everyone at Visa works with one goal in mind – making sure that Visa is the best way to pay and be paid, for everyone everywhere. This is our global vision and the common purpose that unites the entire Visa team. As a global payments technology company, tech is at the heart of what we do: Our VisaNet network processes over 13,000 transactions per second for people and businesses around the world, enabling them to use digital currency instead of cash and checks. We are also global advocates for financial inclusion, working with partners around the world to help those who lack access to financial services join the global economy.
+            url: https://www.smartrecruiters.com/Visa/99039761
+        -   role: New Graduate Development Program-Business Associate
+            description: |
+                The New Graduate Development Rotation Program (NGDP) is a two year program with four six month rotations through Visa’s functions. The NGDP program supports Visa’s mission to build a strong entry level pipeline of talent with cross-functional knowledge and experience. Associates rotate through various parts of the business, including but not limited to&colon; Digital Solutions, Marketing, Processing, Product, Sales and Strategy. In addition to meaningful rotations, Associates are given training & development, mentoring, networking and leadership exposure.
+            comments: This application link has expired, and the position is not currently open. However, this page still has the most detailed job descriptions.
+            url: https://www.smartrecruiters.com/Visa/98192686-new-graduate-development-program-business-associate?trid=623f64f4-c657-499b-989f-16ab0ccee0d9
+        -   role: Human Resources Development Program - Business Associate
+            description: |
+                The Human Resources Development Program (HRDP) is a three year program with four nine month rotations through Visa’s HR functions. The HRDP supports Visa’s mission to recruit and develop future HR leaders with cross-functional knowledge and experience. The program provides exposure to multiple areas of Human Resources including Talent Acquisition, Talent Management, Total Rewards and HR Consulting. In addition to meaningful rotations, associates are given training & development, mentoring, networking and leadership exposure.
+            comments: This application link has expired, and the position is not currently open. However, this page still has the most detailed job descriptions.
+            url: https://www.smartrecruiters.com/Visa/98194532-human-resources-development-program-business-associate?trid=623f64f4-c657-499b-989f-16ab0ccee0d9
+-   company: HubSpot
+    slug: hubspot
+    jobs:
+        -   role: Leadership Rotational Program
+            description: |
+                The HubSpot Leadership Rotational Program is a two-year program for graduating seniors and an accelerated path toward marketing leadership. This full-time position rotates through three different roles, each eight months in duration, starting in Technical Support followed by two rotations in Marketing.
+            url: https://www.hubspot.com/jobs/students/recent-graduates/leadership-program
+-   company: Cisco
+    slug: cisco
+    jobs:
+        -   role: Many roles
+            description: |
+                Similar to Microsoft and Amazon, there seem to be lots of non-technical roles for new university grads.
+            url: https://www.cisco.com/c/en/us/about/careers/working-at-cisco/students-and-new-graduate-programs/non-technical-programs.html
+-   company: Intuit
+    slug: intuit
+    jobs:
+        -   role: Rotational Product Manager
+            description: |
+                You’ll spend your first 2 years as a rotational product manager at Intuit where you’ll get the opportunity to work on a new high-impact project in a different business unit every 6 months to prepare you to become a product leader of tomorrow.  Example projects range from creating a new mobile app to launching a product into a new country. You’ll also receive professional development through mentoring and coaching from product executives, and you’ll get the chance to bond closely with other rotational PMs. After the two-year program, RPM’s will no longer rotate and officially join a product team.
+            url:  https://www.intuitrpm.com/
 -   company: Groupon
+    slug: groupon
     jobs:
         -   role: Associate Product Manager
             description: |
                 Groupon is looking for a data-driven Product Manager to grow the consumer base for Groupon+, a new and easy way to experience and save at restaurants around you. We aim to improve the Groupon experience through a voucherless, cash back driven redemption. You will be responsible for identifying gaps in the consumer enrollment area and identifying conversion optimization opportunities to drive sustainable growth.
-            url: https://jobs.groupon.com/jobs/P34334
--   company: Visa
-    jobs:
-        -   role: Product Manager
-            description: |
-                Everyone at Visa works with one goal in mind – making sure that Visa is the best way to pay and be paid, for everyone everywhere. This is our global vision and the common purpose that unites the entire Visa team. As a global payments technology company, tech is at the heart of what we do: Our VisaNet network processes over 13,000 transactions per second for people and businesses around the world, enabling them to use digital currency instead of cash and checks. We are also global advocates for financial inclusion, working with partners around the world to help those who lack access to financial services join the global economy. 
-            url: https://www.smartrecruiters.com/Visa/99039761
+            url: https://jobs.groupon.com/categories/product-management
 -   company: Zynga
+    slug: zynga
     jobs:
         -   role: Rotational Product Manager
             description: |
                 Making a game requires passion, innovation, and creativity. Zynga wants to take exceptional new graduates and turn them into world-class product managers who will be responsible for creating the games of tomorrow. Over 18 months, we’ll place our RPMs into three rotations where you’ll be working alongside our best and brightest to solve some of our highest priority and most challenging business problems.
-            url: https://www.zynga.com/careers/positions/new-grad-full-time-rotational-product-manager-ur-2018
+            url: https://www.zynga.com/careers/positions/product-manager
