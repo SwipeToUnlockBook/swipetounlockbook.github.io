@@ -55,6 +55,13 @@
             comments: |
                 The job description mentions wanting two years of work experience, but I’ve heard they consider straight out of undergrad if they have strong previous internship experience.
             url: https://www.uber.com/careers/list/33410/
+-   company: Lyft
+    slug: lyft
+    jobs:
+      -   role: Associate Product Manager
+          description: |
+            As an Associate Product Manager (APM), you will have a unique opportunity to dig in to different challenges across the company, gain deep insights, connect with our users, and use this knowledge to not only rethink our existing solutions, but pave the way for our future decisions. The Lyft APM Program is an 18-month long program where you will join three teams across our entire Product organization for 6-month rotations.
+          url: https://boards.greenhouse.io/lyft/jobs/4087659002?gh_jid=4087659002
 -   company: Kleiner Perkins Caufield Byers (KPCB)
     slug: kpcb
     jobs:
