@@ -22,7 +22,7 @@ $stu_white: white;
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 body {
-  padding-top: 50px;
+  margin-top: 50px;
   font-size: 16px;
 }
 
@@ -170,5 +170,11 @@ h6 {
 }
 
 .company-block {
+  padding-top: 50px;
+}
+
+#tips {
+  // for the job page
+  // margin-top: 120px;
   padding-top: 50px;
 }
