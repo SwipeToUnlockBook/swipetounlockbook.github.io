@@ -67,6 +67,12 @@ The top books you should read include:
 * [*Decode and Conquer*](http://a.co/d/8keIVJF) for more thorough practice questions
 * [*Swipe to Unlock*](http://a.co/d/iHtms2m) for explanations of important tech concepts, tech industry trends, and business strategy
 
+### Do I need a CS degree to work at Google?
+
+Most of the APMs I know have CS degrees, but several did entirely different majors. But everyone has done a considerable amount of software engineering or product management in the past, even if that's just hacking on side projects or taking project-based CS classes. So no, you don't need a CS degree, but yes, being technical is key to becoming an APM. (This is just my best guess -- ask a Google recruiter if you want to know for sure.)
+
+But that's not enough -- you have to be able to explain tech concepts (like how the cloud works, for instance) and know trends in the tech industry. [Check out my book *Swipe to Unlock*](http://a.co/d/iHtms2m) if you'd like to learn more about this.
+
 ### Can you refer me to Google?
 
 Sorry, I'm only allowed to refer people I've personally worked with in the past.
@@ -90,3 +96,5 @@ My co-author [Parth](parth) has his own FAQ, which covers some other questions y
 ### What can I do if I still really want to have a 15 minute phone call to pick your brain on something not covered above?
 
 I’ll trade you my thoughts for yours. If you read my book, [*Swipe to Unlock*](http://a.co/d/iHtms2m), and share your honest feedback, I’ll make time to chat with you. Write a review on Amazon that’s at least two paragraphs of sincere feedback and send the review URL to the email address above or message it to me on LinkedIn. It doesn’t have to be a glowing positive review, just your honest thoughts and constructive criticism. We update the book about every two months based on feedback we get, because we genuinely want to make it useful as possible :)
+
+> *Disclaimer*: everything in this FAQ is based solely on my personal experience and doesn't represent Google's opinions. All view expressed here are my own. If you want the official answer to these questions, ask a Google recruiter!
