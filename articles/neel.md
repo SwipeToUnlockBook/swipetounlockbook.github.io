@@ -10,7 +10,20 @@ People often ask me about my story and my journey in tech, so I thought I'd answ
 
 ## Being a Product Manager at Google
 
+### What's it like being an Associate Product Manager (APM) at Google?
 
+[The APM program](https://blog.usejournal.com/how-to-prepare-for-your-google-apm-interviews-b665584c13fc) is fantastic. The gist is that brand-new product managers do two one-year rotations on vastly different teams around Google (and around the world!) After two years, APMs usually auto-promote to full-fledged Google PMs.
+
+A few things that set the APM program apart:
+
+* **Awesome mentorship.** You get an APM buddy (someone who's already done a year of the APM program), a former APM  to be your mentor, and a management coach (who usually only teaches VPs) who works with you one-on-one.
+* **A built-in network of friends and allies.** Each class of APMs is about 40-45 people, and you get very close very quickly. Besides being great friends, fellow APMs are great for getting advice, being connected to resources, and hearing what else is going on around the company. APMs are pretty entrepreneurial, so it's a great way to befriend potential cofounders too.
+* **An illustrious alumni base.** Marissa Mayer, the former CEO of Yahoo, started the program years ago. Many VPs at Google are former APMs, as are many startup CEOs. The best part is that you get to meet them at APM reunions, and they're very excited to talk to and mentor current APMs.
+* **Being at Google.** Google is an amazing place to work. Yes, there are all the perks like unlimited free food, pinball machines, on-site laundry and haircuts, and those quirky bikes you can ride around campus. But more importantly, everyone at Google is so competent, open to learning,
+
+### How does Google compare to Microsoft?
+
+I interned as a PM at Microsoft before working at Google.
 
 ### How can I prepare for an Associate Product Manager (APM) interview?
 
