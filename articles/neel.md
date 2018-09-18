@@ -33,11 +33,13 @@ Execution involves getting the thing built. The core insight here is that you ha
 
 ### How does Google compare to Microsoft?
 
-I interned as a PM at Microsoft before working at Google. I can't say I'm an expert at Microsoft, but I'll share a few of my initial insights.
+I interned as a PM at Microsoft before working at Google. I can't say I'm an expert at Microsoft, but I'll share a few of my broad insights.
 
-Google is pretty bottom-up in that even a junior PM can propose an idea and run with it if it gets approval. That said, you have to align your ideas with what higher-ups are worrying about -- if you can align your idea with higher-ups' pain points, you can often get approval. So even junior PMs can think about strategy. At Microsoft, I found that higher-up PMs tend to think of what the product will be (strategy) and delegate the design of individual components to more junior PMs. Microsoft PMs do a lot of execution (from my admittedly limited experience), while Google PMs get more of a mix of strategy and execution. Microsoft higher-ups own the solution, while Google higher-ups own the problems.
+Google is pretty bottom-up in that even a junior PM can propose an idea and run with it if it gets approval. That said, you have to align your ideas with what higher-ups are worrying about -- if you can align your idea with higher-ups' pain points, you can often get approval. So even junior PMs can think about strategy. At Microsoft, I found that higher-up PMs tend to think of what the product will be (strategy) and delegate the design of individual components to more junior PMs. **Microsoft PMs do a lot of execution (from my admittedly limited experience), while Google PMs get more of a mix of strategy and execution. Microsoft higher-ups own the solution, while Google higher-ups own the problems.**
 
+Another big difference is how PMs interact with engineers. Microsoft is PM-centric in that PMs make a lot of decisions. At Microsoft, I'd work with business and legal and engineering to come up with a 20-plus page product specification that laid out everything from each word on the page to detailed mockups to accessibility and security considerations. Then we'd hand off the completed "spec" to the engineers, who would go implement it without much further interaction with us. At Google, product specs are one or two pages and highlight the gist of the idea. The details are hashed out by other folks: engineers have to decide on and implement the technical design, UI people make the mocks, and so on. **Microsoft PMs decide exactly what the product will be, while Google PMs decide the "big idea" and clear the way for others to hash out the details.**
 
+Again, these are sweeping generalizations based on my limited experience. There's no substitute for working somewhere!
 
 ### How can I prepare for an Associate Product Manager (APM) interview?
 
