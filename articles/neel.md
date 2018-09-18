@@ -61,7 +61,7 @@ If your college has an information session about anything Google, I strongly rec
 
 I'd recommend reading [my article about how to prep for PM interviews](https://blog.usejournal.com/how-to-prepare-for-your-google-apm-interviews-b665584c13fc).
 
-The top books you should read include:
+The top books I think you should read include:
 
 * [*Cracking the PM Interview*](http://a.co/d/9si7xfx) for an introduction to PM and PM interviews
 * [*Decode and Conquer*](http://a.co/d/8keIVJF) for more thorough practice questions
@@ -69,9 +69,9 @@ The top books you should read include:
 
 ### Do I need a CS degree to work at Google?
 
-Most of the APMs I know have CS degrees, but several did entirely different majors. But everyone has done a considerable amount of software engineering or product management in the past, even if that's just hacking on side projects or taking project-based CS classes. So no, you don't need a CS degree, but yes, being technical is key to becoming an APM. (This is just my best guess -- ask a Google recruiter if you want to know for sure.)
+Hard to say. Most of the APMs I know have CS degrees, but several did entirely different majors. But everyone has done a considerable amount of software engineering or product management in the past, even if that's just hacking on side projects or taking project-based CS classes. (This is just my best guess -- ask a Google recruiter if you want to know for sure.)
 
-But that's not enough -- you have to be able to explain tech concepts (like how the cloud works, for instance) and know trends in the tech industry. [Check out my book *Swipe to Unlock*](http://a.co/d/iHtms2m) if you'd like to learn more about this.
+If you ask me, having a strong technical background is important if you want to become a product manager. But you should also be able to explain tech concepts (like how the cloud works, for instance) and know trends in the tech industry. [Check out my book *Swipe to Unlock*](http://a.co/d/iHtms2m) if you'd like to learn more about this.
 
 ### Can you refer me to Google?
 
