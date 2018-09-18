@@ -23,6 +23,10 @@ A few things that set the APM program apart:
 * **An illustrious alumni base.** Marissa Mayer, the former CEO of Yahoo, started the program years ago. Many VPs at Google are former APMs, as are many startup CEOs. The best part is that you get to meet them at APM reunions, and they're very excited to talk to and mentor current APMs.
 * **Being at Google.** Google is an amazing place to work. Yes, there are all the perks like unlimited free food, pinball machines, on-site laundry and haircuts, and those quirky bikes you can ride around campus. But more importantly, everyone at Google is so competent, open to learning, and easy to work with.  For that reason, it's an incredible place to start your career. Plus, Google has perfected the art of running a company: how to motivate employees, how to structure hierarchy properly, how to do metrics and user experience, etc. So if you want to start your own company someday, you'll find the experience very useful.
 
+### What do you work on?
+
+For my first rotation, I'm on [Google Doodles](google.com/doodles). Our team is about 20-25 people, with a lot of engineers and artists. We'll see where I land for my second rotation!
+
 ### What's your day-to-day work like?
 
 If you didn't know any better, you'd think I do nothing but run to meetings, send emails, and write Google Docs.
@@ -71,7 +75,7 @@ Sorry, I'm only allowed to refer people I've personally worked with in the past.
 
 ### You didn't answer my question above!
 
-Email your question to neelmehta96@gmail.com and I'll try to add it to this page if it's a common question.
+Email your question to neelmehta@alumni.harvard.edu and I'll try to add it to this page if it's a common question.
 
 My co-author [Parth](parth) has his own FAQ, which covers some other questions you may be interested in.
 
