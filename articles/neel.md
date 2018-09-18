@@ -2,6 +2,8 @@
 layout: article
 title: "Neel's FAQs"
 permalink: neel
+
+# TODO(neel): set robots = off so nobody can find this
 ---
 
 # FAQs for Neel
@@ -40,6 +42,16 @@ Google is pretty bottom-up in that even a junior PM can propose an idea and run 
 Another big difference is how PMs interact with engineers. Microsoft is PM-centric in that PMs make a lot of decisions. At Microsoft, I'd work with business and legal and engineering to come up with a 20-plus page product specification that laid out everything from each word on the page to detailed mockups to accessibility and security considerations. Then we'd hand off the completed "spec" to the engineers, who would go implement it without much further interaction with us. At Google, product specs are one or two pages and highlight the gist of the idea. The details are hashed out by other folks: engineers have to decide on and implement the technical design, UI people make the mocks, and so on. **Microsoft PMs decide exactly what the product will be, while Google PMs decide the "big idea" and clear the way for others to hash out the details.**
 
 Again, these are sweeping generalizations based on my limited experience. There's no substitute for working somewhere!
+
+### How can I become an Associate Product Manager (APM)?
+
+I've written an [article with some advice from my point of view](https://blog.usejournal.com/how-to-prepare-for-your-google-apm-interviews-b665584c13fc) -- but it doesn't represent the viewpoint of Google and just represents what I think.
+
+The best way to get started is to look on [Google Careers](http://careers.google.com/) and search for "Associate Product Manager." (Strangely, "APM" doesn't work.) You can make a saved search and keep checking back to see if a job gets posted. Google is pretty good about not requiring networking, so applying online is the best (and, really, the only) way to get your foot in the door.
+
+There's a full-time APM role, for which applications open in early August and usually run till the end of September. There's also a summer internship, for which applications open in mid-September and usually run till the end of October. It's best if you're a US citizen, but some APMs are EU or Canadian citizens, and I think it's fine as long as you can get work authorization. (Ask a recruiter, though, since I haven't had to deal with citizenship questions myself!)
+
+If your college has an information session about anything Google, I strongly recommend going! You'll get a much better understanding of Google, APM, and interview questions from the official source.
 
 ### How can I prepare for an Associate Product Manager (APM) interview?
 
