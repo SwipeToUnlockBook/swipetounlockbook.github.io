@@ -63,13 +63,21 @@ I'd recommend reading [my article about how to prep for PM interviews](https://b
 
 The top books you should read include:
 
-* [Cracking the PM Interview](http://a.co/d/9si7xfx) for an introduction to PM and PM interviews
-* [Decode and Conquer](http://a.co/d/8keIVJF) for more thorough practice questions
-* [Swipe to Unlock](http://a.co/d/iHtms2m) for explanations of important tech concepts, tech industry trends, and business strategy
+* [*Cracking the PM Interview*](http://a.co/d/9si7xfx) for an introduction to PM and PM interviews
+* [*Decode and Conquer*](http://a.co/d/8keIVJF) for more thorough practice questions
+* [*Swipe to Unlock*](http://a.co/d/iHtms2m) for explanations of important tech concepts, tech industry trends, and business strategy
 
 ### Can you refer me to Google?
 
 Sorry, I'm only allowed to refer people I've personally worked with in the past.
+
+## Career Advice
+
+### What's the best way to network?
+
+Cold-messaging on LinkedIn can work... if you do it right. Most people don't.
+
+I get dozens of messages a week asking for "a quick phone call". Many people in competitive jobs do. The key, in my mind, is to tailor your message to the person you're trying to talk to. Just browse their LinkedIn page. If you can talk about how your experiences relate to theirs (e.g. I worked at the same company as you, I'm also really interested in educational technology, etc.), that shows that you did your research and are genuinely interested in this person, not just their role. If you want 15 minutes of someone's time, I'd recommend spending 15 minutes to craft a nice personalized message. That will help you stand out from the sea of copy-pasted "jump on a call" messages that people get.
 
 ## Others
 
@@ -81,4 +89,4 @@ My co-author [Parth](parth) has his own FAQ, which covers some other questions y
 
 ### What can I do if I still really want to have a 15 minute phone call to pick your brain on something not covered above?
 
-I’ll trade you my thoughts for yours. If you read my book, [Swipe to Unlock](http://a.co/d/iHtms2m), and share your honest feedback, I’ll make time to chat with you. Write a review on Amazon that’s at least two paragraphs of sincere feedback and send the review URL to the email address above or message it to me on LinkedIn. It doesn’t have to be a glowing positive review, just your honest thoughts and constructive criticism. We update the book about every two months based on feedback we get, because we genuinely want to make it useful as possible :)
+I’ll trade you my thoughts for yours. If you read my book, [*Swipe to Unlock*](http://a.co/d/iHtms2m), and share your honest feedback, I’ll make time to chat with you. Write a review on Amazon that’s at least two paragraphs of sincere feedback and send the review URL to the email address above or message it to me on LinkedIn. It doesn’t have to be a glowing positive review, just your honest thoughts and constructive criticism. We update the book about every two months based on feedback we get, because we genuinely want to make it useful as possible :)
