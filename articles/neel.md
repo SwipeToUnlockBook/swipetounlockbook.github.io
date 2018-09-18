@@ -25,7 +25,7 @@ A few things that set the APM program apart:
 
 ### What do you work on?
 
-For my first rotation, I'm on [Google Doodles](google.com/doodles). Our team is about 20-25 people, with a lot of engineers and artists. We'll see where I land for my second rotation!
+For my first rotation, I'm on [Google Doodles](google.com/doodles). Our team is a creative bunch, with a lot of engineers and artists. We'll see where I land for my second rotation!
 
 ### What's your day-to-day work like?
 
