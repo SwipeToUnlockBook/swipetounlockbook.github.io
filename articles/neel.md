@@ -81,7 +81,15 @@ Sorry, I'm only allowed to refer people I've personally worked with in the past.
 
 ### What motivated you to write *Swipe to Unlock*?
 
-I've always loved teaching, so I served as a TA on [CS50, Harvard's intro CS course](https://cs50.harvard.edu/).
+I've always loved teaching, so I served as a TA on [CS50, Harvard's intro computer science course](https://cs50.harvard.edu/). I purposely chose to teach the least advanced recitations, and it was amazing seeing the diversity of people who were taking the class not to major in CS but rather to gain a better understanding of technology. Many of my students -- an aspiring engineer, a future lawyer, a political analyst, several pre-medical students -- never planned to code for their day job, but they wanted a deeper understanding of how tech worked because they knew it would be crucial for their careers.
+
+The problem was that CS50 is an intense course and requires a lot of coding. The endless, difficult problem sets were not a good fit for many students -- why spend 10 hours building a web server from scratch when all you wanted to know was how the cloud worked? (And besides, CS50 never really did teach how the cloud worked.)
+
+I realized that many people want to -- and should! -- understand the basics of technology, like the apps they use every day or emerging tech that could be useful for their job, but a CS class is not the best way to learn it.
+
+When I met my coauthors Adi and Parth at Microsoft, I noticed we shared a passion for teaching and had found that CS education does a poor job teaching non-experts the fundamentals of tech that would be useful for their everyday lives. And there were no books on Amazon that properly taught tech to non-exerts: most were either "how to use an iPhone, for grandmas" or "how to code a machine learning model", with nothing falling in the sweet spot in between.
+
+That's why we decided to write [*Swipe to Unlock*](http://a.co/d/iHtms2m). We wanted to explain tech to non-experts by breaking down the stories they might have heard on the news: ransomware scares, the "cloud" that all these businesses are adopting, how fake news might have spread on Facebook, and so on.
 
 ## Career Advice
 
