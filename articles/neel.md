@@ -75,7 +75,7 @@ If you ask me, having a strong technical background is important if you want to 
 
 ### What skill set do you need to be a product manager?
 
-I'll mention a couple:
+I'll mention a couple key skills:
 
 * Knowing the fundamentals of tech. You don't necessarily need a CS degree, but you just need to know how things like A/B testing, APIs, and the cloud work, for instance. If you know tech topics to the depth that they're covered in [*Swipe to Unlock*](http://a.co/d/iHtms2m), you'll be in good shape for most PM jobs.
 * Teamwork and leadership skills. PMs need to lead without authority, so you need to understand what makes people tick, how to motivate them, and how to keep them on track. I've found that building relationships with other teams and getting folks on your team to like you are critical. [*The Charisma Myth*](http://a.co/d/aaCRzmn) taches these skills pretty well
@@ -106,6 +106,20 @@ That's why we decided to write [*Swipe to Unlock*](http://a.co/d/iHtms2m). We wa
 Cold-messaging on LinkedIn can work... if you do it right. Most people don't.
 
 I get dozens of messages a week asking for "a quick phone call". Many people in competitive jobs do. The key, in my mind, is to tailor your message to the person you're trying to talk to. Just browse their LinkedIn page. If you can talk about how your experiences relate to theirs (e.g. I worked at the same company as you, I'm also really interested in educational technology, etc.), that shows that you did your research and are genuinely interested in this person, not just their role. If you want 15 minutes of someone's time, I'd recommend spending 15 minutes to craft a nice personalized message. That will help you stand out from the sea of copy-pasted "jump on a call" messages that people get.
+
+### How can I learn more about product management?
+
+A lot of colleges and bootcamps offer product management classes, and many books teach you some concepts that are useful for product management, but the best way to learn about the field is to do it.
+
+A few ways you can exercise your product management muscle:
+
+* Join your local [Code for America brigade](https://brigade.codeforamerica.org/). CfA brigades are teams of volunteers who build apps to help their cities and fellow citizens. I'm part of Code for San Francisco and have found it an awesome way to learn the "lean startup" mentality: figuring out who your users are, identifying pain points, making personas, sketching wireframes, building an MVP, and so on. It's also a great way to give back to your community :)
+* Write about tech on [Medium](https://medium.com). Medium is an awesome blog platform that will help you automatically find a big audience if you write good stories. You can practice your analysis and communication skills -- and build your portfolio -- by writing about tech products. Think a new app has a lot of potential? Explain why and explore the market and other companies in that space. Frustrated with an app's redesign? Write about why the user experience is bad. Love this new app you downloaded? Explain why. Writing is especially useful if you don't have a technical background.
+* Build an app that solves a particular problem you're facing and [upload it on GitHub](https://github.com). This can be as simple as a browser extension that blocks a website that always distracts you or as complex as an app to help you find new bands. It just needs to solve a problem you're facing. Doing side projects like this can help you learn how to make roadmaps, prioritize tasks, and ship MVPs. If your project gets users, even better -- you'll learn how to understand them and work with them.
+
+(You'll notice that I do all of these things! They are great ways to keep your skills sharp, even if you're already a PM.)
+
+Many people suggest reading websites like [Product Hunt](https://www.producthunt.com/), but nobody's ever gotten hired for reading a lot on the internet. Build your own product instead!
 
 ## Others
 
