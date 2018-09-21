@@ -73,6 +73,14 @@ Hard to say. Most of the APMs I know have CS degrees, but several did entirely d
 
 If you ask me, having a strong technical background is important if you want to become a product manager. But you should also be able to explain tech concepts (like how the cloud works, for instance) and know trends in the tech industry. [Check out my book *Swipe to Unlock*](http://a.co/d/iHtms2m) if you'd like to learn more about this.
 
+### What skill set do you need to be a product manager?
+
+I'll mention a couple:
+
+* Knowing the fundamentals of tech. You don't necessarily need a CS degree, but you just need to know how things like A/B testing, APIs, and the cloud work, for instance. If you know tech topics to the depth that they're covered in [*Swipe to Unlock*](http://a.co/d/iHtms2m), you'll be in good shape for most PM jobs.
+* Teamwork and leadership skills. PMs need to lead without authority, so you need to understand what makes people tick, how to motivate them, and how to keep them on track. I've found that building relationships with other teams and getting folks on your team to like you are critical. [*The Charisma Myth*](http://a.co/d/aaCRzmn) taches these skills pretty well
+* Basic business knowledge. Knowing tech companies' business models, trends in various sectors of the tech industry, and how companies make strategic decisions is vital when making bigger-picture strategic moves. Again, knowing things to the depth they're covered in [*Swipe to Unlock*](http://a.co/d/iHtms2m) is a good start.
+
 ### Can you refer me to Google?
 
 Sorry, I'm only allowed to refer people I've personally worked with in the past.
