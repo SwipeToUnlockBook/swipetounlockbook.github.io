@@ -127,7 +127,7 @@ Many people suggest reading websites like [Product Hunt](https://www.producthunt
 
 Email your question to neelmehta@alumni.harvard.edu and I'll try to add it to this page if it's a common question.
 
-My co-authors [Parth](parth) and [Adi](adi) have their own FAQ, which cover some other questions you may be interested in.
+My co-authors [Parth](parth) and [Adi](adi) have their own FAQs, which cover some other questions you may be interested in.
 
 ### What can I do if I still really want to have a 15 minute phone call to pick your brain on something not covered above?
 
