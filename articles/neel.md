@@ -25,7 +25,7 @@ A few things that set the APM program apart:
 
 ### What do you work on?
 
-For my first rotation, I'm on [Google Doodles](google.com/doodles). Our team is a creative bunch, with a lot of engineers and artists. We'll see where I land for my second rotation!
+For my first rotation, I'm on [Google Doodles](https://google.com/doodles). Our team is a creative bunch, with a lot of engineers and artists. We'll see where I land for my second rotation!
 
 ### What's your day-to-day work like?
 
@@ -127,7 +127,7 @@ Many people suggest reading websites like [Product Hunt](https://www.producthunt
 
 Email your question to neelmehta@alumni.harvard.edu and I'll try to add it to this page if it's a common question.
 
-My co-authors [Parth](parth) and [Adi](adi) have their own FAQs, which cover some other questions you may be interested in.
+My co-authors [Parth](parth) and [Adi](adi) have their own FAQ, which cover some other questions you may be interested in.
 
 ### What can I do if I still really want to have a 15 minute phone call to pick your brain on something not covered above?
 
