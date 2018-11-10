@@ -23,6 +23,8 @@ A few things that set the APM program apart:
 * **An illustrious alumni base.** Marissa Mayer, the former CEO of Yahoo, started the program years ago. Many VPs at Google are former APMs, as are many startup CEOs. The best part is that you get to meet them at APM reunions, and they're very excited to talk to and mentor current APMs.
 * **Being at Google.** Google is an amazing place to work. Yes, there are all the perks like unlimited free food, pinball machines, on-site laundry and haircuts, and those quirky bikes you can ride around campus. But more importantly, everyone at Google is so competent, open to learning, and easy to work with.  For that reason, it's an incredible place to start your career. Plus, Google has perfected the art of running a company: how to motivate employees, how to structure hierarchy properly, how to do metrics and user experience, etc. So if you want to start your own company someday, you'll find the experience very useful.
 
+You might also like [my blog post about how to prep for the Google APM interview](https://blog.usejournal.com/how-to-prepare-for-your-google-apm-interviews-b665584c13fc)!
+
 ### What do you work on?
 
 For my first rotation, I'm on [Google Doodles](https://google.com/doodles). Our team is a creative bunch, with a lot of engineers and artists. We'll see where I land for my second rotation!
