@@ -2,6 +2,7 @@
 layout: notes
 edition: 2nd
 revision: 3rd
+title: Notes
 ---
 
 ## Chapter 1: Introduction
