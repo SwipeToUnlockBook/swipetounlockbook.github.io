@@ -2,7 +2,7 @@
 layout: notes
 edition: 2nd
 revision: 3rd
-title: Notes
+title: Notes for the 2nd edition, 3rd revision
 ---
 
 ## Chapter 1: Introduction
