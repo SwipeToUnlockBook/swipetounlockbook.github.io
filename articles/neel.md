@@ -83,6 +83,20 @@ I'll mention a couple key skills:
 * Teamwork and leadership skills. PMs need to lead without authority, so you need to understand what makes people tick, how to motivate them, and how to keep them on track. I've found that building relationships with other teams and getting folks on your team to like you are critical. [*The Charisma Myth*](http://a.co/d/aaCRzmn) taches these skills pretty well
 * Basic business knowledge. Knowing tech companies' business models, trends in various sectors of the tech industry, and how companies make strategic decisions is vital when making bigger-picture strategic moves. Again, knowing things to the depth they're covered in [*Swipe to Unlock*](http://a.co/d/iHtms2m) is a good start.
 
+### How can I get the APM job if I didn't go to a top school?
+
+Google does tend to take a lot of APMs -- and candidates for all jobs in general -- from top schools. But several of my fellow APMs have gone to schools with less name recognition, and they've thrived.
+
+The key, I think, is that it's not so much about the school you went to as the name brand you carry. That is, which impressive institutions or programs have "vouched" for you? This includes school, of course, but also companies, fellowships, startup incubators, etc.
+
+If you're fresh out of college, you probably won't have much name branding besides your school, which is why school is perceived to matter so much for APM candidates. There *are* ways to get name branding outside of your school, though. One of these is having worked on a startup or side project (app, book, nonprofit, etc.) that got a lot of traction. Those require less name branding to get started with, and if you succeed it's a clear way to show you're good. Using these startups or side projects to get into a prestigious fellowship or startup incubator is especially helpful, but as long as you can show your work has succeeded, you'll be in good shape.
+
+You can also try to "trade up" companies. If you find you aren't able to get into Google after college, you can try to get your first job at a smaller company, then use that name branding to help you get into a bigger company, and so on until you have enough branding that you can get into your dream company.
+
+I've observed that, after your first few jobs, which college you went to becomes a piece of trivia and not the factor that determines your fate. I'd rather hire a candidate who went to UMass and worked at Google and Microsoft than a candidate who went to Harvard and worked at two small-time startups.
+
+Long story short: **if you didn't get into Google APM or another top job right out of college, try starting your own thing (which is more meritocratic) or getting work experience at steadily more prestigious companies**.
+
 ### Can you refer me to Google?
 
 Sorry, I'm only allowed to refer people I've personally worked with in the past.
