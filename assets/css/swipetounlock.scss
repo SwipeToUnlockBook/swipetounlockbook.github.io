@@ -22,7 +22,8 @@ $stu_white: white;
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 body {
-  padding-top: 50px;
+  margin-top: 50px;
+  font-size: 16px;
 }
 
 .navbar {
@@ -32,6 +33,7 @@ body {
 .navbar-brand {
   font-family: LeagueGothic !important;
   font-size: 32px;
+  color: $stu_blue !important;
 }
 
 .centered {
@@ -63,6 +65,7 @@ h4,
 h5,
 h6 {
   text-transform: uppercase;
+  letter-spacing: 0.4px;
 }
 
 .frosted-overlay {
@@ -165,4 +168,14 @@ h6 {
 
   // shadowing
   box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.company-block {
+  padding-top: 50px;
+}
+
+#tips {
+  // for the job page
+  // margin-top: 120px;
+  padding-top: 50px;
 }

@@ -30,6 +30,12 @@ theme: minima
 plugins:
   - jekyll-feed
 
+
+# Site data
+book_title: Swipe to Unlock
+book_subtitle: A Primer on Technology and Business Strategy
+description: "Swipe to Unlock: A Primer on Technology and Business Strategy. The #1 Amazon bestseller."
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
