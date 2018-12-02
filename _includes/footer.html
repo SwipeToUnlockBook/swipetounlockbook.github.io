@@ -35,6 +35,14 @@
       <script src="assets/js/main.js"></script> -->
     <script src="/assets/js/main.js"></script>
 
+    <!-- lodash -->
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js"></script>
+
+    <!-- custom scripts -->
+    {% for script in page.scripts %}
+      <script src="{{script}}"></script>
+    {% endfor %}
+
   </body>
 
   </html>

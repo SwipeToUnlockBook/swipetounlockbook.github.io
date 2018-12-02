@@ -334,7 +334,8 @@ var parse = function parse(input) {
 };
 
 Object.defineProperty(parse, 'default', { value: parse });
-module.exports = parse;
+
 
 // to make it work in the browser
+// module.exports = parse;
 window.parse = parse;
