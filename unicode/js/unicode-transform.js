@@ -54,8 +54,10 @@ function experimentFromInput() {
     var both = fonthacks.toggleBold(fonthacks.toggleItalic(input));
     // fancy "old english" type
     var fraktur = frakturTransform(input);
+    // fancy cursive type
+    var cursive = cursiveTransform(input);
 
-    var output = bolded + "\n=====\n" + italicized + "\n=====\n" + both + "\n=====\n" + fraktur;
+    var output = bolded + "\n=====\n" + italicized + "\n=====\n" + both + "\n=====\n" + fraktur + "\n======\n" + cursive;
 
     $('#experiment-output-text').val(output);
   }
@@ -132,21 +134,37 @@ function textFromNode(node) {
   Takes raw ASCII text and turns it into cool "Old English" fraktur font.
 */
 function frakturTransform(text) {
-  // so we need to take raw text (1 byte wide per character) and turn it into
-  // fancy Fraktur ("Old English"/"Germanic") text (2 bytes wide each).
-  // each of these letters' first bits is $PREFIX_CODE and the second is
-  // between a certain range
-
-  var PREFIX_CODE = 55349;
   // fraktur starts at A=566843 and goes A-Za-z so z=56735
   var FIRST_FRAKTUR = 56684; // this is A
   var LAST_FRAKTUR = 56735; // this is z
+  return customTransform(text, FIRST_FRAKTUR, LAST_FRAKTUR)
+}
+
+/**
+  Turns raw ASCII into fancy cursive text.
+*/
+function cursiveTransform(text) {
+  // the cursive alphabet goes from A=56528 to z=56579
+  return customTransform(text, 56528, 56579);
+}
+
+function customTransform(text, alphabet_A, alphabet_z) {
+  // so we need to take raw text (1 byte wide per character) and turn it into
+  // fancy text (2 bytes wide each), like you see at https://lingojam.com/FancyLetters.
+  // each of these letters' first bits is $PREFIX_CODE and the second is
+  // between the alphabet's `A` and its `z` (letters are stored from A-Za-z),
+  // so if A = 0 then Z = 25, a = 26, z = 51.
+
+  if (alphabet_z - alphabet_A !== 51) {
+    console.log("WARNING: your custom alphabet is not exactly 52 characters! customTransform() may not work.");
+  }
+
+  var PREFIX_CODE = 55349;
 
   // now convert the input text (in normal ASCII) to the fancy one,
   // letter by letter
   var transformedLetters = _.map(text.split(""), function(letter) {
     // ASCII is weird because it has 6 characters from [91, 96] between Z and a.
-
     var charCode_A = "A".charCodeAt(0);
     var charCode_Z = "Z".charCodeAt(0);
     var charCode_a = "a".charCodeAt(0);
@@ -158,15 +176,15 @@ function frakturTransform(text) {
       // this is an uppercase letter
       // find offset from A...
       var offset = letterCharCode - charCode_A;
-      // ...then apply it on top of the fraktur A
-      var transformedIndex = FIRST_FRAKTUR + offset;
+      // ...then apply it on top of the fancy A
+      var transformedIndex = alphabet_A + offset;
       return String.fromCharCode(PREFIX_CODE) + String.fromCharCode(transformedIndex);
     }
     else if (letterCharCode >= charCode_a && letterCharCode <= charCode_z) {
       // lowercase. do something similar...
       var offset = letterCharCode - charCode_a;
       // offset the transformed index by another 26 to make it lowercase
-      var transformedIndex = FIRST_FRAKTUR + 26 + offset;
+      var transformedIndex = alphabet_A + 26 + offset;
       return String.fromCharCode(PREFIX_CODE) + String.fromCharCode(transformedIndex);
     }
     else {
