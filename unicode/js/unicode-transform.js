@@ -15,25 +15,15 @@ $(function(){
 
 
   // text experimentation tool: show bold, italic, or both versions automatically
-  $('#experiment-input-text').on('input', function() {
-    var input = $('#experiment-input-text').val();
+  $('#experiment-input-text').on('input', experimentFromInput);
 
-    if (input) {
-      // make a new version of the input but bold, italic, and both (+ special ones)
-      var bolded = fonthacks.toggleBold(input);
-      var italicized = fonthacks.toggleItalic(input);
-      var both = fonthacks.toggleBold(fonthacks.toggleItalic(input));
-      // fancy "old english" type
-      var fraktur = frakturTransform(input);
+  $('#experiment-demo-button').on('click', function(){
+    var demoText = "San Francisco, California";
 
-      var output = bolded + "\n=====\n" + italicized + "\n=====\n" + both + "\n=====\n" + fraktur;
+    $('#experiment-input-text').val(demoText);
 
-      $('#experiment-output-text').val(output);
-    }
-    else {
-      $('#experiment-output-text').val("");
-    }
-  });
+    experimentFromInput();
+  })
 });
 
 /**
@@ -48,6 +38,29 @@ function transformFromInput() {
   }
   else {
     $('#transform-output-text').val("");
+  }
+}
+
+/**
+  Shows bold and italic versions of text from the input field.
+*/
+function experimentFromInput() {
+  var input = $('#experiment-input-text').val();
+
+  if (input) {
+    // make a new version of the input but bold, italic, and both (+ special ones)
+    var bolded = fonthacks.toggleBold(input);
+    var italicized = fonthacks.toggleItalic(input);
+    var both = fonthacks.toggleBold(fonthacks.toggleItalic(input));
+    // fancy "old english" type
+    var fraktur = frakturTransform(input);
+
+    var output = bolded + "\n=====\n" + italicized + "\n=====\n" + both + "\n=====\n" + fraktur;
+
+    $('#experiment-output-text').val(output);
+  }
+  else {
+    $('#experiment-output-text').val("");
   }
 }
 
