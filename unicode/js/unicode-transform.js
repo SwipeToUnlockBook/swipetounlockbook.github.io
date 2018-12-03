@@ -1,23 +1,37 @@
 $(function(){
-  console.log("SUP");
-
-
   $('#transform-button').on('click', function(){
-    // convert input text (in markdown) to an AST
-    let ast = markdownAST.parse($('#input-text').val());
+    runTransformation($('#input-text').val());
+  });
 
-    console.log("AST", ast);
-
-    if (ast != null) {
-      // ultimately, convert each node into raw text then smoosh it all together
-      var textChildren = _.map(ast, function(node){
-        return textFromAST(node, []);
-      });
-      // smoosh all textual children into a string
-      console.log(textChildren.join(""));
-    }
+  $('#demo-button').on('click', function(){
+    var demoText = "We shall go **boldly** into _Italy_ (won't that be **_so much fun?_**)";
+    // put the text in input...
+    $('#input-text').val(demoText);
+    // and run the transformation so it goes to the output
+    runTransformation(demoText);
   });
 });
+
+/*
+  Transforms the given markdown text and puts the output in the UI.
+*/
+function runTransformation(text) {
+  // convert to a markdown AST so we can transform the text to bold/italic
+  let ast = markdownAST.parse(text);
+
+  console.log("AST", ast);
+
+  if (ast != null) {
+    // ultimately, convert each node into raw text then smoosh it all together
+    var textChildren = _.map(ast, function(node){
+      return textFromAST(node, []);
+    });
+    // smoosh all textual children into a string and output it
+    var output = textChildren.join("");
+
+    $('#output-text').val(output);
+  }
+}
 
 /**
   Turns a given AST node into raw text based (e.g. bolded or italiced).
