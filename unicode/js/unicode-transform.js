@@ -15,11 +15,13 @@ $(function(){
   });
 
   $('#demo-button').on('click', function(){
-    var demoText = "We shall go **boldly** into _Italy_ (won't that be **_so much fun?_**)";
+    var demoText = "I'm a demo. **These words are bold**, and _these are italic_. **_These are both!_** \n \n Here's a fun list: \n\n * Milk _(skim please)_ \n * Eggs \n * Cheese \n \n Try copying me into **Twitter** or **Facebook**!";
+
     // put the text in input...
     $('#input-text').val(demoText);
     // and run the transformation so it goes to the output
-    runTransformation(demoText);
+    var output = transform2(demoText);
+    $('#output-text').val(output);
   });
 });
 
