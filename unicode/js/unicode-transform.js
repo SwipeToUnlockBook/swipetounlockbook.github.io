@@ -1,27 +1,35 @@
 $(function(){
-  // $('#transform-button').on('click', function(){
-  //   runTransformation($('#input-text').val());
-  //
-  //   // testr
-  //   console.log("TESTR", transform2($('#input-text').val()));
-  // });
-
-  // no need for the convert button actually
   // auto-translate the input every time the text area changes
-  $('#input-text').on('input', function() {
-    var input = $('#input-text').val();
+  $('#transform-input-text').on('input', function() {
+    var input = $('#transform-input-text').val();
     var output = transform2(input);
-    $('#output-text').val(output);
+    $('#transform-output-text').val(output);
   });
 
   $('#demo-button').on('click', function(){
     var demoText = "I'm a demo. **These words are bold**, and _these are italic_. **_These are both!_** \n \n Here's a fun list: \n\n * Milk _(skim please)_ \n * Eggs \n * Cheese \n \n Try copying me into **Twitter** or **Facebook**!";
 
     // put the text in input...
-    $('#input-text').val(demoText);
+    $('#transform-input-text').val(demoText);
     // and run the transformation so it goes to the output
     var output = transform2(demoText);
-    $('#output-text').val(output);
+    $('#transform-output-text').val(output);
+  });
+
+
+
+  // text experimentation tool: show bold, italic, or both versions automatically
+  $('#experiment-input-text').on('input', function() {
+    var input = $('#experiment-input-text').val();
+
+    // make a new version of the input but bold, italic, and both
+    var bolded = fonthacks.toggleBold(input);
+    var italicized = fonthacks.toggleItalic(input);
+    var both = fonthacks.toggleBold(fonthacks.toggleItalic(input));
+
+    var output = bolded + "\n=====\n" + italicized + "\n=====\n" + both;
+
+    $('#experiment-output-text').val(output);
   });
 });
 
