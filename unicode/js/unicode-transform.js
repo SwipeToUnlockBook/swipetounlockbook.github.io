@@ -1,19 +1,15 @@
 $(function(){
   // auto-translate the input every time the text area changes
-  $('#transform-input-text').on('input', function() {
-    var input = $('#transform-input-text').val();
-    var output = transform2(input);
-    $('#transform-output-text').val(output);
-  });
+  $('#transform-input-text').on('input', transformFromInput);
 
-  $('#demo-button').on('click', function(){
+  $('#transform-demo-button').on('click', function(){
     var demoText = "I'm a demo. **These words are bold**, and _these are italic_. **_These are both!_** \n \n Here's a fun list: \n\n * Milk _(skim please)_ \n * Eggs \n * Cheese \n \n Try copying me into **Twitter** or **Facebook**!";
 
-    // put the text in input...
+    // put it in the input field...
     $('#transform-input-text').val(demoText);
-    // and run the transformation so it goes to the output
-    var output = transform2(demoText);
-    $('#transform-output-text').val(output);
+
+    // then run the input handler to make it seem like the text was pasted in
+    transformFromInput();
   });
 
 
@@ -22,16 +18,38 @@ $(function(){
   $('#experiment-input-text').on('input', function() {
     var input = $('#experiment-input-text').val();
 
-    // make a new version of the input but bold, italic, and both
-    var bolded = fonthacks.toggleBold(input);
-    var italicized = fonthacks.toggleItalic(input);
-    var both = fonthacks.toggleBold(fonthacks.toggleItalic(input));
+    if (input) {
+      // make a new version of the input but bold, italic, and both (+ special ones)
+      var bolded = fonthacks.toggleBold(input);
+      var italicized = fonthacks.toggleItalic(input);
+      var both = fonthacks.toggleBold(fonthacks.toggleItalic(input));
+      // fancy "old english" type
+      var fraktur = frakturTransform(input);
 
-    var output = bolded + "\n=====\n" + italicized + "\n=====\n" + both;
+      var output = bolded + "\n=====\n" + italicized + "\n=====\n" + both + "\n=====\n" + fraktur;
 
-    $('#experiment-output-text').val(output);
+      $('#experiment-output-text').val(output);
+    }
+    else {
+      $('#experiment-output-text').val("");
+    }
   });
 });
+
+/**
+  Reads the input field and transforms the text in it.
+*/
+function transformFromInput() {
+  var input = $('#transform-input-text').val();
+
+  if (input) {
+    var output = transform2(input);
+    $('#transform-output-text').val(output);
+  }
+  else {
+    $('#transform-output-text').val("");
+  }
+}
 
 /**
   Given some raw input text, runs all the transformations and makes some nice
@@ -95,4 +113,54 @@ function textFromNode(node) {
     // so let's just return the raw text from it
     return node.text;
   }
+}
+
+/**
+  Takes raw ASCII text and turns it into cool "Old English" fraktur font.
+*/
+function frakturTransform(text) {
+  // so we need to take raw text (1 byte wide per character) and turn it into
+  // fancy Fraktur ("Old English"/"Germanic") text (2 bytes wide each).
+  // each of these letters' first bits is $PREFIX_CODE and the second is
+  // between a certain range
+
+  var PREFIX_CODE = 55349;
+  // fraktur starts at A=566843 and goes A-Za-z so z=56735
+  var FIRST_FRAKTUR = 56684; // this is A
+  var LAST_FRAKTUR = 56735; // this is z
+
+  // now convert the input text (in normal ASCII) to the fancy one,
+  // letter by letter
+  var transformedLetters = _.map(text.split(""), function(letter) {
+    // ASCII is weird because it has 6 characters from [91, 96] between Z and a.
+
+    var charCode_A = "A".charCodeAt(0);
+    var charCode_Z = "Z".charCodeAt(0);
+    var charCode_a = "a".charCodeAt(0);
+    var charCode_z = "z".charCodeAt(0);
+
+    var letterCharCode = letter.charCodeAt(0);
+
+    if (letterCharCode >= charCode_A && letterCharCode <= charCode_Z) {
+      // this is an uppercase letter
+      // find offset from A...
+      var offset = letterCharCode - charCode_A;
+      // ...then apply it on top of the fraktur A
+      var transformedIndex = FIRST_FRAKTUR + offset;
+      return String.fromCharCode(PREFIX_CODE) + String.fromCharCode(transformedIndex);
+    }
+    else if (letterCharCode >= charCode_a && letterCharCode <= charCode_z) {
+      // lowercase. do something similar...
+      var offset = letterCharCode - charCode_a;
+      // offset the transformed index by another 26 to make it lowercase
+      var transformedIndex = FIRST_FRAKTUR + 26 + offset;
+      return String.fromCharCode(PREFIX_CODE) + String.fromCharCode(transformedIndex);
+    }
+    else {
+      // not alphabetical; don't change
+      return letter;
+    }
+  });
+
+  return transformedLetters.join("");
 }
