@@ -1,6 +1,17 @@
 $(function(){
-  $('#transform-button').on('click', function(){
-    runTransformation($('#input-text').val());
+  // $('#transform-button').on('click', function(){
+  //   runTransformation($('#input-text').val());
+  //
+  //   // testr
+  //   console.log("TESTR", transform2($('#input-text').val()));
+  // });
+
+  // no need for the convert button actually
+  // auto-translate the input every time the text area changes
+  $('#input-text').on('input', function() {
+    var input = $('#input-text').val();
+    var output = transform2(input);
+    $('#output-text').val(output);
   });
 
   $('#demo-button').on('click', function(){
@@ -12,85 +23,66 @@ $(function(){
   });
 });
 
-/*
-  Transforms the given markdown text and puts the output in the UI.
+/**
+  Given some raw input text, runs all the transformations and makes some nice
+  output text.
 */
-function runTransformation(text) {
-  // convert to a markdown AST so we can transform the text to bold/italic
-  let ast = markdownAST.parse(text);
+function transform2(rawInput) {
+  // get a raw list of nodes from the AST algorithm
+  let nodeList = markdownAST.parse(rawInput);
+  console.log("NodeList", nodeList);
 
-  console.log("AST", ast);
+  // extract text from each node
+  let nodeText = _.map(nodeList, textFromNode);
 
-  if (ast != null) {
-    // ultimately, convert each node into raw text then smoosh it all together
-    var textChildren = _.map(ast, function(node){
-      return textFromAST(node, []);
-    });
-    // smoosh all textual children into a string and output it
-    var output = textChildren.join("");
-
-    $('#output-text').val(output);
-  }
+  // smoosh it all together
+  return nodeText.join("");
 }
 
-/**
-  Turns a given AST node into raw text based (e.g. bolded or italiced).
-  Raw text remains the same; anything with bold/italic gets converted.
-  Anything else is left the same
+function textFromNode(node) {
+  if (node.block) {
+    // `block` is another word for children
+    // so if this node has children, recursively get text from all of them
+    // then apply whatever this node's transformation is to them
+    var childrenText = _.map(node.block, textFromNode);
 
-  `transformation` is either 'bold', 'italic', or null/undefined.
-*/
-function textFromAST(node, transformations) {
-  if (!transformations) {
-    transformations = [];
-  }
+    // apply formatting to all children; each transformation operates a little
+    // differently so offer max flexibility
+    switch(node.type) {
+      case "bold":
+        // take the array of child text, turn every element bold, then smoosh
+        // it into a single string
+        return _.map(childrenText, fonthacks.toggleBold).join("");
+        break;
+      case "italic":
+        return _.map(childrenText, fonthacks.toggleItalic).join("");
+        break;
+      case "list":
+        // this behaves a little differently
+        // (this is a list item more than a list, tbh)
+        // each element inside it should be rendered as normal; then the whole
+        // thing put together should get a bullet in front and a newline afterward
+        // the bullet depends on the inputted node.
+        // if it's a `*`, use a nice bullet point. otherwise if it's a number
+        // or something leave it alone
+        var bullet;
+        switch (node.bullet) {
+          case "*": bullet = String.fromCharCode(8226); break; // a nice bullet point
+          case "-": bullet = String.fromCharCode(8212); break; // emdash from a hyphen
+          default: bullet = node.bullet; break;
+        }
 
-  // console.log(node, transformations);
-
-  if (node.type === "text") {
-    // base case
-    // convert all the text here with the given transformations, if any
-    return transform(node.text, transformations);
-  }
-  else if (node.block && node.block.length > 0){
-    // this node has other nodes inside it
-    // convert each node inside it, applying the style of this parent block
-    var textChildren = _.map(node.block, function(block){
-      // make a copy of the transformations array first with slice()
-      // console.log("OLD", transformations);
-      var newTransformations = transformations.slice();
-      newTransformations.push(node.type);
-      // console.log("NEW", newTransformations);
-      return textFromAST(block, newTransformations)
-    });
-    // smoosh textual children into a single string
-    return textChildren.join("");
-  }
-}
-
-/**
-  Turns the given raw text either bold or italic or nothing, depending on what
-  `transformations` contains.
-  Transformations is an array of all the transformations to make (`bold`, `italic`);
-  pass [] or null if there are no transformations.
-  We support either [], ['bold'], ['italic'], or ['bold','italic'].
-*/
-function transform(text, transformations) {
-  if (!transformations || transformations.length === 0) {
-    // no transformations
-    return text;
-  }
-  else if (transformations.length === 1) {
-    if (transformations[0] === 'bold') {
-      return fonthacks.toggleBold(text);
-    }
-    else if (transformations[0] === 'italic') {
-      return fonthacks.toggleItalic(text);
+        return bullet + " " + childrenText.join("") + "\n";
+        break;
+      default:
+        // fallback; treat this as the identity function
+        return childrenText.join("")
+        break;
     }
   }
-  else if (transformations.length >= 2){
-    // assumes that if there are 2 they must be bold and italic
-    // (and if there are 2+, there must be some deep nesting going on)
-    return fonthacks.toggleBold(fonthacks.toggleItalic(text));
+  else {
+    // this node has no children; it's a leaf!
+    // so let's just return the raw text from it
+    return node.text;
   }
 }
