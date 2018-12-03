@@ -1,21 +1,56 @@
 ---
 layout: default
+title: Unicode Bold + Italic
 scripts:
   - js/lib/markdown-ast.js
+  - js/lib/fonthacks.js
   - js/unicode-transform.js
 ---
 
 <div class="container">
-  <p>Hello</p>
 
-  <p>Wanna write in 𝐛𝐨𝐥𝐝 or 𝑖𝑡𝑎𝑙𝑖𝑐 on Facebook, Twitter, LinkedIn, SMS, or your notes app?</p>
+  <h2>Unicode Bold + Italic Tool</h2>
+
+  <p>Want to write in 𝗯𝗼𝗹𝗱 or 𝘪𝘵𝘢𝘭𝘪𝘤 on Facebook, Twitter, LinkedIn, SMS, or your notes app?</p>
 
   <p>𝗪𝗲𝗹𝗹, 𝘆𝗼𝘂 𝗰𝗮𝗻 𝗯𝗼𝗹𝗱 𝘁𝗲𝘅𝘁 𝗶𝗻 𝗪𝗼𝗿𝗱, 𝗯𝘂𝘁 𝗶𝘁 𝘄𝗼𝗻'𝘁 𝘀𝘁𝗮𝘆 𝗯𝗼𝗹𝗱 𝗼𝗻𝗰𝗲 𝘆𝗼𝘂 𝗽𝗮𝘀𝘁𝗲 𝗶𝘁 𝗶𝗻 𝗮𝗻𝘆 𝗮𝗽𝗽 𝘁𝗵𝗮𝘁 𝗼𝗻𝗹𝘆 𝘁𝗮𝗸𝗲𝘀 𝗽𝗹𝗮𝗶𝗻 𝘁𝗲𝘅𝘁. But with this tool, anything that you write in 𝗯𝗼𝗹𝗱 or 𝘪𝘵𝘢𝘭𝘪𝘤 will stay that way!</p>
 
-  <p>𝑆𝑒𝑟𝑖𝑜𝑢𝑠𝑙𝑦, 𝑐𝑜𝑝𝑦 𝑎𝑛𝑑 𝑝𝑎𝑠𝑡𝑒 𝑡ℎ𝑖𝑠 𝑡𝑒𝑥𝑡 𝑖𝑛𝑡𝑜 𝑦𝑜𝑢𝑟 𝑎𝑑𝑑𝑟𝑒𝑠𝑠 𝑏𝑎𝑟 𝑜𝑟 𝑛𝑜𝑡𝑒𝑠 𝑎𝑝𝑝!</p>
+  <p>𝘚𝘦𝘳𝘪𝘰𝘶𝘴𝘭𝘺, 𝘤𝘰𝘱𝘺 𝘢𝘯𝘥 𝘱𝘢𝘴𝘵𝘦 𝘵𝘩𝘪𝘴 𝘵𝘦𝘹𝘵 𝘪𝘯𝘵𝘰 𝘺𝘰𝘶𝘳 𝘢𝘥𝘥𝘳𝘦𝘴𝘴 𝘣𝘢𝘳 𝘰𝘳 𝘯𝘰𝘵𝘦𝘴 𝘢𝘱𝘱!</p>
 
-  <textarea class="form-control" rows="5" id="input-text"></textarea>
-  <button class="btn btn-primary" id="transform-button">Convert</button>
+  <p>To get your bolded/italicized text, write your text in the box below. Surround the text that you want to be <code>**bold**</code> or <code>_italic_</code> with the appropriate characters. (You can even make lists with <code>*</code>!) Hit the Demo button for an example.</p>
+
+
+  <button class="btn btn-primary" id="transform-demo-button">Demo</button>
+
+  <br><br>
+
+  <div class="row">
+    <div class="col-md-6">
+      <textarea class="form-control" rows="10" id="transform-input-text" placeholder="Your text here"></textarea>
+    </div>
+    <div class="col-md-6">
+      <textarea readonly class="form-control" rows="10" id="transform-output-text" placeholder="Output text will go here"></textarea>
+    </div>
+  </div>
+
+  <hr>
+
+  <h3>Experimentation Zone</h3>
+
+  <p>See what your text looks like when it's bolded, italicized, or both. (As a bonus, you'll see your text in some other fancy styles!)</p>
+
+  <button class="btn btn-default" id="experiment-demo-button">Demo</button>
+
+  <br><br>
+
+  <div class="row">
+    <div class="col-md-6">
+      <textarea class="form-control" rows="10" id="experiment-input-text" placeholder="Your text here"></textarea>
+    </div>
+    <div class="col-md-6">
+      <textarea readonly class="form-control" rows="10" id="experiment-output-text" placeholder="Fancy text will go here"></textarea>
+    </div>
+  </div>
 </div>
 
 <br>

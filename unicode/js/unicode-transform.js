@@ -1,81 +1,197 @@
 $(function(){
-  console.log("SUP");
+  // auto-translate the input every time the text area changes
+  $('#transform-input-text').on('input', transformFromInput);
 
+  $('#transform-demo-button').on('click', function(){
+    var demoText = "I'm a demo. **These words are bold**, and _these are italic_. **_These are both!_** \n \n Here's a fun list: \n\n * Milk _(skim please)_ \n * Eggs \n * Cheese \n \n Try copying me into **Twitter** or **Facebook**!";
 
-  $('#transform-button').on('click', function(){
-    // convert input text (in markdown) to an AST
-    let ast = parse($('#input-text').val());
+    // put it in the input field...
+    $('#transform-input-text').val(demoText);
 
-    console.log("AST", ast);
-
-    if (ast != null) {
-      // ultimately, convert each node into raw text then smoosh it all together
-      var textChildren = _.map(ast, function(node){
-        return textFromAST(node, []);
-      });
-      // smoosh all textual children into a string
-      console.log(textChildren.join(""));
-    }
+    // then run the input handler to make it seem like the text was pasted in
+    transformFromInput();
   });
+
+
+
+  // text experimentation tool: show bold, italic, or both versions automatically
+  $('#experiment-input-text').on('input', experimentFromInput);
+
+  $('#experiment-demo-button').on('click', function(){
+    var demoText = "San Francisco, California";
+
+    $('#experiment-input-text').val(demoText);
+
+    experimentFromInput();
+  })
 });
 
 /**
-  Turns a given AST node into raw text based (e.g. bolded or italiced).
-  Raw text remains the same; anything with bold/italic gets converted.
-  Anything else is left the same
-
-  `transformation` is either 'bold', 'italic', or null/undefined.
+  Reads the input field and transforms the text in it.
 */
-function textFromAST(node, transformations) {
-  if (!transformations) {
-    transformations = [];
-  }
+function transformFromInput() {
+  var input = $('#transform-input-text').val();
 
-  // console.log(node, transformations);
-
-  if (node.type === "text") {
-    // base case
-    // convert all the text here with the given transformations, if any
-    return transform(node.text, transformations);
+  if (input) {
+    var output = transform2(input);
+    $('#transform-output-text').val(output);
   }
-  else if (node.block && node.block.length > 0){
-    // this node has other nodes inside it
-    // convert each node inside it, applying the style of this parent block
-    var textChildren = _.map(node.block, function(block){
-      // make a copy of the transformations array first with slice()
-      // console.log("OLD", transformations);
-      var newTransformations = transformations.slice();
-      newTransformations.push(node.type);
-      // console.log("NEW", newTransformations);
-      return textFromAST(block, newTransformations)
-    });
-    // smoosh textual children into a single string
-    return textChildren.join("");
+  else {
+    $('#transform-output-text').val("");
   }
 }
 
 /**
-  Turns the given raw text either bold or italic or nothing, depending on what
-  `transformations` contains.
-  Transformations is an array of all the transformations to make (`bold`, `italic`);
-  pass [] or null if there are no transformations.
-  We support either [], ['bold'], ['italic'], or ['bold','italic'].
+  Shows bold and italic versions of text from the input field.
 */
-function transform(text, transformations) {
-  if (!transformations || transformations.length === 0) {
-    // no transformations
-    return text;
+function experimentFromInput() {
+  var input = $('#experiment-input-text').val();
+
+  if (input) {
+    // make a new version of the input but bold, italic, and both (+ special ones)
+    var bolded = fonthacks.toggleBold(input);
+    var italicized = fonthacks.toggleItalic(input);
+    var both = fonthacks.toggleBold(fonthacks.toggleItalic(input));
+    // fancy "old english" type
+    var fraktur = frakturTransform(input);
+    // fancy cursive type
+    var cursive = cursiveTransform(input);
+
+    var output = bolded + "\n=====\n" + italicized + "\n=====\n" + both + "\n=====\n" + fraktur + "\n======\n" + cursive;
+
+    $('#experiment-output-text').val(output);
   }
-  else if (transformations.length === 1) {
-    if (transformations[0] === 'bold') {
-      return "<b>" + text + "</b>";
+  else {
+    $('#experiment-output-text').val("");
+  }
+}
+
+/**
+  Given some raw input text, runs all the transformations and makes some nice
+  output text.
+*/
+function transform2(rawInput) {
+  // get a raw list of nodes from the AST algorithm
+  let nodeList = markdownAST.parse(rawInput);
+  console.log("NodeList", nodeList);
+
+  // extract text from each node
+  let nodeText = _.map(nodeList, textFromNode);
+
+  // smoosh it all together
+  return nodeText.join("");
+}
+
+function textFromNode(node) {
+  if (node.block) {
+    // `block` is another word for children
+    // so if this node has children, recursively get text from all of them
+    // then apply whatever this node's transformation is to them
+    var childrenText = _.map(node.block, textFromNode);
+
+    // apply formatting to all children; each transformation operates a little
+    // differently so offer max flexibility
+    switch(node.type) {
+      case "bold":
+        // take the array of child text, turn every element bold, then smoosh
+        // it into a single string
+        return _.map(childrenText, fonthacks.toggleBold).join("");
+        break;
+      case "italic":
+        return _.map(childrenText, fonthacks.toggleItalic).join("");
+        break;
+      case "list":
+        // this behaves a little differently
+        // (this is a list item more than a list, tbh)
+        // each element inside it should be rendered as normal; then the whole
+        // thing put together should get a bullet in front and a newline afterward
+        // the bullet depends on the inputted node.
+        // if it's a `*`, use a nice bullet point. otherwise if it's a number
+        // or something leave it alone
+        var bullet;
+        switch (node.bullet) {
+          case "*": bullet = String.fromCharCode(8226); break; // a nice bullet point
+          case "-": bullet = String.fromCharCode(8212); break; // emdash from a hyphen
+          default: bullet = node.bullet; break;
+        }
+
+        return bullet + " " + childrenText.join("") + "\n";
+        break;
+      default:
+        // fallback; treat this as the identity function
+        return childrenText.join("")
+        break;
     }
-    else if (transformations[0] === 'italic') {
-      return "<i>" + text + "</i>";
+  }
+  else {
+    // this node has no children; it's a leaf!
+    // so let's just return the raw text from it
+    return node.text;
+  }
+}
+
+/**
+  Takes raw ASCII text and turns it into cool "Old English" fraktur font.
+*/
+function frakturTransform(text) {
+  // fraktur starts at A=566843 and goes A-Za-z so z=56735
+  var FIRST_FRAKTUR = 56684; // this is A
+  var LAST_FRAKTUR = 56735; // this is z
+  return customTransform(text, FIRST_FRAKTUR, LAST_FRAKTUR)
+}
+
+/**
+  Turns raw ASCII into fancy cursive text.
+*/
+function cursiveTransform(text) {
+  // the cursive alphabet goes from A=56528 to z=56579
+  return customTransform(text, 56528, 56579);
+}
+
+function customTransform(text, alphabet_A, alphabet_z) {
+  // so we need to take raw text (1 byte wide per character) and turn it into
+  // fancy text (2 bytes wide each), like you see at https://lingojam.com/FancyLetters.
+  // each of these letters' first bits is $PREFIX_CODE and the second is
+  // between the alphabet's `A` and its `z` (letters are stored from A-Za-z),
+  // so if A = 0 then Z = 25, a = 26, z = 51.
+
+  if (alphabet_z - alphabet_A !== 51) {
+    console.log("WARNING: your custom alphabet is not exactly 52 characters! customTransform() may not work.");
+  }
+
+  var PREFIX_CODE = 55349;
+
+  // now convert the input text (in normal ASCII) to the fancy one,
+  // letter by letter
+  var transformedLetters = _.map(text.split(""), function(letter) {
+    // ASCII is weird because it has 6 characters from [91, 96] between Z and a.
+    var charCode_A = "A".charCodeAt(0);
+    var charCode_Z = "Z".charCodeAt(0);
+    var charCode_a = "a".charCodeAt(0);
+    var charCode_z = "z".charCodeAt(0);
+
+    var letterCharCode = letter.charCodeAt(0);
+
+    if (letterCharCode >= charCode_A && letterCharCode <= charCode_Z) {
+      // this is an uppercase letter
+      // find offset from A...
+      var offset = letterCharCode - charCode_A;
+      // ...then apply it on top of the fancy A
+      var transformedIndex = alphabet_A + offset;
+      return String.fromCharCode(PREFIX_CODE) + String.fromCharCode(transformedIndex);
     }
-  }
-  else if (transformations.length === 2){
-    // assumes that if there are two they must be bold and italic
-    return "<bi>" + text + "</bi>";
-  }
+    else if (letterCharCode >= charCode_a && letterCharCode <= charCode_z) {
+      // lowercase. do something similar...
+      var offset = letterCharCode - charCode_a;
+      // offset the transformed index by another 26 to make it lowercase
+      var transformedIndex = alphabet_A + 26 + offset;
+      return String.fromCharCode(PREFIX_CODE) + String.fromCharCode(transformedIndex);
+    }
+    else {
+      // not alphabetical; don't change
+      return letter;
+    }
+  });
+
+  return transformedLetters.join("");
 }
