@@ -1,7 +1,9 @@
 ---
 layout: default
+title: Unicode Bold + Italic
 scripts:
   - js/lib/markdown-ast.js
+  - js/lib/fonthacks.js
   - js/unicode-transform.js
 ---
 
@@ -14,7 +16,7 @@ scripts:
 
   <p>𝑆𝑒𝑟𝑖𝑜𝑢𝑠𝑙𝑦, 𝑐𝑜𝑝𝑦 𝑎𝑛𝑑 𝑝𝑎𝑠𝑡𝑒 𝑡ℎ𝑖𝑠 𝑡𝑒𝑥𝑡 𝑖𝑛𝑡𝑜 𝑦𝑜𝑢𝑟 𝑎𝑑𝑑𝑟𝑒𝑠𝑠 𝑏𝑎𝑟 𝑜𝑟 𝑛𝑜𝑡𝑒𝑠 𝑎𝑝𝑝!</p>
 
-  <textarea class="form-control" rows="5" id="input-text"></textarea>
+  <textarea class="form-control" rows="5" id="input-text" placeholder="Input"></textarea>
   <button class="btn btn-primary" id="transform-button">Convert</button>
 </div>
 

@@ -4,7 +4,7 @@ $(function(){
 
   $('#transform-button').on('click', function(){
     // convert input text (in markdown) to an AST
-    let ast = parse($('#input-text').val());
+    let ast = markdownAST.parse($('#input-text').val());
 
     console.log("AST", ast);
 
@@ -68,14 +68,15 @@ function transform(text, transformations) {
   }
   else if (transformations.length === 1) {
     if (transformations[0] === 'bold') {
-      return "<b>" + text + "</b>";
+      return fonthacks.toggleBold(text);
     }
     else if (transformations[0] === 'italic') {
-      return "<i>" + text + "</i>";
+      return fonthacks.toggleItalic(text);
     }
   }
-  else if (transformations.length === 2){
-    // assumes that if there are two they must be bold and italic
-    return "<bi>" + text + "</bi>";
+  else if (transformations.length >= 2){
+    // assumes that if there are 2 they must be bold and italic
+    // (and if there are 2+, there must be some deep nesting going on)
+    return fonthacks.toggleBold(fonthacks.toggleItalic(text));
   }
 }

@@ -5,3 +5,4 @@ Wanna write in 𝐛𝐨𝐥𝐝 or 𝑖𝑡𝑎𝑙𝑖𝑐 on Facebook, Twitter
 # With thanks to
 
 * [aleclarson/markdown-ast](https://github.com/aleclarson/markdown-ast/)
+* [unixpickle/fonthacks](https://github.com/unixpickle/fonthacks/)

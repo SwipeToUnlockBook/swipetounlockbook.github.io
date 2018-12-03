@@ -338,4 +338,7 @@ Object.defineProperty(parse, 'default', { value: parse });
 
 // to make it work in the browser
 // module.exports = parse;
-window.parse = parse;
+if ('undefined' === typeof window.markdownAST) {
+  window.markdownAST = {};
+}
+window.markdownAST.parse = parse;
