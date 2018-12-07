@@ -10,7 +10,7 @@ permalink: product-manager-straight-out-of-college
 
 Here’s my free guide to help you learn how to break into tech and get your dream PM job!
 
-My name is Neel Mehta and I got hired as a [Product Manager](https://blog.usejournal.com/how-to-prepare-for-your-google-apm-interviews-b665584c13fc) at Google straight out of undergrad. If you’re looking to become a PM, this article will give you the tools you’ll need to succeed.
+My name is Neel Mehta and I got hired as a Product Manager at Google straight out of undergrad. If you’re looking to become a PM, this article will give you the tools you’ll need to succeed.
 
 These same resources were helpful when I was interviewing for Facebook’s Rotational Product Manager program and Microsoft’s Program Manager role, so the tips I share here should be generally useful no matter which what company you are interested in starting your product management career at.  
 
