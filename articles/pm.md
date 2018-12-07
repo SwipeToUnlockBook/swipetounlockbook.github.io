@@ -8,7 +8,7 @@ permalink: product-manager-straight-out-of-college
 
 # Interested in becoming a Product Manager at a top company straight out of college? 
 
-Here’s my free guide to help you learn how to break into tech and get your dream PM job!
+Here’s my free guide to help you learn how to break into tech and get your dream PM job! (Crosspost from [Medium](https://blog.usejournal.com/how-to-prepare-for-your-google-apm-interviews-b665584c13fc))
 
 My name is Neel Mehta and I got hired as a Product Manager at Google straight out of undergrad. If you’re looking to become a PM, this article will give you the tools you’ll need to succeed.
 
