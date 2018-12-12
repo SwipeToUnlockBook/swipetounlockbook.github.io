@@ -6,11 +6,51 @@ permalink: product-manager-straight-out-of-college
 # TODO(neel): set robots = off so nobody can find this
 ---
 
-# Interested in becoming a Product Manager at a top company straight out of college?
+## Interested in becoming a Product Manager at a top company straight out of college?
+
+I'm Neel Mehta and I got hired as a product manager at Google straight out of undergrad. If you're looking to break into product management -- even if you have no prior experience or education -- I hope this article gives you the tools you'll need to succeed.
+
+In this article, I'll cover my tips for how to build your career path and then how to ace your interviews.
+
+## The 3 ingredients you need to get a top PM job
+
+People often ask me, *what do all the top PMs you know have in common?* That is, what was similar in all their career paths? Ideally, aspiring PMs could follow in their footsteps with this knowledge.
+
+I've studied a few dozen people I know, and I've devised a theory that there are three key ingredients.
+
+### Ingredient 1: knowing how tech &amp; the industry works
+
+I'm leading off with this one because it's the most underrated. (Many people think that reading interview prep books and taking certain classes is enough, but I think that's a flawed assumption.)
+
+The skill I use the most in my job, and the one that got tested the most in my interviews, was knowledge of how tech and the industry works. For instance, *how does the cloud work?* *What's Amazon's business strategy, and how does that affect its competitors?* *Why did Facebook buy Instagram?*
+
+My PM peers had very different approaches, but if you look carefully they demonstrated expertise of tech before they interviewed. I'll take [my co-authors of *Swipe to Unlock*](https://swipetounlock.com), Parth Detroja and Adi Agashe, as case studies.
+
+Parth still hasn't learned how to code, but before he got his job as a PM at Facebook he got to know the tech industry by working as a marketer at companies like Microsoft and Amazon. Adi, a PM at Mcirosoft, took computer science and tech strategy courses (showing his book knowledge of the industry), and he founded a tech startup (showing he knew this information in practice). Meanwhile, I'd been building apps and writing about tech for several years before I got the job at Google.
+
+As you can see, we're all over the map. Some great things anyone can do to get this ingredient, even without prior education or experience, are:
+
+* Read and write about technology and business strategy. I did a ton of reading before applying, and compiled most of what I know in [Swipe to Unlock](https://swipetounlock.com), so that should save you some time reading. As for writing, you can write blog posts analyzing recent happenings in the tech space
+
+
+
+
+
+
+### My career path
+
+To illustrate how you can design your career path, let me quickly walk you through my own so far.
+
+I picked up coding in high school -- my first app was [a free studying app](http://cabra.hathix.com) -- and went to study computer science at Harvard. There, I spent one summer doing software engineering and the next doing product management, and in the next summer I [started a tech internship program in the US government](http://codingitforward.com/apply). I also did student government, started [a data science and data journalism club](http://hodp.org), and was part of several tech clubs. In my senior year I interviewed at Google and was fortunate to get an offer.
+
+
+
+
+
 
 Here’s my free guide to help you learn how to break into tech and get your dream PM job! (Crosspost from [Medium](https://blog.usejournal.com/how-to-prepare-for-your-google-apm-interviews-b665584c13fc))
 
-My name is Neel Mehta and I got hired as a Product Manager at Google straight out of undergrad. If you’re looking to become a PM, this article will give you the tools you’ll need to succeed.
+
 
 These same resources were helpful when I was interviewing for Facebook’s Rotational Product Manager program and Microsoft’s Program Manager role, so the tips I share here should be generally useful no matter which what company you are interested in starting your product management career at.  
 
