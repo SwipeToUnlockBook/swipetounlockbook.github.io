@@ -6,7 +6,7 @@ permalink: product-manager-straight-out-of-college
 # TODO(neel): set robots = off so nobody can find this
 ---
 
-# Interested in becoming a Product Manager at a top company straight out of college? 
+# Interested in becoming a Product Manager at a top company straight out of college?
 
 Here’s my free guide to help you learn how to break into tech and get your dream PM job! (Crosspost from [Medium](https://blog.usejournal.com/how-to-prepare-for-your-google-apm-interviews-b665584c13fc))
 
@@ -79,6 +79,3 @@ After you’ve read those books, try these tips to finish off your preparations:
 I hope this article was useful! Best of luck with your interviews!
 
 > *Disclaimer: All views are my own and in no way represent the views of my employer. My opinions only reflect my personal experience with recruiting; your mileage may vary. All facts in this article are sourced from publicly-known information.*
-
-
-
