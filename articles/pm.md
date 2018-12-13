@@ -47,8 +47,6 @@ Starting a company, nonprofit, or club is a great way to gain this ingredient. B
 
 Finally, you have to prove that *you could be a competent software engineer or business analyst if you really had to.* That is, you should know how to build apps or analyze business (or both, if you're feeling ambitious).
 
-Knowing how to develop software isn't necessary for most non-technical jobs at tech companies (marketing, sales, etc.), but it gets increasingly useful as you start looking at product management (though some companies care more than others).
-
 For my coauthors, this ingredient came from education. Parth studied business in undergrad, I studied computer science, and Adi studied both. But other PMs I know have no formal training in computer science or business; they built apps, worked as a software engineer or consultant, or did an MBA (part-time or full-time).
 
 Besides formally studying CS or business, a few ways you can gain this expertise:
@@ -72,19 +70,10 @@ I showed pretty much all my interviewing tips in that article, so I won't repeat
 
 I hope these resources will help propel you from promising candidate to new product manager!
 
-## Next steps
-
-Now that you've read this guide, here are a few suggestions about how to start your PM adventure:
-
-* Check out [this list of PM and business-side jobs at top tech companies](/joblist); my coauthors and I usually update it each fall during recruiting season.
-* Start reading about tech to get your juices flowing!
-* Knowing how to code isn't necessary to get a PM job, but it never hurts -- [Udacity](https://udacity.com) is a great place to start.
-* Start a tech blog and write something. (My first blog posts were pretty bad, so don't worry if you don't have much to say right now!)
-
 ## Got further questions?
 
 I get a lot of questions about my career path, my experience working at different companies, my advice to new PMs, and so on. [I've answered your biggest questions in this FAQ guide](/neel), but feel free to write to me if you have another question that I haven't answered there.
 
-For more articles like this, you can [follow me on LinkedIn](https://www.linkedin.com/in/neelmehta18/) or [Medium](https://medium.com/@neelmehta/).
+
 
 > Disclaimer: All views are my own and in no way represent the views of my employer. My opinions only reflect my personal experience with recruiting; your mileage may vary. All facts in this article are sourced from publicly-known information.
