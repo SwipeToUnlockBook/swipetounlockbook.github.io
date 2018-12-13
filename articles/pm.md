@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Interested in becoming a Product Manager at a top company straight out of college?"
+title: "Becoming a Product Manager straight out of college"
 permalink: product-manager-straight-out-of-college
 
 # TODO(neel): set robots = off so nobody can find this
@@ -18,104 +18,62 @@ People often ask me, *what do all the top PMs you know have in common?* That is,
 
 I've studied a few dozen people I know, and I've devised a theory that there are three key ingredients.
 
-### Ingredient 1: knowing how tech &amp; the industry works
+### Ingredient 1: Know how tech &amp; the industry works
 
-I'm leading off with this one because it's the most underrated. (Many people think that reading interview prep books and taking certain classes is enough, but I think that's a flawed assumption.)
+Many people think reading interview prep books and taking certain classes is enough to get a PM job, but I think the real key is to know how tech and the industry works. It's the skill I use the most in my job, and the one that got tested the most in my interviews. For instance, *how does the cloud work?* *What's Amazon's business strategy, and how does that affect its competitors?* *Why did Facebook buy Instagram?*
 
-The skill I use the most in my job, and the one that got tested the most in my interviews, was knowledge of how tech and the industry works. For instance, *how does the cloud work?* *What's Amazon's business strategy, and how does that affect its competitors?* *Why did Facebook buy Instagram?*
+All my PM peers showed this knowledge, but in very different ways. I'll take [my co-authors of *Swipe to Unlock*](https://swipetounlock.com), Parth Detroja and Adi Agashe, as case studies.
 
-My PM peers had very different approaches, but if you look carefully they demonstrated expertise of tech before they interviewed. I'll take [my co-authors of *Swipe to Unlock*](https://swipetounlock.com), Parth Detroja and Adi Agashe, as case studies.
-
-Parth still hasn't learned how to code, but before he got his job as a PM at Facebook he got to know the tech industry by working as a marketer at companies like Microsoft and Amazon. Adi, a PM at Mcirosoft, took computer science and tech strategy courses (showing his book knowledge of the industry), and he founded a tech startup (showing he knew this information in practice). Meanwhile, I'd been building apps and writing about tech for several years before I got the job at Google.
+Parth still hasn't learned how to code, but before he got his job as a PM at Facebook he got to know the tech industry by working as a marketer at companies like Microsoft and Amazon. Adi, a PM at Microsoft, took computer science and tech strategy courses (showing his book knowledge of the industry), and he founded a tech startup (showing he knew this information in practice). Meanwhile, I'd been building apps and writing about tech for several years before I got the job at Google.
 
 As you can see, we're all over the map. Some great things anyone can do to get this ingredient, even without prior education or experience, are:
 
-* Read and write about technology and business strategy. I did a ton of reading before applying, and compiled most of what I know in [Swipe to Unlock](https://swipetounlock.com), so that should save you some time reading. As for writing, you can write blog posts analyzing recent happenings in the tech space
+* Read and write about technology and business strategy. I did a ton of reading before applying, and compiled most of what I know in [Swipe to Unlock](https://swipetounlock.com), so that should save you some time reading. As for writing, you can write blog posts on [Medium](https://medium.com) analyzing recent things you've heard in the tech news (like on [Wired](https://wired.com) or [The Verge](https://theverge.com)) or figuring out tech companies' business strategies. [Parth](https://www.linkedin.com/in/parthdetroja/) has some great posts like this on LinkedIn, for instance.
+* If you don't have a technical background, do a [business or marketing job/internship at a tech company](https://swipetounlock.com/joblist). This is a great way to pick up industry knowledge without prior tech experience, but bear in mind you should still understand the core concepts of tech and the industry.
+
+### Ingredient 2: Start something
+
+Top companies want go-getters. Most of the top PMs I know have started something: a company, a nonprofit, college clubs, or other projects.
+
+For instance, Parth started a business club at Cornell and has run several "side hustles" (as a kid, he would buy 1-cent iPhone cases on eBay and resell them for a few dollars on Amazon; ask him on LinkedIn for the whole story).  As I mentioned before, Adi started a [tech consultancy startup](http://belleapps.me/). Meanwhile, I started [a tech internship program in the US government](http://codingitforward.com/apply).
+
+Starting a company, nonprofit, or club is a great way to gain this ingredient. But it does take prior knowledge and connections to do this. Some ways to start something even with no prior expertise or education:
+
+* If you know how to code, start a software project on [GitHub](https;//github.com). Fortunately, GitHub is relatively meritocratic; good software usually gets recognition and users. Saying "I made an app with X many users" is a great thing to have on your resume.
+* Join a community group that needs tech help. This is a fantastic way to gain experience, because they really need help and will thrust their biggest challenges on you as long as you're interested. I'm part of [Code for San Francisco](https://codeforsanfrancisco.org/), which creates software for the city, and it's been a great way for people new to PM to get experience starting a real project and working with big teams. I highly recommend checking out [your local Code for America brigade](https://brigade.codeforamerica.org/) or something similar in your town.
+
+
+### Ingredient 3: Gain expertise in software development or business
+
+Finally, you have to prove that *you could be a competent software engineer or business analyst if you really had to.* That is, you should know how to build apps or analyze business (or both, if you're feeling ambitious).
+
+For my coauthors, this ingredient came from education. Parth studied business in undergrad, I studied computer science, and Adi studied both. But other PMs I know have no formal training in computer science or business; they built apps, worked as a software engineer or consultant, or did an MBA (part-time or full-time).
+
+Besides formally studying CS or business, a few ways you can gain this expertise:
+
+* Build apps, as I mentioned before. In this case, nobody has to use your app (though it would be nice if they did) -- just proving you *can* build something is enough. Coding bootcamps or online courses can help you learn how to code.
+* Write about business strategy, as I mentioned.
+* Find a startup or nonprofit in your town and offer to help them with coding, marketing, etc.
+
+
+## How to ace your interviews
+
+Now that I've explained how to set yourself up for success, here's how to really break into tech and get your dream PM job.
+
+I wrote earlier about [how to prepare for the Google Associate Product Manager interview](https://blog.usejournal.com/how-to-prepare-for-your-google-apm-interviews-b665584c13fc). I highly recommend you give it a read. Those same tips were helpful when I was interviewing for Facebook's Rotational Product Manager program and Microsoft’s Program Manager role, so they should be useful no matter what company you're interested in. In that article I cover:
+
+* How to get an interview (including making a great resume)
+* What books to read to prepare, namely [Cracking the PM Interview](http://a.co/6QY8fbF), [Decode and Conquer](http://a.co/dEYfpE0), and [Swipe to Unlock](http://a.co/25YzH1C).
+* Additional tips and resources that I found useful
+
+I showed pretty much all my interviewing tips in that article, so I won't repeat myself here -- [give that article a read](https://blog.usejournal.com/how-to-prepare-for-your-google-apm-interviews-b665584c13fc).
+
+I hope these resources will help propel you from promising candidate to new product manager!
+
+## Got further questions?
+
+I get a lot of questions about my career path, my experience working at different companies, my advice to new PMs, and so on. [I've answered your biggest questions in this FAQ guide](/neel), but feel free to write to me if you have another question that I haven't answered there.
 
 
 
-
-
-
-### My career path
-
-To illustrate how you can design your career path, let me quickly walk you through my own so far.
-
-I picked up coding in high school -- my first app was [a free studying app](http://cabra.hathix.com) -- and went to study computer science at Harvard. There, I spent one summer doing software engineering and the next doing product management, and in the next summer I [started a tech internship program in the US government](http://codingitforward.com/apply). I also did student government, started [a data science and data journalism club](http://hodp.org), and was part of several tech clubs. In my senior year I interviewed at Google and was fortunate to get an offer.
-
-
-
-
-
-
-Here’s my free guide to help you learn how to break into tech and get your dream PM job! (Crosspost from [Medium](https://blog.usejournal.com/how-to-prepare-for-your-google-apm-interviews-b665584c13fc))
-
-
-
-These same resources were helpful when I was interviewing for Facebook’s Rotational Product Manager program and Microsoft’s Program Manager role, so the tips I share here should be generally useful no matter which what company you are interested in starting your product management career at.  
-
-# Step 1: Getting the Interview
-
-Getting a PM job isn’t all about drilling interview questions — just getting the interview is half the battle.
-
-First, you need a solid resume. I like [Harvard’s bulleted resume template](https://ocs.fas.harvard.edu/guide-template-library), which is clean, professional, and easily skimmed. Here are some strategies I used on my PM resume:
-
-* **Use numbers to quantify your successes.** Tech companies love metrics-driven PMs. For instance, you can say “led a team of 40” or “increased video watches 15%.” Also, numbers pop out to anyone skimming a resume — and you have to assume [recruiters will only give your resume a brief skim](https://www.businessinsider.com/heres-what-recruiters-look-at-during-the-6-seconds-they-spend-on-your-resume-2012-4) at the early stages of recruiting, when they’re flooded with thousands of resumes.
-
-* **Mention programming languages and technical skills.** I like listing programming languages and tools (React, D3, NumPy, etc.) I know at the bottom of my resume.
-
-* **Emphasize the big companies you’ve worked for.** Like numbers, these will pop out to recruiters skimming your resume.
-
-# Step 2: PM Prep Books
-
-I’ve found that hitting the books is the best way to start preparing for PM interviews.
-
-In particular, I thought [Cracking the PM Interview](http://a.co/6QY8fbF) was the best first book to read. The whole book is worth skimming, but I’ll call out a few chapters you should focus on. Chapters 2 and 3 give solid background on the PM role and what major companies look for in PMs (essential reading before you decide which question types to focus on!) Chapter 7 on resumes is pretty good. Chapters 11–14 will give you the basic tools to answer the questions you’ll get at every PM interview. The seven-step process to answer product-design questions in Chapter 14 (the first step is “Ask questions to understand the problem”) is really, really good — I used it in all my interviews. Pay special attention to Chapter 13, which focuses on [estimation questions — Google’s favorites](https://www.quora.com/Does-Google-still-ask-estimation-questions-to-Product-Manager-candidates).
-
-[Decode and Conquer](http://a.co/dEYfpE0) covers interview questions in greater depth, providing dozens of useful practice questions. It proposes the CIRCLES method for answering the ubiquitous product design questions; personally, I prefer Cracking the PM Interview’s seven-step method, but CIRCLES is worth a look. At any rate, practice every question in Chapters 2–8 (design and estimation). They are awesome. Pricing, marketing, market entry, or vision questions are pretty rare for PM interviews in general, so chapters 9–15 (which focus on these topics) are worth a skim at best. Chapter 16 (behavioral) is solid.
-
-## Understanding the tech landscape
-
-Just drilling interview questions isn’t enough — everyone does that. To get ahead of the competition, you need to know the tech industry: notable trends, major companies and competitors, rapidly-growing markets, etc. This industry knowledge will help you craft better answers and stand out as a subject-matter expert.
-
-It’s much easier to propose a monetization strategy for a new app, for instance, if you know how popular apps make money — one example I like to cite is how the popular stock-trading app [Robinhood makes money while letting users trade stocks with zero commission](https://www.fool.com/investing/2018/03/19/how-does-robinhood-make-money.aspx).
-
-Also, if you can chat with an interviewer about the product they work on — including features, competitors, trends, and business decisions — you will leave an excellent impression. (Being able to do this was tremendously useful to me in my interviews.)
-
-## *To really impress at the Google APM interviews, you must be able to talk intelligently about common technologies such as machine learning, the cloud, and big data. You also have to know Google’s products, strategies, and competitors. You can’t learn this by just drilling interview questions.*
-
-In short, you have to think like a techie. (This can be especially daunting if you’re coming from a non-tech-industry background.)
-
-While preparing for PM interviews, I needed to gain a big-picture understanding of major technologies and business strategy trends — but I couldn’t find any resources to do this. So I decided to make one.
-
-## [Swipe to Unlock: A Primer on Technology and Business Strategy](http://a.co/25YzH1C)
-
-I authored this book along with [Parth Detroja](https://www.linkedin.com/in/parthdetroja/) (a Facebook PM) and [Adi Agashe](https://www.linkedin.com/in/adityaagashe/) (a Microsoft PM) to give anyone, even non-experts, a big-picture understanding of tech topics (like how Google search and A/B testing work) and business trends (like why Google made Android free for phone manufacturers).
-
-[Swipe to Unlock](http://a.co/25YzH1C) uses short case studies to give you the industry knowledge you’ll need to craft great interview answers and talk intelligently with your interviewers.
-
-The things I learned while researching for Swipe to Unlock were tremendously helpful in my PM interviews, and the book has gotten strong reviews from people who landed offers from Facebook, Amazon, Apple, Netflix and more thanks to the knowledge contained in the book. [Check out Swipe to Unlock on Amazon!](http://a.co/25YzH1C)
-
-<img src="assets/img/cover/cover-2e.png" id="book-cover" class="img-responsive centered">
-
-<p class="centered"><a href="http://a.co/25YzH1C">Swipe to Unlock</a> is designed to teach you the tech and business strategy concepts that’ll help you talk intelligently at interviews and come up with deep, informed answers. Hope it helps!</p>
-
-### Your PM Bookshelf
-
-*Cracking the PM Interview* and *Decode and Conquer* will help you understand PM interview questions and practice your approach— and *Swipe to Unlock* will give you the real-world knowledge that’ll help you make even stronger answers.
-
-# Step 3: A few final tips
-
-After you’ve read those books, try these tips to finish off your preparations:
-
-* [ThePMInterview.com](https://thepminterview.com/) has tons of free interview questions. I did 5 of these a night on a whiteboard before my Google interviews. You can have your friends mock interview you with these questions, too.
-
-* At the end of the day, [the interviewer just needs to like you](http://www.iu.edu/~uhrs/employment/best.html). *[The Charisma Myth](https://www.amazon.com/Charisma-Myth-Science-Personal-Magnetism/dp/1591845947/ref=sr_1_1?ie=UTF8&qid=1532110423&sr=8-1&keywords=charisma+myth)* has great tips on how to win people over. And don’t forget to smile!
-
-* Have interesting opinions on Google apps — it’ll make you a much more memorable candidate. Try out some lesser-known apps ([Google Flights](https://www.google.com/flights) and [Trips](https://get.google.com/trips/) are among my favorites, for instance). The same goes for other companies you might interview at.
-
-# Step 4: Go crush it!
-
-I hope this article was useful! Best of luck with your interviews!
-
-> *Disclaimer: All views are my own and in no way represent the views of my employer. My opinions only reflect my personal experience with recruiting; your mileage may vary. All facts in this article are sourced from publicly-known information.*
+> Disclaimer: All views are my own and in no way represent the views of my employer. My opinions only reflect my personal experience with recruiting; your mileage may vary. All facts in this article are sourced from publicly-known information.
