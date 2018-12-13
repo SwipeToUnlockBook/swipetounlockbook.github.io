@@ -1,18 +1,20 @@
 ---
 layout: article
-title: "Interested in becoming a Product Manager at a top company straight out of college?"
+title: "Becoming a product manager straight out of college"
 permalink: product-manager-straight-out-of-college
 
 # TODO(neel): set robots = off so nobody can find this
 ---
 
-# Interested in becoming a Product Manager at a top company straight out of college? 
+# Interested in becoming a Product Manager at a top company straight out of college?
 
-Here’s my free guide to help you learn how to break into tech and get your dream PM job! (Crosspost from [Medium](https://blog.usejournal.com/how-to-prepare-for-your-google-apm-interviews-b665584c13fc))
+> *My name is Neel Mehta, and I got hired as a Product Manager at Google straight out of undergrad. Here's a free guide I wrote to teach you how to break into tech and get your dream PM job, straight out of college! This article is slightly adapted from [an earlier article I wrote on Medium](https://blog.usejournal.com/how-to-prepare-for-your-google-apm-interviews-b665584c13fc).*
 
-My name is Neel Mehta and I got hired as a Product Manager at Google straight out of undergrad. If you’re looking to become a PM, this article will give you the tools you’ll need to succeed.
+In this article, I'll share some resources I used to prepare for my Google PM interviews, and some tips I picked up along the way.  
 
-These same resources were helpful when I was interviewing for Facebook’s Rotational Product Manager program and Microsoft’s Program Manager role, so the tips I share here should be generally useful no matter which what company you are interested in starting your product management career at.  
+These same resources were helpful when I was interviewing for Facebook’s Rotational Product Manager (RPM) program and Microsoft’s Program Manager role, so the tips I share here should be generally useful no matter which what company you are interested in starting your product management career at.  
+
+Let's dive in!
 
 # Step 1: Getting the Interview
 
@@ -42,7 +44,7 @@ It’s much easier to propose a monetization strategy for a new app, for instanc
 
 Also, if you can chat with an interviewer about the product they work on — including features, competitors, trends, and business decisions — you will leave an excellent impression. (Being able to do this was tremendously useful to me in my interviews.)
 
-## *To really impress at the Google APM interviews, you must be able to talk intelligently about common technologies such as machine learning, the cloud, and big data. You also have to know Google’s products, strategies, and competitors. You can’t learn this by just drilling interview questions.*
+### *To really impress at PM interviews, you must be able to talk intelligently about common technologies such as machine learning, the cloud, and big data. You also have to know Google’s products, strategies, and competitors. You can’t learn this by just drilling interview questions.*
 
 In short, you have to think like a techie. (This can be especially daunting if you’re coming from a non-tech-industry background.)
 
@@ -72,13 +74,10 @@ After you’ve read those books, try these tips to finish off your preparations:
 
 * At the end of the day, [the interviewer just needs to like you](http://www.iu.edu/~uhrs/employment/best.html). *[The Charisma Myth](https://www.amazon.com/Charisma-Myth-Science-Personal-Magnetism/dp/1591845947/ref=sr_1_1?ie=UTF8&qid=1532110423&sr=8-1&keywords=charisma+myth)* has great tips on how to win people over. And don’t forget to smile!
 
-* Have interesting opinions on Google apps — it’ll make you a much more memorable candidate. Try out some lesser-known apps ([Google Flights](https://www.google.com/flights) and [Trips](https://get.google.com/trips/) are among my favorites, for instance). The same goes for other companies you might interview at.
+* Have interesting opinions on the company's apps — it’ll make you a much more memorable candidate. Try out some lesser-known apps (for instance, I cited [Google Flights](https://www.google.com/flights) and [Trips](https://get.google.com/trips/) at my Google interviews). The same goes for other companies you might interview at.
 
 # Step 4: Go crush it!
 
 I hope this article was useful! Best of luck with your interviews!
 
 > *Disclaimer: All views are my own and in no way represent the views of my employer. My opinions only reflect my personal experience with recruiting; your mileage may vary. All facts in this article are sourced from publicly-known information.*
-
-
-
