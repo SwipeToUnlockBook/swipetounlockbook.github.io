@@ -146,6 +146,6 @@ My co-authors [Parth](parth) and [Adi](adi) have their own FAQ, which cover some
 
 ### What can I do if I still really want to have a 15 minute phone call to pick your brain on something not covered above?
 
-I’ll trade you my thoughts for yours. Read my book, [*Swipe to Unlock*](http://a.co/d/iHtms2m), leave a review on Amazon with your feedback, and message me a screenshot of your review on LinkedIn. Then I'll find some time to chat with you.
+I’ll trade you my thoughts for yours. Read my book, [*Swipe to Unlock*](http://a.co/d/iHtms2m), leave a review on Amazon, and message me a screenshot of your review on LinkedIn. Then I'll find some time to chat with you.
 
 > *Disclaimer*: everything in this FAQ is based solely on my personal experience and doesn't represent Google's opinions. All view expressed here are my own. If you want the official answer to these questions, ask a Google recruiter!
