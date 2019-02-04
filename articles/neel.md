@@ -51,13 +51,20 @@ Again, these are sweeping generalizations based on my limited experience. There'
 
 ### How can I become an Associate Product Manager (APM)?
 
-I've written an [article with some advice from my point of view](https://blog.usejournal.com/how-to-prepare-for-your-google-apm-interviews-b665584c13fc) -- but it doesn't represent the viewpoint of Google and just represents what I think.
+The best way to get started is to [read the official APM website](https://buildyourfuture.withgoogle.com/programs/apm-program/), which has details about the program, application instructions, and tips from current and former APMs.
 
-The best way to get started is to look on [Google Careers](http://careers.google.com/) and search for "Associate Product Manager." (Strangely, "APM" doesn't work.) You can make a saved search and keep checking back to see if a job gets posted. Google is pretty good about not requiring networking, so applying online is the best (and, really, the only) way to get your foot in the door.
+
+I've written an [article with some advice from my point of view](https://blog.usejournal.com/how-to-prepare-for-your-google-apm-interviews-b665584c13fc) -- but it doesn't represent the viewpoint of Google and just represents what I think.
 
 There's a full-time APM role, for which applications open in early August and usually run till the end of September. There's also a summer internship, for which applications open in mid-September and usually run till the end of October. It's best if you're a US citizen, but some APMs are EU or Canadian citizens, and I think it's fine as long as you can get work authorization. (Ask a recruiter, though, since I haven't had to deal with citizenship questions myself!)
 
 If your college has an information session about anything Google, I strongly recommend going! You'll get a much better understanding of Google, APM, and interview questions from the official source.
+
+### Do I have to be a US citizen to become an APM?
+
+[Read the official APM site for full details](https://buildyourfuture.withgoogle.com/programs/apm-program), but I believe you have to have work authorization for the US or EU in order to become an APM -- the program doesn't offer work visa sponsorship. Try talking to a Google recruiter if you have other questions.
+
+(Because I get a lot of questions about this, I want to be explicit: Indian citizens can't apply for the APM program unless you already have US or EU work authorization. [Check out some other PM jobs we've compiled, instead](https://swipetounlock.com/joblist).)
 
 ### How can I prepare for an Associate Product Manager (APM) interview?
 
