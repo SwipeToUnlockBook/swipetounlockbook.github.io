@@ -1489,6 +1489,7 @@
   http://www.slate.com/articles/business/moneybox/2017/06/yes_there_is_an_antitrust_case_against_amazon/
   https://seekingalpha.com/article/4232628-amazon-spin-aws-separate-company?page=3
   https://www.fool.com/investing/2018/03/14/why-cloud-company-stocks-are-soaring.aspx
+  
 ## Glossary
   https://www.computerweekly.com/feature/Write-once-run-anywhere
   https://www.facebook.com/notes/facebook-engineering/hiphop-for-php-move-fast/280583813919/
