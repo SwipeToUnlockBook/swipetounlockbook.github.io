@@ -18,10 +18,12 @@ permalink: masterjoblist
 
     <div class="row">
       <div class="col-md-4">
+         <!-- We're duplicating the company list so it shows on the left on
+             large screens and immediately in the flow on small screens -->
         <div class="list-group hidden-xs hidden-sm visible-md visible-lg">
-          {% for company in site.data.masterjoblist %}
-          <a class="list-group-item list-group-item-action smooth-scroll" href="#{{ company.slug }}">
-                {{ company.company }}
+          {% for company in site.data.masterjoblist_companies %}
+          <a class="list-group-item list-group-item-action smooth-scroll" href="#{{ company | replace: " ","" }}">
+                {{ company }}
               </a>
           {% endfor %}
         </div>
@@ -44,41 +46,74 @@ permalink: masterjoblist
 
         </div>
 
-        <hr />
-
+        <!-- We're duplicating the company list so it shows on the left on
+             large screens and immediately in the flow on small screens -->
         <div class="list-group visible-xs visible-sm hidden-md hidden-lg">
-          {% for job in site.data.masterjoblist %}
-          <a class="list-group-item list-group-item-action smooth-scroll" href="#{{ company.slug }}">
-                {{ job.company }}
-              </a>
+          {% for company in site.data.masterjoblist_companies %}
+            <a class="list-group-item list-group-item-action smooth-scroll" href="#{{ company | replace: " ","" }}">
+                {{ company }}
+            </a>
           {% endfor %}
         </div>
 
+        <hr>
 
-        {% for company in site.data.jobs %}
-        <div id="{{ company.slug }}" class="company-block">
-          <h2 class="text-info">{{ company.company }}</h2>
+        <!-- OK, now loop over every company and show the jobs
+             available at each -->
+        {% for company in site.data.masterjoblist_companies %}
+            <div id='{{ company | replace: " ", "" }}' class="company-block">
+                <h2 class="text-info">
+                    {{ company }}
+                </h2>
 
-          {% for job in company.jobs %}
-          <h3>{{ job.role }}</h3>
+                <!-- Now find all jobs that belong to that company -->
+                {% for job in site.data.masterjoblist %}
+                    {% if job.company == company %}
+                        <h3>
+                            <span class="text-info">{{ job.company }}</span> &middot;
+                            {{ job.role }}
+                        </h3>
 
-          <p>
-            {{ job.description }}
-          </p>
+                        <p><strong>
+                            {% if job.technical == 1 %}
+                                <i class="fas fa-code"></i> Technical
+                            {% else %}
+                                <span class="fa-stack">
+                                    <i class="fas fa-code fa-stack-1x"></i>
+                                    <i class="fas fa-ban fa-stack-2x"></i>
+                                </span>
+                                Non-technical
+                            {% endif %},&nbsp;&nbsp;
 
+                            {% if job.rotational == 1 %}
+                                <i class="fas fa-sync-alt"></i> Rotational
+                            {% else %}
+                                <span class="fa-stack">
+                                    <i class="fas fa-code fa-stack-1x"></i>
+                                    <i class="fas fa-ban fa-stack-2x"></i>
+                                </span>
+                                Not rotational
+                            {% endif %}
+                        </strong></p>
 
-          <a href="{{ job.url }}" target="_blank" class="btn btn-default">
+                        <p>
+                            {% if job.description != "" %}
+                                {{ job.description }}
+                            {% else %}
+                                <em>No description provided.</em>
+                            {% endif %}
+                        </p>
+
+                        <a href="{{ job.website }}" target="_blank" class="btn btn-primary">
                             Learn more
                         </a>
-          <!-- <a href="https://www.amazon.com/dp/B0756MTX6K/" class="btn btn-default">
-                            Buy <em>Swipe to Unlock</em> to prepare
-                        </a> -->
-          {% endfor %}
-        </div>
 
-        <hr />
+                        <br><br>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <hr>
         {% endfor %}
-
 
       </div>
     </div>
