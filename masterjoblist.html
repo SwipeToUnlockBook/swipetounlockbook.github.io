@@ -105,6 +105,9 @@ permalink: masterjoblist
                         </h3>
 
                         <p><strong>
+                            <i class="fas fa-suitcase"></i> {{ job.type }},&nbsp;
+
+
                             {% if job.technical == 1 %}
                                 <i class="fas fa-code"></i> Technical
                             {% else %}
@@ -129,15 +132,13 @@ permalink: masterjoblist
                         <p>
                             {% if job.description != "" %}
                                 {{ job.description }}
-                            {% else %}
-                                <em>No description provided.</em>
                             {% endif %}
                         </p>
 
                         <a href="{{ job.website }}" target="_blank" class="btn btn-primary">
                             Learn more
                         </a>
-                        {% if job.comments %}
+                        {% if job.comments != "" %}
                             <em>({{ job.comments }})</em>
                         {% endif %}
                     {% endif %}
