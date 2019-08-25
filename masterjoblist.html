@@ -72,6 +72,13 @@ permalink: masterjoblist
                         {%- capture id -%}
                             {{ job.company | replace: " ", ""}}_{{ job.role | replace: " ", ""}}
                         {%- endcapture -%}
+
+                        <!-- the anchor hyperlinks ignore the header atop the page,
+                             which makes the h3 normally get hidden behind the header
+                             when the user opens the link. instead if we put the actual
+                             anchored element a bit above the h3, that fake element
+                             gets hidden and the h3 can be seen normally. hence the
+                             empty span. -->
                         <span id='{{ id }}'></span>
                         <br><br>
                         <h3>
