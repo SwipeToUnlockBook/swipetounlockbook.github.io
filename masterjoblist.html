@@ -30,21 +30,34 @@ permalink: masterjoblist
       </div>
       <div class="col-md-8">
 
-        <div>
-          <p> Here's our list the best non-technical roles available at tech companies.</p>
+        <p>
+            We've seen over half a dozen lists of <strong>the top entry-level PM and
+            non-technical business roles at tech companies</strong>,
+            so we decided to combine them all into one
+            master list.
+        </p>
+        <p>
+            In this list, we've compiled 50+ jobs from over a dozen top companies,
+            with a focus on rotational and new grad positions.
+            Instead of providing direct application links (which change every year),
+            we'll point you to the landing page, where you can always read more
+            about the role and find the latest posting. <strong>Just note that not all positions
+            are always available.</strong>
+        </p>
 
-          <p><em>Note: the application for some of these jobs is only open during certain times of the year. If a job is closed, we've tried to include a link to the best place to find the job once it opens.</em></p>
+        <p>
+            If you know any good jobs that aren't on our list, let us know at
+            team [at] swipetounlock [dot] com.
+        </p>
 
-          <p>We did our best to make this list as comprehensive as possible, but there are always more jobs that we couldn't fit here. If there is a tech company you are interested in that’s not on this list, it doesn’t mean they aren’t hiring. Go
-            to their career page and explore!</p>
+        <p>
+        &mdash;
+            <a href="https://linkedin.com/in/neelmehta18">Neel</a>,
+            <a href="https://linkedin.com/in/parthdetroja">Parth</a>, and
+            <a href="https://linkedin.com/in/adityaagashe">Adi</a>
+        </p>
 
-          </p>
-          <p>
-            — Neel, Parth, and Adi
-          </p>
-
-
-        </div>
+        <hr>
 
         <!-- We're duplicating the company list so it shows on the left on
              large screens and immediately in the flow on small screens -->
@@ -124,6 +137,9 @@ permalink: masterjoblist
                         <a href="{{ job.website }}" target="_blank" class="btn btn-primary">
                             Learn more
                         </a>
+                        {% if job.comments %}
+                            <em>({{ job.comments }})</em>
+                        {% endif %}
                     {% endif %}
                 {% endfor %}
             </div>
