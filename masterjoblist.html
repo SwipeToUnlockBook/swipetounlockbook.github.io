@@ -83,15 +83,15 @@ permalink: masterjoblist
                                     <i class="fas fa-ban fa-stack-2x"></i>
                                 </span>
                                 Non-technical
-                            {% endif %},&nbsp;&nbsp;
+                            {% endif %},&nbsp;
 
                             {% if job.rotational == 1 %}
                                 <i class="fas fa-sync-alt"></i> Rotational
+                                {% if job.length_months != "" %}
+                                    ({{ job.length_months }} months)
+                                {% endif %}
                             {% else %}
-                                <span class="fa-stack">
-                                    <i class="fas fa-code fa-stack-1x"></i>
-                                    <i class="fas fa-ban fa-stack-2x"></i>
-                                </span>
+                               <i class="fas fa-angle-double-right"></i>
                                 Not rotational
                             {% endif %}
                         </strong></p>
