@@ -69,9 +69,19 @@ permalink: masterjoblist
                 <!-- Now find all jobs that belong to that company -->
                 {% for job in site.data.masterjoblist %}
                     {% if job.company == company %}
+                        {%- capture id -%}
+                            {{ job.company | replace: " ", ""}}_{{ job.role | replace: " ", ""}}
+                        {%- endcapture -%}
+                        <span id='{{ id }}'></span>
+                        <br><br>
                         <h3>
-                            <span class="text-info">{{ job.company }}</span> &middot;
+                            <span class="text-info">{{ job.company }}</span>
                             {{ job.role }}
+
+                            &nbsp;
+                            <a href="#{{ id }}">
+                                <i class="fas fa-link fa-sm"></i>
+                            </a>
                         </h3>
 
                         <p><strong>
@@ -107,8 +117,6 @@ permalink: masterjoblist
                         <a href="{{ job.website }}" target="_blank" class="btn btn-primary">
                             Learn more
                         </a>
-
-                        <br><br>
                     {% endif %}
                 {% endfor %}
             </div>
