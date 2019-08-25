@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Job List
-permalink: joblist
+title: PM and Tech Business Job List
+permalink: masterjoblist
 ---
 
 <section class="section">
@@ -19,7 +19,7 @@ permalink: joblist
     <div class="row">
       <div class="col-md-4">
         <div class="list-group hidden-xs hidden-sm visible-md visible-lg">
-          {% for company in site.data.jobs %}
+          {% for company in site.data.masterjoblist %}
           <a class="list-group-item list-group-item-action smooth-scroll" href="#{{ company.slug }}">
                 {{ company.company }}
               </a>
@@ -51,19 +51,13 @@ permalink: joblist
         <hr />
 
         <div class="list-group visible-xs visible-sm hidden-md hidden-lg">
-          {% for company in site.data.jobs %}
+          {% for job in site.data.masterjoblist %}
           <a class="list-group-item list-group-item-action smooth-scroll" href="#{{ company.slug }}">
-                {{ company.company }}
+                {{ job.company }}
               </a>
           {% endfor %}
         </div>
 
-        <!-- <p><strong>Interested in a non-developer job at a tech company? <a href="https://www.amazon.com/dp/B0756MTX6K/">Swipe to Unlock</a> was co-authored by a recipient of a fulltime Google APMM offer, Google RPM offer, and Microsoft PMM offer. <a href="https://www.amazon.com/dp/B0756MTX6K/">The book</a> offers valuable tech insights and concept overviews that will be extremely relevant for the Google APMM interview.</strong></p>
-
-          <div class="embed-responsive embed-responsive-16by9">
-              <iframe width="1280" height="720" src="https://www.youtube.com/embed/KqCcDS63hZE" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <br/> -->
 
         {% for company in site.data.jobs %}
         <div id="{{ company.slug }}" class="company-block">
