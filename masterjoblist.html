@@ -105,7 +105,21 @@ permalink: masterjoblist
                         </h3>
 
                         <p><strong>
-                            <i class="fas fa-suitcase"></i> {{ job.type }},&nbsp;
+                            {%- capture icon -%}
+                                {% if job.type == "PM" %} fa-rocket
+                                {% elsif job.type == "Marketing" %} fa-bullhorn
+                                {% elsif job.type == "Strategy" %} fa-chess-knight
+                                {% elsif job.type == "Sales" %} fa-store-alt
+                                {% elsif job.type == "Finance" %} fa-money-bill-wave
+                                {% elsif job.type == "Management" %} fa-users
+                                {% elsif job.type == "Mixed" %} fa-blender
+                                {% elsif job.type == "Supply Chain" %} fa-shipping-fast
+                                {% elsif job.type == "Consulting" %} fa-plane
+                                {% else %} fa-suitcase
+                                {% endif %}
+                            {%- endcapture -%}
+
+                            <i class="fas {{ icon }}"></i> {{ job.type }},&nbsp;
 
 
                             {% if job.technical == 1 %}
@@ -128,6 +142,7 @@ permalink: masterjoblist
                                 Not rotational
                             {% endif %}
                         </strong></p>
+
 
                         <p>
                             {% if job.description != "" %}
