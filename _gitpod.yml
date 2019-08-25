@@ -1,0 +1,7 @@
+ports:
+    -   port: 4000
+        onOpen: open-browser
+
+tasks:
+    -   command: bundle install && bundle exec jekyll serve --host 0.0.0.0
+    -   command: function re { git add -A; git commit -m "$1"; git push; }; alias g='git'; git pull
