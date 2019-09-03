@@ -2,71 +2,55 @@
   resources:
     - title: Cracking the PM Interview
       url: https://www.amazon.com/Cracking-PM-Interview-Product-Technology/dp/0984782818
-    - title: Neel's PM Tips
-      url: https://blog.usejournal.com/how-to-prepare-for-your-google-apm-interviews-b665584c13fc
+    - title: Decode and Conquer
+      url: https://www.amazon.com/Decode-Conquer-Answers-Management-Interviews-ebook/dp/B00IGIUMQ0
     - title: Swipe to Unlock
       url: https://www.amazon.com/dp/B0756MTX6K
 - category: Marketing
   resources:
-    - title: Cool Website
-      url:
-    - title: Cool Website
-      url:
+    - title: Rise Above the Noise
+      url: https://www.amazon.com/Rise-Above-Noise-Marketing-Interview/dp/0615978428
     - title: Swipe to Unlock
       url: https://www.amazon.com/dp/B0756MTX6K
 - category: Strategy
   resources:
-    - title: Cool Website
-      url:
-    - title: Cool Website
-      url:
+    - title: HBR's 10 Must Reads on Strategy
+      url: https://www.amazon.com/HBRs-10-Must-Reads-Strategy/dp/1422157989/
+    - title: HBR's 10 Must Reads for CEOs
+      url: https://www.amazon.com/Strategy-Martin-Reeves-Philipp-Tillmanns/dp/1633697150/
     - title: Swipe to Unlock
       url: https://www.amazon.com/dp/B0756MTX6K
 - category: Sales
   resources:
-    - title: Cool Website
-      url:
-    - title: Cool Website
-      url:
+    - title: Case in Point
+      url: https://www.amazon.com/Case-Point-10-Interview-Preparation/dp/0986370746
     - title: Swipe to Unlock
       url: https://www.amazon.com/dp/B0756MTX6K
 - category: Finance
   resources:
-    - title: Cool Website
-      url:
-    - title: Cool Website
-      url:
     - title: Swipe to Unlock
       url: https://www.amazon.com/dp/B0756MTX6K
 - category: Management
   resources:
     - title: Case in Point
       url: https://www.amazon.com/Case-Point-10-Interview-Preparation/dp/0986370746
-    - title: Cool Website
-      url:
+    - title: HBR's 10 Must Reads for CEOs
+      url: https://www.amazon.com/Strategy-Martin-Reeves-Philipp-Tillmanns/dp/1633697150/
     - title: Swipe to Unlock
       url: https://www.amazon.com/dp/B0756MTX6K
 - category: Mixed
   resources:
     - title: Case in Point
       url: https://www.amazon.com/Case-Point-10-Interview-Preparation/dp/0986370746
-    - title: Cool Website
-      url:
     - title: Swipe to Unlock
       url: https://www.amazon.com/dp/B0756MTX6K
 - category: Supply Chain
   resources:
-    - title: Cool Website
-      url:
-    - title: Cool Website
-      url:
     - title: Swipe to Unlock
       url: https://www.amazon.com/dp/B0756MTX6K
 - category: Consulting
   resources:
     - title: Case in Point
       url: https://www.amazon.com/Case-Point-10-Interview-Preparation/dp/0986370746
-    - title: Cool Website
-      url:
     - title: Swipe to Unlock
       url: https://www.amazon.com/dp/B0756MTX6K
