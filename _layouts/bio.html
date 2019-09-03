@@ -10,7 +10,23 @@
 <div class="container">
   <div class="row">
   <section class="article" class="col-xs-12 col-sm-10 col-sm-push-1 col-md-8 col-md-push-2">
-    {{ content }}
+    <h1>{{page.person_name}}'s Bio</h1>
+
+    {% for author in site.data.bios %}
+      {% if author.slug == page.slug %}
+        {{ author.bio }}
+
+        <ul>
+          {% for article in author.links.press %}
+            <li>
+              <a href="{{ article.url }}">
+                {{ article.source }} &middot; {{ article.title }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endfor %}
   </section>
   </div>
 </div>

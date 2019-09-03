@@ -1,21 +1,51 @@
 - name: Parth Detroja
+  slug: parth
   bio: |
     Sphinx of black quartz, judge my vow!
   links:
     press:
-        - title: Article
+        - title: Parth Detroja confirmed as speaker for Grace Hopper Conference
+          source: ABNewswire
           url: https://www.abnewswire.com/pressreleases/parth-detroja-confirmed-as-speaker-for-grace-hopper-conference_419587.html
-        - title: Article
+        - title: "The Product CEO: In talks with Parth Detroja, Product Manager at Facebook"
+          source: The Times of India
           url: https://timesofindia.indiatimes.com/blogs/siliconvalley/the-product-ceo-in-talks-with-parth-detroja-product-manager-at-facebook
-        - title: Article
+        - title: A Facebook Employee Reveals His Secret Interview Technique That Landed Job Offers from Google, Amazon, and Microsoft
+          source: Inc.
           url: https://www.inc.com/tom-popomaronis/a-facebook-employee-reveals-his-secret-interview-technique-that-landed-job-offers-from-google-amazon-microsoft.html
         - title: Article
+          source: Here's why one insider predicts that Amazon will acquire Lyft in the next 18 months — and how Uber's valuation would plummet as a result
           url: https://www.businessinsider.com/amazon-could-acquire-lyft-expert-2018-11
-        - title: Article
+        - title: How to land a job in tech right out of college, according to a grad who got offers from Google, Facebook, and Microsoft
+          source: Business Insider
           url: https://www.businessinsider.com/how-to-get-tech-job-google-facebook-microsoft-2017-10
-        - title: Article
+        - title: Pressed for Tech Talent, Hiring Managers Consider Online Credentialing
+          source: The Wall Street Journal
           url: https://blogs.wsj.com/cio/2019/01/08/pressed-for-tech-talent-hiring-managers-consider-online-credentialing/
+- name: Adi Agashe
+  slug: adi
+  bio: |
+    Sphinx of black quartz, judge my vow!
+  links:
+      press:
+        - title: Aditya Agashe will be speaking at the annual Grace Hopper Conference
+          source: KTVN
+          url: https://www.ktvn.com/story/40924883/aditya-agashe-will-be-speaking-at-the-annual-grace-hopper-conference
+        - title: Apple is ready to launch its mobile payment service in Slovakia
+          source: The Slovak Spectator
+          url: https://spectator.sme.sk/c/22067936/apple-launch-apple-pay-mobile-payment-slovakia.html
+        - title: ProSnap, GoFace, Or iGo Coming Soon?
+          source: SeekingAlpha
+          url: https://seekingalpha.com/article/4183359-prosnap-goface-igo-coming-soon
+        - title: Rawlings scholars navigate to senior research success
+          source: The Cornell Chronicle
+          url: https://news.cornell.edu/stories/2017/04/rawlings-scholars-navigate-senior-research-success
+        - title: Students spend summer incubating their business ideas
+          source: The Cornell Chronicle
+          url: https://news.cornell.edu/stories/2015/07/students-spend-summer-incubating-their-business-ideas
+
 - name: Neel Mehta
+  slug: neel
   bio: |
     Sphinx of black quartz, judge my vow!
   links:
