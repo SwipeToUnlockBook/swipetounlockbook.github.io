@@ -3,9 +3,12 @@
   slug: parth
   email: parth@parthdetroja.com
   bio: |
-    Parth Detroja was the second youngest Product Manager hired in Facebook history. He leads social music product efforts such as adding music to stories on Facebook and Instagram. He is currently working on creating novel social experiences around premium music videos on Facebook. He previously worked at Microsoft where he laid the groundwork for Xbox’s acquisition of PlayFab.
+    Parth Detroja is a Product Manager at Facebook where he leads the company’s music video efforts. He previously worked at Microsoft where we laid the groundwork for Xbox’s acquisition of PlayFab. He graduated from Cornell University with a Bachelor of Science in Applied Economics and Management as a Merrill Presidential Scholar (top 1% of class).
   links:
     press:
+        - title: Parth Detroja confirmed as speaker for Grace Hopper Conference
+          source: ABC
+          url: https://www.abc6.com/story/40919886/parth-detroja-confirmed-as-speaker-for-grace-hopper-conference
         - title: Parth Detroja confirmed as speaker for Grace Hopper Conference
           source: ABNewswire
           url: https://www.abnewswire.com/pressreleases/parth-detroja-confirmed-as-speaker-for-grace-hopper-conference_419587.html
@@ -24,6 +27,44 @@
         - title: Pressed for Tech Talent, Hiring Managers Consider Online Credentialing
           source: The Wall Street Journal
           url: https://blogs.wsj.com/cio/2019/01/08/pressed-for-tech-talent-hiring-managers-consider-online-credentialing/
+    work:
+        - title: Instagram Stories now lets its 400M users add soundtracks
+          source: TechCrunch
+          url: https://techcrunch.com/2018/06/28/instagram-stories-music/
+        - title: Facebook Announces New Music Features For Stories, Profiles And More
+          source: Forbes
+          url: https://www.forbes.com/sites/ogdenpayne/2018/10/24/facebook-announces-new-music-features-for-stories-profiles-and-more/#3867d10e4c4b
+        - title: Facebook adds music features to profiles and Stories, expands Lip Sync Live to Pages
+          source: The Verge
+          url: https://www.theverge.com/2018/10/24/18018572/facebook-music-profile-stories-lip-sync-live-lyrics
+        - title: Facebook Launches New Wave of Music Products
+          source: Billboard
+          url: https://www.billboard.com/articles/news/8481423/facebook-new-music-products-stories-lip-sync-live-profiles
+        - title: "Instagram: Here’s How to Create a Music Post on Instagram Stories"
+          source: Adweek
+          url: https://www.adweek.com/digital/instagram-heres-how-to-create-a-music-post-on-instagram-stories/
+        - title: Facebook strikes new music licensing deals
+          source: Financial Times
+          url: https://www.ft.com/content/7b7e71d6-2964-11e8-b27e-cc62a39d57a0
+        - title: Facebook Expands Lip-Syncing and Music-Sharing Features, Will Let Users Add Songs to Profiles
+          source: Variety
+          url: https://variety.com/2018/digital/news/facebook-expands-music-songs-lip-sync-1202990255/
+        - title: New music feature may make Instagram Stories even more addicting
+          source: BGR
+          url: https://bgr.com/2018/05/07/instagram-stories-music-new-features-coming/
+        - title: Instagram to make Stories fun, testing new Stickers with song lyrics
+          source: The Economic Times
+          url: https://economictimes.indiatimes.com/magazines/panache/instagram-to-make-stories-fun-testing-new-stickers-with-song-lyrics/articleshow/69308046.cms
+        - title: Facebook Inks Licensing Deals With Top Music Rightsholders In India
+          source: Music Business Worldwide
+          url: https://www.musicbusinessworldwide.com/facebook-inks-licensing-deals-with-top-rightsholders-in-india-including-bollywood-record-label-t-series/
+        - title: Microsoft acquires cloud gaming start-up PlayFab
+          source: CNBC
+          url: https://www.cnbc.com/2018/01/29/microsoft-acquires-playfab-cloud-gaming-start-up.html
+        - title: Microsoft buys gaming services startup PlayFab to bolster its Azure platform
+          source: TechCrunch
+          url: https://techcrunch.com/2018/01/29/microsoft-buys-cloud-gaming-startup-playfab-to-bolster-its-azure-gaming-platform/
+
 - name: Adi Agashe
   first_name: Adi
   slug: adi

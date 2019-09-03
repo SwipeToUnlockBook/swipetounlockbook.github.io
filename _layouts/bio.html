@@ -23,6 +23,7 @@
           {{ author.bio }}
         </p>
 
+        <h3>Press</h3>
         <ul>
           {% for article in author.links.press %}
             <li>
@@ -32,6 +33,18 @@
             </li>
           {% endfor %}
         </ul>
+
+        <h3>Work</h3>
+        <ul>
+          {% for article in author.links.work %}
+            <li>
+              <a href="{{ article.url }}">
+                {{ article.source }} &middot; {{ article.title }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+
       {% endif %}
     {% endfor %}
   </section>
