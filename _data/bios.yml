@@ -20,15 +20,40 @@
     Sphinx of black quartz, judge my vow!
   links:
     press:
-        - title: Article
-          url: https://www.abnewswire.com/pressreleases/parth-detroja-confirmed-as-speaker-for-grace-hopper-conference_419587.html
-        - title: Article
-          url: https://timesofindia.indiatimes.com/blogs/siliconvalley/the-product-ceo-in-talks-with-parth-detroja-product-manager-at-facebook
-        - title: Article
-          url: https://www.inc.com/tom-popomaronis/a-facebook-employee-reveals-his-secret-interview-technique-that-landed-job-offers-from-google-amazon-microsoft.html
-        - title: Article
-          url: https://www.businessinsider.com/amazon-could-acquire-lyft-expert-2018-11
-        - title: Article
-          url: https://www.businessinsider.com/how-to-get-tech-job-google-facebook-microsoft-2017-10
-        - title: Article
-          url: https://blogs.wsj.com/cio/2019/01/08/pressed-for-tech-talent-hiring-managers-consider-online-credentialing/
+        - title:
+          source:
+          url: http://news.theglobaltribune.com/story/237830/bestselling-author-neel-mehta-to-speak-at-grace-hopper-conference.html
+        - title: Bestselling author Neel Mehta to speak at Grace Hopper Conference
+          source: Benzinga
+          url:
+        - title: HuffPost
+          source: Harvard Students Partner With U.S. Government to Address Digital Skills Gaps
+          url:
+        - title: Opening Doors with Open Data
+          source: Harvard Political Review
+          url:
+        - title: "For the People: Improving Governments with Technology"
+          source: Harvard Political Review
+        - title: HPE - 7 Most Impressive Displays From HPE Discover Las Vegas 2016
+          source:
+        - title: Interviewing and Interning at Big Tech Companies with Neel Mehta
+          source: LearnToCodeWith.Me
+          url:
+        - title: Methacton High School student achieves perfect score on SATs
+          source: The Times Herald
+          url:
+        - title: Data to Make a Difference
+          source: Harvard School of Engineering and Applied Sciences
+          url:
+        - title: "Taking on tuberculosis: Tech in the World in Peru"
+          source: Harvard Global Health Institute
+          url:
+        - title: Power to the transit user in San Francisco
+          source: DataDoodle
+          url:
+        - title: Mehta co-authors book on blockchain
+          source: Harvard School of Engineering and Applied Sciences
+          url:
+        - title: Databank enables Amazon price fluctuation
+          source: WNYT
+          url: 
