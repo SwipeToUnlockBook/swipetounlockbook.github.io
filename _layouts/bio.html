@@ -58,6 +58,28 @@
           </a>.
         </p>
 
+        <h4>{{ site.data.bios.books.stu.name }}</h4>
+        <ul>
+          {% for article in site.data.bios.books.stu.press %}
+            <li>
+              <a href="{{ article.url }}">
+                {{ article.source }} &middot; {{ article.title }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+
+        <h4>{{ site.data.bios.books.bor.name }}</h4>
+        <ul>
+          {% for article in site.data.bios.books.bor.press %}
+            <li>
+              <a href="{{ article.url }}">
+                {{ article.source }} &middot; {{ article.title }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+
       {% endif %}
     {% endfor %}
   </section>
