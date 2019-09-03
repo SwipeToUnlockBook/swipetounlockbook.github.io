@@ -313,7 +313,7 @@
   },
   {
     "company": "LinkedIn",
-    "role": "Strategy & Analytics",
+    "role": "Strategy & Analytics Associate",
     "type": "Strategy",
     "technical": 0,
     "rotational": 1,
@@ -618,8 +618,21 @@
     "rotational": 1,
     "length_months": 24,
     "website": "https://usa.visa.com/careers.html",
-    "comments": "Search for \"New Graduate Development Program (Undergraduate) - Business Associate\"",
+    "comments": "Search for \"New Graduate Development Program (Undergraduate) - Business Associate\".",
     "description": "The New Graduate Development Rotation Program (NGDP) is a two year program with four - six month rotations through Visa’s functions. The NGDP program supports Visa’s mission to build a strong entry level pipeline of talent with cross-functional knowledge and experience. Associates rotate through various parts of the business, including but not limited to: Digital Solutions, Marketing, Processing, Product, Sales and Strategy. In addition to meaningful rotations, Associates are given training & development, mentoring, networking and leadership exposure.",
+    "": "",
+    "prestige": 0
+  },
+  {
+    "company": "Walmart",
+    "role": "Rotational Associate Product Manager",
+    "type": "PM",
+    "technical": 1,
+    "rotational": 1,
+    "length_months": "",
+    "website": "https://careers.walmart.com/results?q=rotational%20associate%20product%20manager&page=1&sort=rank&jobCategory=00000161-8bda-d3dd-a1fd-bbda62130000&expand=department,brand,type,rate&type=jobs",
+    "comments": "This is a saved search; job will appear if application is open",
+    "description": "Does the idea of improving the lives of millions of families by innovating at the nexus of ecommerce and physical retail excite you? Do you want to learn the craft of Product Management while gaining a deep understanding of end to end ecommerce? Becoming an Associate Product Manager at Walmart eCommerce puts you center stage at this pivotal moment in shopping and gives you the skills and understanding to be a top tier Product Manager in the Fortune #1 company in America.",
     "": "",
     "prestige": 0
   },
@@ -632,7 +645,7 @@
     "length_months": 12,
     "website": "https://www.workday.com/en-us/company/careers/university-recruiting.html",
     "comments": "",
-    "description": "Generation Workday is an early-career development program designed to help new college grads make a successful transition from school to the workplace and accelerate their careers at Workday. Those hired as part of GW get exposure to multiple teams and projects that include networking events, career development boot camps, discussions with company leaders, and potentially even overseas job assignments. Rotations include Technology (Engineering), Services (Consulting), and Product Management",
+    "description": "Generation Workday is an early-career development program designed to help new college grads make a successful transition from school to the workplace and accelerate their careers at Workday. Those hired as part of GW get exposure to multiple teams and projects that include networking events, career development boot camps, discussions with company leaders, and potentially even overseas job assignments. Rotations include Technology (Engineering), Services (Consulting), and Product Management.",
     "": "",
     "prestige": 0
   }
