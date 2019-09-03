@@ -8,3 +8,11 @@ person_name: Neel Mehta
 ---
 
 <h2>Hi {{page.person_name}} .{{page.manual_title}}.</h2>
+
+{% for author in site.data.bios %}
+  {{ author.bio }}
+
+  {% for article in author.links.press %}
+    {{ article.url }}
+  {% endfor %}
+{% endfor %}
