@@ -65,7 +65,7 @@ permalink: masterjoblist
             <a href="https://linkedin.com/in/adityaagashe">Adi</a>
         </p>
 
-        <hr>
+
 
         <!-- We're duplicating the company list so it shows on the left on
              large screens and immediately in the flow on small screens -->
@@ -77,12 +77,20 @@ permalink: masterjoblist
           {% endfor %}
         </div>
 
-        <hr>
 
         <!-- OK, now loop over every company and show the jobs
              available at each -->
         {% for company in site.data.masterjoblist_companies %}
-            <div id='{{ company | replace: " ", "" }}' class="company-block">
+            <!-- the anchor hyperlinks ignore the header atop the page,
+                 which makes the h2 normally get hidden behind the header
+                 when the user opens the link. instead if we put the actual
+                 anchored element a bit above the h2, that fake element
+                 gets hidden and the h2 can be seen normally. hence the
+                 empty span. -->
+            <span id='{{ company | replace: " ", "" }}'></span>
+            <br><br>
+            <hr>
+            <div class="company-job-block">
                 <h2 class="text-info">
                     {{ company }}
                 </h2>
@@ -103,7 +111,7 @@ permalink: masterjoblist
                         <span id='{{ id }}'></span>
                         <br><br>
                         <h3>
-                            <span class="text-info">{{ job.company }}</span>
+                            <span>{{ job.company }}</span>
                             {{ job.role }}
 
                             &nbsp;
@@ -167,7 +175,6 @@ permalink: masterjoblist
                     {% endif %}
                 {% endfor %}
             </div>
-            <hr>
         {% endfor %}
 
       </div>
