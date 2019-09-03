@@ -14,7 +14,14 @@
 
     {% for author in site.data.bios %}
       {% if author.slug == page.slug %}
-        {{ author.bio }}
+
+        <p>
+          Hi, thanks for visiting this site! Below we have documented the press that I have gotten over the years for our work. If you have any questions, please don’t hesitate to reach out! - {{ author.first_name }} ({{ author.email }})
+        </p>
+
+        <p class="lead">
+          {{ author.bio }}
+        </p>
 
         <ul>
           {% for article in author.links.press %}

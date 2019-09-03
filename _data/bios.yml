@@ -1,7 +1,9 @@
 - name: Parth Detroja
+  first_name: Parth
   slug: parth
+  email: parth@parthdetroja.com
   bio: |
-    Sphinx of black quartz, judge my vow!
+    Parth Detroja was the second youngest Product Manager hired in Facebook history. He leads social music product efforts such as adding music to stories on Facebook and Instagram. He is currently working on creating novel social experiences around premium music videos on Facebook. He previously worked at Microsoft where he laid the groundwork for Xbox’s acquisition of PlayFab.
   links:
     press:
         - title: Parth Detroja confirmed as speaker for Grace Hopper Conference
@@ -23,16 +25,18 @@
           source: The Wall Street Journal
           url: https://blogs.wsj.com/cio/2019/01/08/pressed-for-tech-talent-hiring-managers-consider-online-credentialing/
 - name: Adi Agashe
+  first_name: Adi
   slug: adi
+  email: adi@adityaagashe.com
   bio: |
-    Sphinx of black quartz, judge my vow!
+    Aditya is one of the youngest Microsoft Program Managers working on Azure cloud computing to build hyper-converged and hybrid features that help customers adopt cloud technologies. Previously on Windows, he created a roadmap for and programmed a proof of concept of OneDrive Files On-Demand, a feature that now has tens of millions of users. When he founded Belle Applications, a technology consulting firm, in college, he scaled revenue to low six figures and negotiated for a sizeable equity stake in many of his clients.
   links:
       press:
         - title: Aditya Agashe will be speaking at the annual Grace Hopper Conference
           source: KTVN
           url: https://www.ktvn.com/story/40924883/aditya-agashe-will-be-speaking-at-the-annual-grace-hopper-conference
         - title: Amazon changes prices on its products about every 10 minutes — here's how and why they do it
-          source: Business Insider 
+          source: Business Insider
           url: https://www.businessinsider.com/amazon-price-changes-2018-8
         - title: Apple is ready to launch its mobile payment service in Slovakia
           source: The Slovak Spectator
@@ -48,9 +52,11 @@
           url: https://news.cornell.edu/stories/2015/07/students-spend-summer-incubating-their-business-ideas
 
 - name: Neel Mehta
+  first_name: Neel
   slug: neel
+  email: neel@namehta.com
   bio: |
-    Sphinx of black quartz, judge my vow!
+    Neel is a Product Manager at Google working on the Chromebook hardware team, leading the design of the next generation of Chromebooks based on AMD chips, a potentially multi-billion dollar portfolio, and partnering with Daydream to bring AR capabilities to more Chromebooks. Previously at Microsoft, Neel launched numerous features for Microsoft Project and Planner, two products in the Office family, and was able to scale the product adoption to 150 million monthly active users. Prior to this, he founded the Civic Digital Fellowship, the first tech, data science, and PM internship program in the US government — it now sends 80+ students from top colleges to work in federal agencies every summer.
   links:
     press:
         - title: Bestselling author Neel Mehta to speak at Grace Hopper Conference
