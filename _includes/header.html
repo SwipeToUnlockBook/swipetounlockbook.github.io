@@ -6,6 +6,8 @@
       {% capture title %}
         {% if page.title %}
           {{ page.title }} | {{ site.book_title }}
+        {% elsif manual_title %}
+          {{ manual_title }} | {{ site.book_title }}
         {% else %}
           {{ site.book_title }}: {{ site.book_subtitle }}
         {% endif %}
