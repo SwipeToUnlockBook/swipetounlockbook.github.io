@@ -150,8 +150,10 @@ books:
       name: Swipe to Unlock
       slug: stu
       year: 2017
+      amazon: https://www.amazon.com/dp/B0756MTX6K
   bor:
     name: Bubble or Revolution
     slug: bor
     year: 2019
+    amazon: https://www.amazon.com/dp/B07T13GP1Q
 ### END BOOKS ###

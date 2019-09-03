@@ -49,9 +49,13 @@
 
         <p>
           {{ author.first_name }} is the bestselling author of
-          <em>{{ site.data.bios.books.stu.name }}</em> ({{ site.data.bios.books.stu.year }})
+          <a href="{{ site.data.bios.books.stu.amazon }}" target="_blank">
+            <em>{{ site.data.bios.books.stu.name }}</em> ({{ site.data.bios.books.stu.year }})
+          </a>
           and
-          <em>{{ site.data.bios.books.bor.name }}</em> ({{ site.data.bios.books.bor.year }}).
+          <a href="{{ site.data.bios.books.bor.amazon }}" target="_blank">
+            <em>{{ site.data.bios.books.bor.name }}</em> ({{ site.data.bios.books.bor.year }})
+          </a>.
         </p>
 
       {% endif %}
