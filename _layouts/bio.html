@@ -12,7 +12,7 @@
   <section class="article" class="col-xs-12 col-sm-10 col-sm-push-1 col-md-8 col-md-push-2">
     <h1>{{page.person_name}}'s Bio</h1>
 
-    {% for author in site.data.bios %}
+    {% for author in site.data.bios.authors %}
       {% if author.slug == page.slug %}
 
         <p>
@@ -44,6 +44,15 @@
             </li>
           {% endfor %}
         </ul>
+
+        <h3>Books</h3>
+
+        <p>
+          {{ author.first_name }} is the bestselling author of
+          <em>{{ site.data.bios.books.stu.name }}</em> ({{ site.data.bios.books.stu.year }})
+          and
+          <em>{{ site.data.bios.books.bor.name }}</em> ({{ site.data.bios.books.bor.year }}).
+        </p>
 
       {% endif %}
     {% endfor %}

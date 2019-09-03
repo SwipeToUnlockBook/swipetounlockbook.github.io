@@ -1,3 +1,5 @@
+### BEGIN AUTHORS ###
+authors:
 - name: Parth Detroja
   first_name: Parth
   slug: parth
@@ -139,3 +141,17 @@
         - title: Databank enables Amazon price fluctuation
           source: WNYT
           url: https://wnyt.com/news/amazone-on-line-shopping-prices-mehta-potrikus-databank/5177425/
+
+### END AUTHORS ###
+
+### START BOOKS ###
+books:
+  stu:
+      name: Swipe to Unlock
+      slug: stu
+      year: 2017
+  bor:
+    name: Bubble or Revolution
+    slug: bor
+    year: 2019
+### END BOOKS ###
