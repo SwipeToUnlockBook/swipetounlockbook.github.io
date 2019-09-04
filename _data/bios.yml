@@ -99,7 +99,28 @@ authors:
         - title: Students spend summer incubating their business ideas
           source: The Cornell Chronicle
           url: https://news.cornell.edu/stories/2015/07/students-spend-summer-incubating-their-business-ideas
-
+      work:
+        - title: Microsoft says 'no one's even close to what we're offering' in a cloud market that Amazon and Google are only just starting to enter
+          source: Business Insider
+          url: https://www.businessinsider.com/microsoft-azure-stack-hci-data-box-hybrid-cloud-2019-3
+        - title: This Is Why Investors Should Worry About Amazon's Future
+          source: Forbes
+          url: https://www.forbes.com/sites/petercohan/2019/07/27/this-is-why-investors-should-worry-about-amazons-future
+        - title: Azure Stack HCI arrives for those who like their apps virtualised rather than cloudy
+          source: The Register
+          url: https://www.theregister.co.uk/2019/03/26/azure_stack_hci
+        - title: Microsoft Azure Stack now supports customers betting on hyperconverged infrastructure
+          source: GeekWire
+          url: https://www.geekwire.com/2019/microsoft-azure-stack-now-supports-customers-betting-hyperconverged-infrastructure
+        - title: How Microsoft Is Revolutionizing The Cloud: Satya Nadella's Strategy To Blow Past $20 Billion
+          source: Forbes
+          url: https://www.forbes.com/sites/bobevans1/2017/11/01/how-microsoft-is-revolutionizing-the-cloud-satya-nadellas-strategy-to-blow-past-20-billion
+        - title: Microsoft's OneDrive Files On-Demand brings better sync options to Windows 10
+          source: The Verge
+          url: https://www.theverge.com/2017/5/11/15616646/microsoft-onedrive-files-on-demand-feature
+        - title: Microsoft details OneDrive files on-demand, offline access on Android and iOS, and iMessage integration
+          source: VentureBeat
+          url: https://venturebeat.com/2017/05/11/microsoft-details-onedrive-files-on-demand-offline-access-on-android-and-ios-and-imessage-integration
 - name: Neel Mehta
   first_name: Neel
   slug: neel
