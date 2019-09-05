@@ -100,7 +100,7 @@ authors:
           source: The Cornell Chronicle
           url: https://news.cornell.edu/stories/2015/07/students-spend-summer-incubating-their-business-ideas
       work:
-        - title: Microsoft says 'no one's even close to what we're offering' in a cloud market that Amazon and Google are only just starting to enter
+        - title: "Microsoft says 'no one's even close to what we're offering' in a cloud market that Amazon and Google are only just starting to enter"
           source: Business Insider
           url: https://www.businessinsider.com/microsoft-azure-stack-hci-data-box-hybrid-cloud-2019-3
         - title: This Is Why Investors Should Worry About Amazon's Future
@@ -112,7 +112,7 @@ authors:
         - title: Microsoft Azure Stack now supports customers betting on hyperconverged infrastructure
           source: GeekWire
           url: https://www.geekwire.com/2019/microsoft-azure-stack-now-supports-customers-betting-hyperconverged-infrastructure
-        - title: How Microsoft Is Revolutionizing The Cloud: Satya Nadella's Strategy To Blow Past $20 Billion
+        - title: "How Microsoft Is Revolutionizing The Cloud: Satya Nadella's Strategy To Blow Past $20 Billion"
           source: Forbes
           url: https://www.forbes.com/sites/bobevans1/2017/11/01/how-microsoft-is-revolutionizing-the-cloud-satya-nadellas-strategy-to-blow-past-20-billion
         - title: Microsoft's OneDrive Files On-Demand brings better sync options to Windows 10
@@ -201,7 +201,7 @@ books:
 # Swipe to Unlock
 # ●      Bronze Medal in the North American Book Awards
 # Amazon no1 Business Bestseller
-# 
+#
 #
 # Parth
 # ●      Merrill Presidential Scholar
