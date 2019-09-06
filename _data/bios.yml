@@ -176,8 +176,7 @@ authors:
 
 ### START BOOKS ###
 books:
-  stu:
-    name: Swipe to Unlock
+  - name: Swipe to Unlock
     slug: stu
     year: 2017
     amazon: https://www.amazon.com/dp/B0756MTX6K
@@ -190,8 +189,7 @@ books:
         authority: North American Book Awards
       - name: "#1 Business Bestseller"
         authority: Amazon
-  bor:
-    name: Bubble or Revolution
+  - name: Bubble or Revolution
     slug: bor
     year: 2019
     amazon: https://www.amazon.com/dp/B07T13GP1Q

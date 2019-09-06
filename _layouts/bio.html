@@ -49,36 +49,28 @@
 
         <p>
           {{ author.first_name }} is the bestselling author of
-          <a href="{{ site.data.bios.books.stu.amazon }}" target="_blank">
-            <em>{{ site.data.bios.books.stu.name }}</em> ({{ site.data.bios.books.stu.year }})
+          <a href="{{ site.data.bios.books[0].amazon }}" target="_blank">
+            <em>{{ site.data.bios.books[0].name }}</em> ({{ site.data.bios.books[0].year }})
           </a>
           and
-          <a href="{{ site.data.bios.books.bor.amazon }}" target="_blank">
-            <em>{{ site.data.bios.books.bor.name }}</em> ({{ site.data.bios.books.bor.year }})
+          <a href="{{ site.data.bios.books[1].amazon }}" target="_blank">
+            <em>{{ site.data.bios.books[1].name }}</em> ({{ site.data.bios.books[1].year }})
           </a>.
         </p>
 
-        <h4>{{ site.data.bios.books.stu.name }}</h4>
-        <ul>
-          {% for article in site.data.bios.books.stu.press %}
-            <li>
-              <a href="{{ article.url }}">
-                {{ article.source }} &middot; {{ article.title }}
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-
-        <h4>{{ site.data.bios.books.bor.name }}</h4>
-        <ul>
-          {% for article in site.data.bios.books.bor.press %}
-            <li>
-              <a href="{{ article.url }}">
-                {{ article.source }} &middot; {{ article.title }}
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
+        {% for book in site.data.bios.books %}
+          <h4>{{ book.name }}</h4>
+          <p>Press:</p>
+          <ul>
+            {% for article in book.press %}
+              <li>
+                <a href="{{ article.url }}">
+                  {{ article.source }} &middot; {{ article.title }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endfor %}
 
       {% endif %}
     {% endfor %}
