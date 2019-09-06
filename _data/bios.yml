@@ -69,7 +69,21 @@ authors:
         - title: Microsoft buys gaming services startup PlayFab to bolster its Azure platform
           source: TechCrunch
           url: https://techcrunch.com/2018/01/29/microsoft-buys-cloud-gaming-startup-playfab-to-bolster-its-azure-gaming-platform/
-
+  education:
+    - school: Cornell University
+      major: Applied Economics and Management
+      honors:
+        - summa cum laude (top 1% of class)
+        - Academic Excellence Award for Applied Economics and Management
+  awards:
+    - name: Merrill Presidential Scholar
+      authority: Cornell University
+      comments:
+        - Awarded to the top 1% of the senior class
+    - name: Rawlings Cornell Presidential Research Scholar
+      authority: Cornell University
+      comments:
+        - Awarded to 1.5% of class who have "demonstrated academic excellence" and pursue "innovative research"
 - name: Aditya Agashe
   first_name: Adi
   slug: adi
@@ -124,7 +138,8 @@ authors:
   education:
     - school: Cornell University
       major: Computer Science and Business
-      honors: cum laude (top 20% of class)
+      honors:
+        - cum laude (top 20% of class)
   awards:
     - name: Rawlings Cornell Presidential Research Scholar
       authority: Cornell University
@@ -208,6 +223,11 @@ authors:
       - title: Stage Set For AMD-Intel Premium Chromebook Standoff
         source: Android Headlines
         url: https://www.androidheadlines.com/2019/04/amd-vs-intel-chromebooks.html
+  education:
+    - school: Harvard University
+      major: Computer Science
+      honors:
+        - cum laude
   awards:
     - name: Rhodes Scholarship Finalist
       authority: The Rhodes Trust
@@ -274,16 +294,3 @@ books:
 # Awarded yearly to 45 highly motivated incoming freshmen (fewer than 1.5% of class) who have demonstrated academic excellence to conduct financially supported, innovative research.
 # ●      Graduated Summa Cum Laude (top 1% of class) at Cornell University and was awarded the Academic Excellence Award for his major.
 #
-
-# Neel
-#
-# Rhodes Scholarship finalist, 2017
-# Gates-Cambridge Scholarship winner, 2017
-# A scholarship established by the Bill and Melinda Gates Foundation to fully fund graduate study at the University of Cambridge (3% acceptance rate, average GPA 3.93, LSAT/GMAT/GRE scores in the 99th percentile)
-# Was awarded scholarship to study MPhil in Technology Policy at the Cambridge Judge Business School, but declined in favor of an Associate Product Manager offer from Google
-# John Harvard Scholar, Harvard University
-# Awarded to the top 5% of the Harvard undergraduate class 
-# Gov 2.0 Grant, Harvard Institute of Politics, 2017
-# Awarded to one Harvard student each year who is “using technology to solve pressing issues in the public sector.”
-# Coca-Cola Scholar, 2014
-# The most prestigious merit-based high school scholarship, awarding $20,000 to 150 students (out of 88,000 applicants, for a 0.17% acceptance rate)
