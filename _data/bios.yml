@@ -177,14 +177,19 @@ authors:
 ### START BOOKS ###
 books:
   stu:
-      name: Swipe to Unlock
-      slug: stu
-      year: 2017
-      amazon: https://www.amazon.com/dp/B0756MTX6K
-      press:
-        - title: Essential Technology Books For Non-Technical Founders
-          source: Forbes
-          url: https://www.forbes.com/sites/sophiamatveeva/2019/08/22/essential-technology-books-for-non-technical-founders
+    name: Swipe to Unlock
+    slug: stu
+    year: 2017
+    amazon: https://www.amazon.com/dp/B0756MTX6K
+    press:
+      - title: Essential Technology Books For Non-Technical Founders
+        source: Forbes
+        url: https://www.forbes.com/sites/sophiamatveeva/2019/08/22/essential-technology-books-for-non-technical-founders
+    awards:
+      - name: Bronze Medal
+        authority: North American Book Awards
+      - name: "#1 Business Bestseller"
+        authority: Amazon
   bor:
     name: Bubble or Revolution
     slug: bor
@@ -194,6 +199,10 @@ books:
       - title: "Bubble or Revolution Becomes #1 Bestselling Blockchain Book on Amazon"
         source: MarketWatch
         url: https://www.marketwatch.com/press-release/bubble-or-revolution-becomes-1-bestselling-blockchain-book-on-amazon-2019-08-06
+    awards:
+      - name: "Bestseller"
+        authority: Amazon
+
 ### END BOOKS ###
 
 ### TO ADD ###
