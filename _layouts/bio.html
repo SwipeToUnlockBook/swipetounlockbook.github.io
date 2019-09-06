@@ -23,7 +23,7 @@
           {{ author.bio }}
         </p>
 
-        <h3>Press</h3>
+        <h2>Press</h2>
         <ul>
           {% for article in author.links.press %}
             <li>
@@ -34,7 +34,7 @@
           {% endfor %}
         </ul>
 
-        <h3>Work</h3>
+        <h2>Work</h2>
         <ul>
           {% for article in author.links.work %}
             <li>
@@ -45,7 +45,7 @@
           {% endfor %}
         </ul>
 
-        <h3>Books</h3>
+        <h2>Books</h2>
 
         <p>
           {{ author.first_name }} is the bestselling author of
@@ -59,7 +59,7 @@
         </p>
 
         {% for book in site.data.bios.books %}
-          <h4>{{ book.name }}</h4>
+          <h3>{{ book.name }}</h3>
           <p>Press:</p>
           <ul>
             {% for article in book.press %}
@@ -70,6 +70,16 @@
               </li>
             {% endfor %}
           </ul>
+
+          <p>Awards:</p>
+          <ul>
+            {% for award in book.awards %}
+              <li>
+                {{ award.authority }} &middot; {{ award.name }}
+              </li>
+            {% endfor %}
+          </ul>
+
         {% endfor %}
 
       {% endif %}
