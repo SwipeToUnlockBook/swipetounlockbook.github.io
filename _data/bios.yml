@@ -121,6 +121,24 @@ authors:
         - title: Microsoft details OneDrive files on-demand, offline access on Android and iOS, and iMessage integration
           source: VentureBeat
           url: https://venturebeat.com/2017/05/11/microsoft-details-onedrive-files-on-demand-offline-access-on-android-and-ios-and-imessage-integration
+  education:
+    - school: Cornell University
+      major: Computer Science and Business
+      honors: cum laude (top 20% of class)
+  awards:
+    - name: Rawlings Cornell Presidential Research Scholar
+      authority: Cornell University
+      comments:
+        - Awarded to 1.5% of class who have "demonstrated academic excellence" and pursue "innovative research"
+    - name: Dyson Societal Solutions Scholar
+      authority: Cornell University
+      comments:
+        - Four students chosen each year by faculty committee
+        - Provides $20,000 of funding to support "promising, actionable innovation"
+    - name: Business Plan Competition Semifinalist
+      authority: New York State
+      comments:
+        - Semifinalist among 500+ applicants
 - name: Neel Mehta
   first_name: Neel
   slug: neel
@@ -182,14 +200,35 @@ authors:
         source: Android Police
         url: https://www.androidpolice.com/2019/04/22/animated-google-doodle-shows-up-in-homescreen-search-widget-and-discover-feed/
       - title: Google reminds everyone that today is Mother’s Day w/ Doodle in Pixel Launcher
-        source: 9to5 Google
+        source: 9to5Google
         url: https://9to5google.com/2019/05/11/mothers-day-google-doodle-pixel-launcher/
       - title: More AMD Chromebooks on the way with powerful Ryzen processors
-        source: 9to5 Google
+        source: 9to5Google
         url: https://9to5google.com/2019/04/10/amd-ryzen-chromebooks/
       - title: Stage Set For AMD-Intel Premium Chromebook Standoff
         source: Android Headlines
         url: https://www.androidheadlines.com/2019/04/amd-vs-intel-chromebooks.html
+  awards:
+    - name: Rhodes Scholarship Finalist
+      authority: The Rhodes Trust
+    - name: Gates-Cambridge Scholarship Awardee
+      authority: The Bill and Melinda Gates Foundation
+      comments:
+        - Fully funds graduate study at the University of Cambridge
+        - 3% acceptance rate, average LSAT/GMAT/GRE scores in 99th percentile
+        - Was awarded scholarship but declined in favor of Google APM offer
+    - name: John Harvard Scholar
+      authority: Harvard University
+      comments:
+        - Awarded to top 5% of Harvard undergraduate class
+    - name: Gov 2.0 Grant
+      authority: Harvard Institute of Politics
+      comments:
+        - Awarded to one Harvard student each year who is "using technology to solve pressing issues in the public sector"
+    - name: Coca-Cola Scholar
+      authority: The Coca-Cola Scholars Foundation
+      comments:
+        - Awards $20,000 to 150 high-schools students each year (out of 90,000 applicants, for a 0.17% acceptance rate)
 ### END AUTHORS ###
 
 ### START BOOKS ###
@@ -235,16 +274,7 @@ books:
 # Awarded yearly to 45 highly motivated incoming freshmen (fewer than 1.5% of class) who have demonstrated academic excellence to conduct financially supported, innovative research.
 # ●      Graduated Summa Cum Laude (top 1% of class) at Cornell University and was awarded the Academic Excellence Award for his major.
 #
-# Adi
-# ●      Rawlings Cornell Presidential Research Scholar (awarded to ~1.5% of Class of 2017)
-# Awarded yearly to 45 highly motivated incoming freshmen (fewer than 1.5% of class) who have demonstrated academic excellence to conduct financially supported, innovative research.
-# ●      Dyson Societal Solutions Scholar
-# Four Dyson S2 Scholars are chosen each year by a faculty committee to promote student-driven innovation. Each scholar receives $20,000 of funding to support promising actionable innovations.
-# ●   NYS Business Plan Semifinalist
-# Semifinalist among 500+ applicants for the New York State Business Plan Competition.
-# ●      Graduated Cum Laude (top 20% of class) studying Computer Science and Business at Cornell University
-#
-#
+
 # Neel
 #
 # Rhodes Scholarship finalist, 2017

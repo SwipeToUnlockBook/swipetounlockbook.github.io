@@ -23,6 +23,20 @@
           {{ author.bio }}
         </p>
 
+        <h2>Awards</h2>
+          {% for award in author.awards %}
+            <dt>{{ award.name }}, {{ award.authority }}</dt>
+
+            <dd>
+              <ul>
+              {% for comment in award.comments %}
+                <li> {{ comment }}</li>
+              {% endfor %}
+              </ul>
+            </dd>
+
+          {% endfor %}
+
         <h2>Press</h2>
         <ul>
           {% for article in author.links.press %}
