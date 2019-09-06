@@ -23,6 +23,13 @@
           {{ author.bio }}
         </p>
 
+        <h2>Education</h2>
+
+        {% for edu in author.education %}
+          <dt>{{ edu.school }} &middot; {{ edu.major }}</dt>
+          <em>{{ edu.honors | join: ', ' }}</em>
+        {% endfor %}
+
         <h2>Awards</h2>
           {% for award in author.awards %}
             <dt>{{ award.name }}, {{ award.authority }}</dt>
