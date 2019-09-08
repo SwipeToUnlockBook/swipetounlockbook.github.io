@@ -16,33 +16,12 @@
       {% if author.slug == page.slug %}
 
         <p>
-          Hi, thanks for visiting this site! Below I have documented the press that I have gotten over the years for our work. If you have any questions, please don’t hesitate to reach out! - {{ author.first_name }} ({{ author.email }})
+        {{ author.first_name }} ({{ author.email }})
         </p>
 
         <p class="lead">
           {{ author.bio }}
         </p>
-
-        <h2>Education</h2>
-
-        {% for edu in author.education %}
-          <dt>{{ edu.school }} &middot; {{ edu.major }}</dt>
-          <em>{{ edu.honors | join: ', ' }}</em>
-        {% endfor %}
-
-        <h2>Awards</h2>
-          {% for award in author.awards %}
-            <dt>{{ award.name }}, {{ award.authority }}</dt>
-
-            <dd>
-              <ul>
-              {% for comment in award.comments %}
-                <li> {{ comment }}</li>
-              {% endfor %}
-              </ul>
-            </dd>
-
-          {% endfor %}
 
         <h2>Press</h2>
         <ul>
@@ -103,6 +82,28 @@
 
         {% endfor %}
 
+        <h2>Education</h2>
+
+        {% for edu in author.education %}
+          <dt>{{ edu.school }} &middot; {{ edu.major }}</dt>
+          <em>{{ edu.honors | join: ', ' }}</em>
+        {% endfor %}
+
+        <h2>Awards</h2>
+        {% for award in author.awards %}
+          <dt>{{ award.name }}, {{ award.authority }}</dt>
+
+          <dd>
+            <ul>
+            {% for comment in award.comments %}
+              <li> {{ comment }}</li>
+            {% endfor %}
+            </ul>
+          </dd>
+
+        {% endfor %}
+
+      <!-- End author loop -->
       {% endif %}
     {% endfor %}
   </section>
