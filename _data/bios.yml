@@ -267,6 +267,7 @@ authors:
 ### START BOOKS ###
 books:
   - name: Swipe to Unlock
+    subtitle: The Primer on Technology and Business Strategy
     slug: stu
     year: 2017
     amazon: https://www.amazon.com/dp/B0756MTX6K
@@ -281,6 +282,7 @@ books:
       - name: "#1 Business Bestseller"
         authority: Amazon
   - name: Bubble or Revolution?
+    subtitle: The Present and Future of Blockchain and Cryptocurrencies
     slug: bor
     year: 2019
     amazon: https://www.amazon.com/dp/B07T13GP1Q

@@ -62,7 +62,9 @@
         </p>
 
         {% for book in site.data.bios.books %}
-          <h3><a href="{{ book.amazon }}">{{ book.name }}</a></h3>
+          <h3>
+            <a href="{{ book.amazon }}">{{ book.name }}</a>: {{ book.subtitle }}
+          </h3>
 
           <!-- Title row -->
           <!-- <div class="row">
