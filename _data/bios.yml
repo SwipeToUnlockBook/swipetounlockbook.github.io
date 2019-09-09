@@ -267,6 +267,7 @@ books:
     slug: stu
     year: 2017
     amazon: https://www.amazon.com/dp/B0756MTX6K
+    image_slug: stu_modeled
     press:
       - title: Essential Technology Books For Non-Technical Founders
         source: Forbes
@@ -276,10 +277,11 @@ books:
         authority: North American Book Awards
       - name: "#1 Business Bestseller"
         authority: Amazon
-  - name: Bubble or Revolution
+  - name: Bubble or Revolution?
     slug: bor
     year: 2019
     amazon: https://www.amazon.com/dp/B07T13GP1Q
+    image_slug: bor_modeled
     press:
       - title: "Bubble or Revolution Becomes #1 Bestselling Blockchain Book on Amazon"
         source: MarketWatch
