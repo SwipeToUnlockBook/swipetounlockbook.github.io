@@ -72,6 +72,7 @@ authors:
           url: https://techcrunch.com/2018/01/29/microsoft-buys-cloud-gaming-startup-playfab-to-bolster-its-azure-gaming-platform/
   education:
     - school: Cornell University
+      degree: Bachelor of Science
       major: Applied Economics and Management
       honors:
         - Summa cum laude (top 1% of class)
@@ -139,6 +140,7 @@ authors:
           url: https://venturebeat.com/2017/05/11/microsoft-details-onedrive-files-on-demand-offline-access-on-android-and-ios-and-imessage-integration
   education:
     - school: Cornell University
+      degree: Bachelor of Science
       major: Computer Science and Business
       honors:
         - cum laude (top 20% of class)
@@ -228,6 +230,7 @@ authors:
         url: https://www.androidheadlines.com/2019/04/amd-vs-intel-chromebooks.html
   education:
     - school: Harvard University
+      degree: Bachelor of Arts
       major: Computer Science
       honors:
         - cum laude

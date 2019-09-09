@@ -81,7 +81,7 @@
         <h2>Education</h2>
 
         {% for edu in author.education %}
-          <dt>{{ edu.school }} &middot; {{ edu.major }}</dt>
+          <dt>{{ edu.school }} &middot; {{ edu.degree }} &middot; {{ edu.major }}</dt>
           <em>{{ edu.honors | join: ', ' }}</em>
         {% endfor %}
 
