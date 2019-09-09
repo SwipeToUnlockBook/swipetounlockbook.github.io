@@ -8,16 +8,23 @@
 {% include header.html %}
 
 <div class="container">
-  <div class="row">
-  <section class="article" class="col-xs-12 col-sm-10 col-sm-push-1 col-md-8 col-md-push-2">
+  <section class="article">
     <h1>{{page.person_name}}'s Bio</h1>
 
     {% for author in site.data.bios.authors %}
       {% if author.slug == page.slug %}
 
-        <p>
-          <em>{{ author.bio }}</em>
-        </p>
+        <div class="row">
+          <div class="col-xs-4 col-sm-3 col-md-2">
+            <img src="assets/img/authors/{{ author.image_slug }}.jpg" class="img-circle img-responsive">
+          </div>
+
+          <div class="col-xs-8 col-sm-9 col-md-10">
+            <p>
+              <em>{{ author.bio }}</em>
+            </p>
+          </div>
+        </div>
 
         <h2>Press</h2>
         <ul>

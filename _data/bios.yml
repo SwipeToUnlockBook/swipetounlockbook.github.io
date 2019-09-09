@@ -5,6 +5,7 @@ authors:
   slug: parth
   email: parth@parthdetroja.com
   linkedin_username: parthdetroja
+  image_slug: parth-detroja
   bio: |
     Parth Detroja is a Product Manager at Facebook where he leads the company’s music video efforts. He previously worked at Microsoft where we laid the groundwork for Xbox’s acquisition of PlayFab. He graduated from Cornell University with a Bachelor of Science in Applied Economics and Management as a Merrill Presidential Scholar (top 1% of class).
   links:
@@ -91,6 +92,7 @@ authors:
   slug: adi
   email: adi@adityaagashe.com
   linkedin_username: adityaagashe
+  image_slug: aditya-agashe
   bio: |
     Aditya is one of the youngest Microsoft Program Managers working on Azure cloud computing to build hyper-converged and hybrid features that help customers adopt cloud technologies. Previously on Windows, he created a roadmap for and programmed a proof of concept of OneDrive Files On-Demand, a feature that now has tens of millions of users. When he founded Belle Applications, a technology consulting firm, in college, he scaled revenue to low six figures and negotiated for a sizeable equity stake in many of his clients.
   links:
@@ -163,6 +165,7 @@ authors:
   slug: neel
   email: neel@namehta.com
   linkedin_username: neelmehta18
+  image_slug: neel-mehta
   bio: |
     Neel is a Product Manager at Google working on the Chromebook hardware team, leading the design of the next generation of Chromebooks based on AMD chips, a potentially multi-billion dollar portfolio, and partnering with Daydream to bring AR capabilities to more Chromebooks. Previously at Microsoft, Neel launched numerous features for Microsoft Project and Planner, two products in the Office family, and was able to scale the product adoption to 150 million monthly active users. Prior to this, he founded the Civic Digital Fellowship, the first tech, data science, and PM internship program in the US government — it now sends 80+ students from top colleges to work in federal agencies every summer.
   links:
