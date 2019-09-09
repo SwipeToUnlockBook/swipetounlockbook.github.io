@@ -181,5 +181,13 @@ h6 {
 }
 
 .article {
-  
+
+}
+
+section.anchorable {
+  // apply to a section to make it work properly with #anchors
+  // like index.html#book. Otherwise the heading gets covered by the
+  // navbar.
+  margin-top: -60px;
+  padding-top: 60px;
 }

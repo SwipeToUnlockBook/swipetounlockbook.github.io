@@ -26,112 +26,124 @@
           </div>
         </div>
 
-        <h2>Press</h2>
-        <ul>
-          {% for article in author.links.press %}
-            <li>
-              <a href="{{ article.url }}">
-                {{ article.source }} &middot; {{ article.title }}
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-
-        <h2>Work</h2>
-        <ul>
-          {% for article in author.links.work %}
-            <li>
-              <a href="{{ article.url }}">
-                {{ article.source }} &middot; {{ article.title }}
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-
-        <h2>Books</h2>
-
-        <p>
-          {{ author.first_name }} is the bestselling author of
-          <a href="{{ site.data.bios.books[0].amazon }}" target="_blank">
-            <em>{{ site.data.bios.books[0].name }}</em> ({{ site.data.bios.books[0].year }})
-          </a>
-          and
-          <a href="{{ site.data.bios.books[1].amazon }}" target="_blank">
-            <em>{{ site.data.bios.books[1].name }}</em> ({{ site.data.bios.books[1].year }})
-          </a>.
-        </p>
-
-        {% for book in site.data.bios.books %}
-          <h3>
-            <a href="{{ book.amazon }}">{{ book.name }}</a>: {{ book.subtitle }}
-          </h3>
-
-          <!-- Title row -->
-          <!-- <div class="row">
-            <div class="col-xs-4 col-sm-3 col-md-2">
-            </div>
-            <div class="col-xs-8 col-sm-9 col-md-10">
-
-            </div>
-          </div> -->
-          <!-- Content row -->
-          <div class="row">
-            <div class="col-xs-12 col-sm-3 col-md-2">
-              <img src="assets/img/books/{{ book.image_slug }}.png" class="img-rounded img-responsive centered">
-            </div>
-            <div class="col-xs-12 col-sm-9 col-md-10">
-              <p>Press:</p>
-              <ul>
-                {% for article in book.press %}
-                  <li>
-                    <a href="{{ article.url }}">
-                      {{ article.source }} &middot; {{ article.title }}
-                    </a>
-                  </li>
-                {% endfor %}
-              </ul>
-
-              <p>Awards:</p>
-              <ul>
-                {% for award in book.awards %}
-                  <li>
-                    {{ award.authority }} &middot; {{ award.name }}
-                  </li>
-                {% endfor %}
-              </ul>
-            </div>
-          </div>
-
-        {% endfor %}
-
-        <h2>Education</h2>
-
-        {% for edu in author.education %}
-          <dt>{{ edu.school }} &middot; {{ edu.degree }} &middot; {{ edu.major }}</dt>
-          <em>{{ edu.honors | join: ', ' }}</em>
-        {% endfor %}
-
-        <h2>Awards</h2>
-        {% for award in author.awards %}
-          <dt>{{ award.name }}, {{ award.authority }}</dt>
-
-          <dd>
-            <ul>
-            {% for comment in award.comments %}
-              <li> {{ comment }}</li>
+        <section class="anchorable" id="press">
+          <h2>Press</h2>
+          <ul>
+            {% for article in author.links.press %}
+              <li>
+                <a href="{{ article.url }}">
+                  {{ article.source }} &middot; {{ article.title }}
+                </a>
+              </li>
             {% endfor %}
-            </ul>
-          </dd>
+          </ul>
+        </section>
 
-        {% endfor %}
+        <section class="anchorable" id="work">
+          <h2>Work</h2>
+          <ul>
+            {% for article in author.links.work %}
+              <li>
+                <a href="{{ article.url }}">
+                  {{ article.source }} &middot; {{ article.title }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </section>
 
-        <h2>Contact</h2>
-        <p>
-          You can reach {{ author.first_name }} at {{ author.email }} or find him
-          <a href="https://linkedin.com/in/{{ author.linkedin_username}}">on LinkedIn</a>.
-        </p>
+        <section class="anchorable" id="books">
+          <h2>Books</h2>
 
-      <!-- End author loop -->
+          <p>
+            {{ author.first_name }} is the bestselling author of
+            <a href="{{ site.data.bios.books[0].amazon }}" target="_blank">
+              <em>{{ site.data.bios.books[0].name }}</em> ({{ site.data.bios.books[0].year }})
+            </a>
+            and
+            <a href="{{ site.data.bios.books[1].amazon }}" target="_blank">
+              <em>{{ site.data.bios.books[1].name }}</em> ({{ site.data.bios.books[1].year }})
+            </a>.
+          </p>
+
+          {% for book in site.data.bios.books %}
+            <h3>
+              <a href="{{ book.amazon }}">{{ book.name }}</a>: {{ book.subtitle }}
+            </h3>
+
+            <!-- Title row -->
+            <!-- <div class="row">
+              <div class="col-xs-4 col-sm-3 col-md-2">
+              </div>
+              <div class="col-xs-8 col-sm-9 col-md-10">
+
+              </div>
+            </div> -->
+            <!-- Content row -->
+            <div class="row">
+              <div class="col-xs-12 col-sm-3 col-md-2">
+                <img src="assets/img/books/{{ book.image_slug }}.png" class="img-rounded img-responsive centered">
+              </div>
+              <div class="col-xs-12 col-sm-9 col-md-10">
+                <p>Press:</p>
+                <ul>
+                  {% for article in book.press %}
+                    <li>
+                      <a href="{{ article.url }}">
+                        {{ article.source }} &middot; {{ article.title }}
+                      </a>
+                    </li>
+                  {% endfor %}
+                </ul>
+
+                <p>Awards:</p>
+                <ul>
+                  {% for award in book.awards %}
+                    <li>
+                      {{ award.authority }} &middot; {{ award.name }}
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+
+          {% endfor %}
+          <br>
+        </section>
+
+        <section class="anchorable" id="education">
+          <h2>Education</h2>
+
+          {% for edu in author.education %}
+            <dt>{{ edu.school }} &middot; {{ edu.degree }} &middot; {{ edu.major }}</dt>
+            <em>{{ edu.honors | join: ', ' }}</em>
+          {% endfor %}
+        </section>
+
+        <section class="anchorable" id="awards">
+          <h2>Awards</h2>
+          {% for award in author.awards %}
+            <dt>{{ award.name }}, {{ award.authority }}</dt>
+
+            <dd>
+              <ul>
+              {% for comment in award.comments %}
+                <li> {{ comment }}</li>
+              {% endfor %}
+              </ul>
+            </dd>
+
+          {% endfor %}
+        </section>
+
+        <section class="anchorable" id="contact">
+          <h2>Contact</h2>
+          <p>
+            You can reach {{ author.first_name }} at {{ author.email }} or find him
+            <a href="https://linkedin.com/in/{{ author.linkedin_username}}">on LinkedIn</a>.
+          </p>
+        </section>
+
       {% endif %}
     {% endfor %}
   </section>
