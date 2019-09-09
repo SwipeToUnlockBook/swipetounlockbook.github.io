@@ -16,11 +16,7 @@
       {% if author.slug == page.slug %}
 
         <p>
-        {{ author.first_name }} ({{ author.email }})
-        </p>
-
-        <p class="lead">
-          {{ author.bio }}
+          <em>{{ author.bio }}</em>
         </p>
 
         <h2>Press</h2>
@@ -102,6 +98,12 @@
           </dd>
 
         {% endfor %}
+
+        <h2>Contact</h2>
+        <p>
+          You can reach {{ author.first_name }} at {{ author.email }} or find him
+          <a href="https://linkedin.com/in/{{ author.linkedin_username}}">on LinkedIn</a>.
+        </p>
 
       <!-- End author loop -->
       {% endif %}
