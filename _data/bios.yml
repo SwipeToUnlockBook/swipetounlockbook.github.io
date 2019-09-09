@@ -136,10 +136,16 @@ authors:
           url: https://www.geekwire.com/2019/microsoft-azure-stack-now-supports-customers-betting-hyperconverged-infrastructure
         - title: "How Microsoft Is Revolutionizing The Cloud: Satya Nadella's Strategy To Blow Past $20 Billion"
           source: Forbes
+        - title: "Microsoft's Azure Stack HCI: A new option for running virtualized apps that connect to Azure"
+          source: ZDNet
+          url: https://www.zdnet.com/article/microsofts-azure-stack-hci-a-new-option-for-running-virtualized-apps-that-connect-to-azure
           url: https://www.forbes.com/sites/bobevans1/2017/11/01/how-microsoft-is-revolutionizing-the-cloud-satya-nadellas-strategy-to-blow-past-20-billion
         - title: Microsoft's OneDrive Files On-Demand brings better sync options to Windows 10
           source: The Verge
           url: https://www.theverge.com/2017/5/11/15616646/microsoft-onedrive-files-on-demand-feature
+        - title: Microsoft OneDrive’s on-demand files come to the MacOS Finder
+          source: TechCrunch
+          url: https://techcrunch.com/2018/09/24/microsoft-onedrives-on-demand-files-come-to-the-macos-finder
         - title: Microsoft details OneDrive files on-demand, offline access on Android and iOS, and iMessage integration
           source: VentureBeat
           url: https://venturebeat.com/2017/05/11/microsoft-details-onedrive-files-on-demand-offline-access-on-android-and-ios-and-imessage-integration
@@ -148,7 +154,7 @@ authors:
       degree: Bachelor of Science
       major: Computer Science and Business
       honors:
-        - cum laude (top 20% of class)
+        - Cum laude
   awards:
     - name: Rawlings Cornell Presidential Research Scholar
       authority: Cornell University
