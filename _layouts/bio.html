@@ -138,10 +138,15 @@
 
         <section class="anchorable" id="contact">
           <h2>Contact</h2>
-          <p>
-            You can reach {{ author.first_name }} at {{ author.email }} or find him
-            <a href="https://linkedin.com/in/{{ author.linkedin_username}}">on LinkedIn</a>.
-          </p>
+          <a href="https://linkedin.com/in/{{ author.linkedin_username}}" class="btn btn-primary"
+              target="_blank">
+            <i class="fab fa-linkedin"></i>
+            LinkedIn
+          </a>
+          <a href="mailto:" class="btn btn-default" target="_blank">
+            <i class="fa fa-envelope"></i>
+            {{ author.email }}
+          </a>
         </section>
 
       {% endif %}
