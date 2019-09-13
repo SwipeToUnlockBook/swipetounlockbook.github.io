@@ -35,8 +35,7 @@
                 {% for article in category.links %}
                   <li>
                       <strong>{{ article.source }}</strong> &middot;
-                      <a href="{{ article.url }}">{{ article.title }}
-                    </a>
+                      <a href="{{ article.url }}">{{ article.title }}</a>
                   </li>
                 {% endfor %}
               </ul>
@@ -81,9 +80,8 @@
                 <ul>
                   {% for article in book.press %}
                     <li>
-                      <a href="{{ article.url }}">
-                        {{ article.source }} &middot; {{ article.title }}
-                      </a>
+                        <strong>{{ article.source }}</strong> &middot;
+                        <a href="{{ article.url }}">{{ article.title }}</a>
                     </li>
                   {% endfor %}
                 </ul>
