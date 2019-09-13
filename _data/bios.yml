@@ -94,7 +94,7 @@ authors:
       authority: Cornell University
       comments:
         - Awarded to 1.5% of class who have "demonstrated academic excellence" and pursue "innovative research"
-        
+
 
 - name: Aditya Agashe
   first_name: Adi
@@ -104,8 +104,10 @@ authors:
   image_slug: aditya-agashe
   bio: |
     Aditya is one of the youngest Microsoft Program Managers working on Azure cloud computing to build hyper-converged and hybrid features that help customers adopt cloud technologies. Previously on Windows, he created a roadmap for and programmed a proof of concept of OneDrive Files On-Demand, a feature that now has tens of millions of users. When he founded Belle Applications, a technology consulting firm, in college, he scaled revenue to low six figures and negotiated for a sizeable equity stake in many of his clients.
-  links:
-      press:
+  press:
+    - category_name: Personal
+      slug: personal
+      links:
         - title: Aditya Agashe will be speaking at the annual Grace Hopper Conference
           source: KTVN
           url: https://www.ktvn.com/story/40924883/aditya-agashe-will-be-speaking-at-the-annual-grace-hopper-conference
@@ -133,7 +135,9 @@ authors:
         - title: Students spend summer incubating their business ideas
           source: The Cornell Chronicle
           url: https://news.cornell.edu/stories/2015/07/students-spend-summer-incubating-their-business-ideas
-      work:
+    - category_name: Microsoft Azure
+      slug: msft-azure
+      links:
         - title: "Microsoft says 'no one's even close to what we're offering' in a cloud market that Amazon and Google are only just starting to enter"
           source: Business Insider
           url: https://www.businessinsider.com/microsoft-azure-stack-hci-data-box-hybrid-cloud-2019-3
@@ -152,6 +156,9 @@ authors:
           source: ZDNet
           url: https://www.zdnet.com/article/microsofts-azure-stack-hci-a-new-option-for-running-virtualized-apps-that-connect-to-azure
           url: https://www.forbes.com/sites/bobevans1/2017/11/01/how-microsoft-is-revolutionizing-the-cloud-satya-nadellas-strategy-to-blow-past-20-billion
+    - category_name: Microsoft OneDrive
+      slug: msft-onedrive
+      links:
         - title: Microsoft's OneDrive Files On-Demand brings better sync options to Windows 10
           source: The Verge
           url: https://www.theverge.com/2017/5/11/15616646/microsoft-onedrive-files-on-demand-feature
@@ -181,6 +188,8 @@ authors:
       authority: New York State
       comments:
         - Semifinalist among 500+ applicants
+
+
 - name: Neel Mehta
   first_name: Neel
   slug: neel
