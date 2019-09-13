@@ -2,6 +2,9 @@
 layout: default
 title: PM and Tech Business Job List
 permalink: masterjoblist
+
+scripts:
+  - assets/js/masterjoblist.js
 ---
 
 <section class="section">
@@ -92,7 +95,11 @@ permalink: masterjoblist
                     {{ job.company | replace: " ", ""}}_{{ job.role | replace: " ", ""}}
                 {%- endcapture -%}
 
-                <section class="anchorable job-block" id="{{ id }}">
+                <section class="anchorable job-block" id="{{ id }}"
+                    data-type="{{ job.type }}"
+                    data-technical="{{ job.technical }}"
+                    data-rotational="{{ job.rotational }}"
+                  >
                   <h3>
                       {{ job.company }} {{ job.role }}
                       &nbsp;
