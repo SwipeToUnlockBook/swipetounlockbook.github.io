@@ -78,105 +78,90 @@ permalink: masterjoblist
         </div>
 
 
-        <!-- OK, now loop over every company and show the jobs
-             available at each -->
+        <!-- Show companies & jobs -->
         {% for company in site.data.masterjoblist_companies %}
-            <!-- the anchor hyperlinks ignore the header atop the page,
-                 which makes the h2 normally get hidden behind the header
-                 when the user opens the link. instead if we put the actual
-                 anchored element a bit above the h2, that fake element
-                 gets hidden and the h2 can be seen normally. hence the
-                 empty span. -->
-            <span id='{{ company | replace: " ", "" }}'></span>
-            <br><br>
-            <hr>
-            <div class="company-job-block">
-                <h2 class="text-info">
-                    {{ company }}
-                </h2>
+          <hr>
+          <section id='{{ company | replace: " ", "" }}' class="anchorable company-job-block">
+            <h2 class="text-info">{{ company }}</h2>
 
-                <!-- Now find all jobs that belong to that company -->
-                {% for job in site.data.masterjoblist %}
-                    {% if job.company == company %}
-                        {%- capture id -%}
-                            {{ job.company | replace: " ", ""}}_{{ job.role | replace: " ", ""}}
-                        {%- endcapture -%}
+            <!-- Loop over jobs to find ones for that company -->
+            {% for job in site.data.masterjoblist %}
+              {% if job.company == company %}
+                <!-- Found a job. Precompute its ID for convenience -->
+                {%- capture id -%}
+                    {{ job.company | replace: " ", ""}}_{{ job.role | replace: " ", ""}}
+                {%- endcapture -%}
 
-                        <!-- the anchor hyperlinks ignore the header atop the page,
-                             which makes the h3 normally get hidden behind the header
-                             when the user opens the link. instead if we put the actual
-                             anchored element a bit above the h3, that fake element
-                             gets hidden and the h3 can be seen normally. hence the
-                             empty span. -->
-                        <span id='{{ id }}'></span>
-                        <br><br>
-                        <h3>
-                            <span>{{ job.company }}</span>
-                            {{ job.role }}
+                <section class="anchorable job-block" id="{{ id }}">
+                  <h3>
+                      {{ job.company }} {{ job.role }}
+                      &nbsp;
+                      <a href="#{{ id }}">
+                          <i class="fas fa-link fa-sm"></i>
+                      </a>
+                  </h3>
 
-                            &nbsp;
-                            <a href="#{{ id }}">
-                                <i class="fas fa-link fa-sm"></i>
-                            </a>
-                        </h3>
+                  <p><strong>
+                      {%- capture icon -%}
+                          {% if job.type == "PM" %} fa-rocket
+                          {% elsif job.type == "Marketing" %} fa-bullhorn
+                          {% elsif job.type == "Strategy" %} fa-chess-knight
+                          {% elsif job.type == "Sales" %} fa-handshake
+                          {% elsif job.type == "Finance" %} fa-money-bill-wave
+                          {% elsif job.type == "Management" %} fa-users
+                          {% elsif job.type == "Mixed" %} fa-blender
+                          {% elsif job.type == "Supply Chain" %} fa-shipping-fast
+                          {% elsif job.type == "Consulting" %} fa-plane
+                          {% else %} fa-suitcase
+                          {% endif %}
+                      {%- endcapture -%}
 
-                        <p><strong>
-                            {%- capture icon -%}
-                                {% if job.type == "PM" %} fa-rocket
-                                {% elsif job.type == "Marketing" %} fa-bullhorn
-                                {% elsif job.type == "Strategy" %} fa-chess-knight
-                                {% elsif job.type == "Sales" %} fa-handshake
-                                {% elsif job.type == "Finance" %} fa-money-bill-wave
-                                {% elsif job.type == "Management" %} fa-users
-                                {% elsif job.type == "Mixed" %} fa-blender
-                                {% elsif job.type == "Supply Chain" %} fa-shipping-fast
-                                {% elsif job.type == "Consulting" %} fa-plane
-                                {% else %} fa-suitcase
-                                {% endif %}
-                            {%- endcapture -%}
-
-                            <i class="fas {{ icon }}"></i> {{ job.type }},&nbsp;
+                      <i class="fas {{ icon }}"></i> {{ job.type }},&nbsp;
 
 
-                            {% if job.technical == 1 %}
-                                <i class="fas fa-code"></i> Technical
-                            {% else %}
-                                <span class="fa-stack">
-                                    <i class="fas fa-code fa-stack-1x"></i>
-                                    <i class="fas fa-ban fa-stack-2x"></i>
-                                </span>
-                                Non-technical
-                            {% endif %},&nbsp;
+                      {% if job.technical == 1 %}
+                          <i class="fas fa-code"></i> Technical
+                      {% else %}
+                          <span class="fa-stack">
+                              <i class="fas fa-code fa-stack-1x"></i>
+                              <i class="fas fa-ban fa-stack-2x"></i>
+                          </span>
+                          Non-technical
+                      {% endif %},&nbsp;
 
-                            {% if job.rotational == 1 %}
-                                <i class="fas fa-sync-alt"></i> Rotational
-                                {% if job.length_months != "" %}
-                                    ({{ job.length_months }} months)
-                                {% endif %}
-                            {% else %}
-                               <i class="fas fa-angle-double-right"></i>
-                                Not rotational
-                            {% endif %}
-                        </strong></p>
+                      {% if job.rotational == 1 %}
+                          <i class="fas fa-sync-alt"></i> Rotational
+                          {% if job.length_months != "" %}
+                              ({{ job.length_months }} months)
+                          {% endif %}
+                      {% else %}
+                         <i class="fas fa-angle-double-right"></i>
+                          Not rotational
+                      {% endif %}
+                  </strong></p>
 
 
-                        <p>
-                            {% if job.description != "" %}
-                                {{ job.description }}
-                            {% endif %}
-                        </p>
+                  <p>
+                      {% if job.description != "" %}
+                          {{ job.description }}
+                      {% endif %}
+                  </p>
 
-                        <a href="{{ job.website }}" target="_blank" class="btn btn-primary">
-                            Learn more
-                        </a>
-                        {% if job.comments != "" %}
-                            <em>({{ job.comments }})</em>
-                        {% endif %}
+                  <p>
+                    <a href="{{ job.website }}" target="_blank" class="btn btn-primary">
+                        Learn more
+                    </a>
+                    {% if job.comments != "" %}
+                        <em>({{ job.comments }})</em>
                     {% endif %}
-                {% endfor %}
-            </div>
-        {% endfor %}
+                  </p>
 
+                  <br>
+                </section>
+              {% endif %}
+            {% endfor %}
+          </section>
+        {% endfor %}
       </div>
     </div>
   </div>
