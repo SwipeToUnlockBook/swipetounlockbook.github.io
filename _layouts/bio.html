@@ -34,8 +34,8 @@
               <ul>
                 {% for article in category.links %}
                   <li>
-                    <a href="{{ article.url }}">
-                      {{ article.source }} &middot; {{ article.title }}
+                      <strong>{{ article.source }}</strong> &middot;
+                      <a href="{{ article.url }}">{{ article.title }}
                     </a>
                   </li>
                 {% endfor %}

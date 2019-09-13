@@ -202,15 +202,15 @@ authors:
     - category_name: Personal
       slug: personal
       links:
-        - title: Bestselling author Neel Mehta to speak at Grace Hopper Conference
-          source: The Global Tribune
-          url: http://news.theglobaltribune.com/story/237830/bestselling-author-neel-mehta-to-speak-at-grace-hopper-conference.html
         - title: Amazon changes prices on its products about every 10 minutes — here's how and why they do it
           source: Business Insider
           url: https://www.businessinsider.com/amazon-price-changes-2018-8
         - title: 7 Most Impressive Displays From HPE Discover Las Vegas 2016
           source: Hewlett Packard Enterprise
           url: https://www.hpe.com/us/en/newsroom/blog-post/2017/03/7-most-impressive-displays-from-hpe-discover-las-vegas-2016.html
+        - title: Bestselling author Neel Mehta to speak at Grace Hopper Conference
+          source: The Global Tribune
+          url: http://news.theglobaltribune.com/story/237830/bestselling-author-neel-mehta-to-speak-at-grace-hopper-conference.html
         - title: Interviewing and Interning at Big Tech Companies with Neel Mehta
           source: LearnToCodeWith.Me
           url: https://learntocodewith.me/podcast/interviewing-big-tech-companies-with-neel-mehta/
