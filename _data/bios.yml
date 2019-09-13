@@ -198,69 +198,79 @@ authors:
   image_slug: neel-mehta
   bio: |
     Neel is a Product Manager at Google working on the Chromebook hardware team, leading the design of the next generation of Chromebooks based on AMD chips, a potentially multi-billion dollar portfolio, and partnering with Daydream to bring AR capabilities to more Chromebooks. Previously at Microsoft, Neel launched numerous features for Microsoft Project and Planner, two products in the Office family, and was able to scale the product adoption to 150 million monthly active users. Prior to this, he founded the Civic Digital Fellowship, the first tech, data science, and PM internship program in the US government — it now sends 80+ students from top colleges to work in federal agencies every summer.
-  links:
-    press:
-      - title: Bestselling author Neel Mehta to speak at Grace Hopper Conference
-        source: The Global Tribune
-        url: http://news.theglobaltribune.com/story/237830/bestselling-author-neel-mehta-to-speak-at-grace-hopper-conference.html
-      - title: Bestselling author Neel Mehta to speak at Grace Hopper Conference
-        source: Benzinga
-        url: https://www.benzinga.com/pressreleases/19/08/ab14281820/bestselling-author-neel-mehta-to-speak-at-grace-hopper-conference
-      - title: Amazon changes prices on its products about every 10 minutes — here's how and why they do it
-        source: Business Insider
-        url: https://www.businessinsider.com/amazon-price-changes-2018-8
-      - title: HuffPost
-        source: Harvard Students Partner With U.S. Government to Address Digital Skills Gaps
-        url: https://www.huffpost.com/entry/harvard-students-partner-with-us-government-to-address_b_59658fc6e4b09be68c005645
-      - title: Opening Doors with Open Data
-        source: Harvard Political Review
-        url: http://harvardpolitics.com/harvard/open-data/
-      - title: "For the People: Improving Governments with Technology"
-        source: Harvard Political Review
-        url: http://harvardpolitics.com/covers/civic-tech/
-      - title: 7 Most Impressive Displays From HPE Discover Las Vegas 2016
-        source: Hewlett Packard Enterprise
-        url: https://www.hpe.com/us/en/newsroom/blog-post/2017/03/7-most-impressive-displays-from-hpe-discover-las-vegas-2016.html
-      - title: Interviewing and Interning at Big Tech Companies with Neel Mehta
-        source: LearnToCodeWith.Me
-        url: https://learntocodewith.me/podcast/interviewing-big-tech-companies-with-neel-mehta/
-      - title: Methacton High School student achieves perfect score on SATs
-        source: The Times Herald
-        url: https://www.timesherald.com/news/methacton-high-school-student-achieves-perfect-score-on-sats/article_ebb4920d-098b-57d1-91fb-b2fe2c5baed9.html
-      - title: Data to Make a Difference
-        source: Harvard School of Engineering and Applied Sciences
-        url: https://www.seas.harvard.edu/news/2017/03/data-to-make-difference
-      - title: "Taking on tuberculosis: Tech in the World in Peru"
-        source: Harvard Global Health Institute
-        url: https://globalhealth.harvard.edu/blog/taking-tuberculosis-tech-world-peru
-      - title: Power to the transit user in San Francisco
-        source: DataDoodle
-        url: https://www.datadoodle.com/2019/06/11/power-to-the-transit-user-in-san-francisco/
-      - title: Mehta co-authors book on blockchain
-        source: Harvard School of Engineering and Applied Sciences
-        url: https://www.seas.harvard.edu/audiences/alumni/alumni-news-briefs/2019/01/mehta-co-authors-book-on-blockchain
-      - title: Databank enables Amazon price fluctuation
-        source: WNYT
-        url: https://wnyt.com/news/amazone-on-line-shopping-prices-mehta-potrikus-databank/5177425/
-    work:
-      - title: Google Doodles are showing up on the Pixel home screen search bar
-        source: The Verge
-        url: https://www.theverge.com/2019/3/20/18274143/google-doodle-pixel-home-screen-search-bar-spring
-      - title: Google Doodles now appear in the Pixel Launcher’s Discover feed
-        source: 9to5Google
-        url: https://9to5google.com/2019/03/17/google-doodle-discover-pixel-launcher/
-      - title: Animated Google Doodle shows up in homescreen search widget and Discover feed
-        source: Android Police
-        url: https://www.androidpolice.com/2019/04/22/animated-google-doodle-shows-up-in-homescreen-search-widget-and-discover-feed/
-      - title: Google reminds everyone that today is Mother’s Day w/ Doodle in Pixel Launcher
-        source: 9to5Google
-        url: https://9to5google.com/2019/05/11/mothers-day-google-doodle-pixel-launcher/
-      - title: More AMD Chromebooks on the way with powerful Ryzen processors
-        source: 9to5Google
-        url: https://9to5google.com/2019/04/10/amd-ryzen-chromebooks/
-      - title: Stage Set For AMD-Intel Premium Chromebook Standoff
-        source: Android Headlines
-        url: https://www.androidheadlines.com/2019/04/amd-vs-intel-chromebooks.html
+  press:
+    - category_name: Personal
+      slug: personal
+      links:
+        - title: Bestselling author Neel Mehta to speak at Grace Hopper Conference
+          source: The Global Tribune
+          url: http://news.theglobaltribune.com/story/237830/bestselling-author-neel-mehta-to-speak-at-grace-hopper-conference.html
+        - title: Amazon changes prices on its products about every 10 minutes — here's how and why they do it
+          source: Business Insider
+          url: https://www.businessinsider.com/amazon-price-changes-2018-8
+        - title: 7 Most Impressive Displays From HPE Discover Las Vegas 2016
+          source: Hewlett Packard Enterprise
+          url: https://www.hpe.com/us/en/newsroom/blog-post/2017/03/7-most-impressive-displays-from-hpe-discover-las-vegas-2016.html
+        - title: Interviewing and Interning at Big Tech Companies with Neel Mehta
+          source: LearnToCodeWith.Me
+          url: https://learntocodewith.me/podcast/interviewing-big-tech-companies-with-neel-mehta/
+        - title: Methacton High School student achieves perfect score on SATs
+          source: The Times Herald
+          url: https://www.timesherald.com/news/methacton-high-school-student-achieves-perfect-score-on-sats/article_ebb4920d-098b-57d1-91fb-b2fe2c5baed9.html
+        - title: Data to Make a Difference
+          source: Harvard School of Engineering and Applied Sciences
+          url: https://www.seas.harvard.edu/news/2017/03/data-to-make-difference
+        - title: "Taking on tuberculosis: Tech in the World in Peru"
+          source: Harvard Global Health Institute
+          url: https://globalhealth.harvard.edu/blog/taking-tuberculosis-tech-world-peru
+        - title: Power to the transit user in San Francisco
+          source: DataDoodle
+          url: https://www.datadoodle.com/2019/06/11/power-to-the-transit-user-in-san-francisco/
+        - title: Mehta co-authors book on blockchain
+          source: Harvard School of Engineering and Applied Sciences
+          url: https://www.seas.harvard.edu/audiences/alumni/alumni-news-briefs/2019/01/mehta-co-authors-book-on-blockchain
+        - title: Databank enables Amazon price fluctuation
+          source: WNYT
+          url: https://wnyt.com/news/amazone-on-line-shopping-prices-mehta-potrikus-databank/5177425/
+    - category_name: Civic Tech
+      slug: civic-tech
+      links:
+        - title: Harvard Students Partner With U.S. Government to Address Digital Skills Gaps
+          source: HuffPost
+          url: https://www.huffpost.com/entry/harvard-students-partner-with-us-government-to-address_b_59658fc6e4b09be68c005645
+        - title: Harvard students partner with U.S. government to address digital skills gaps
+          source: CIO.com
+          url: https://www.cio.com/article/3208865/harvard-students-partner-with-us-government-to-address-digital-skills-gaps.html
+        - title: Opening Doors with Open Data
+          source: Harvard Political Review
+          url: http://harvardpolitics.com/harvard/open-data/
+        - title: "For the People: Improving Governments with Technology"
+          source: Harvard Political Review
+          url: http://harvardpolitics.com/covers/civic-tech/
+    - category_name: Google ChromeOS
+      slug: google-chromeos
+      links:
+        - title: More AMD Chromebooks on the way with powerful Ryzen processors
+          source: 9to5Google
+          url: https://9to5google.com/2019/04/10/amd-ryzen-chromebooks/
+        - title: Stage Set For AMD-Intel Premium Chromebook Standoff
+          source: Android Headlines
+          url: https://www.androidheadlines.com/2019/04/amd-vs-intel-chromebooks.html
+    - category_name: Google Search
+      slug: google-search
+      links:
+        - title: Google Doodles are showing up on the Pixel home screen search bar
+          source: The Verge
+          url: https://www.theverge.com/2019/3/20/18274143/google-doodle-pixel-home-screen-search-bar-spring
+        - title: Google Doodles now appear in the Pixel Launcher’s Discover feed
+          source: 9to5Google
+          url: https://9to5google.com/2019/03/17/google-doodle-discover-pixel-launcher/
+        - title: Animated Google Doodle shows up in homescreen search widget and Discover feed
+          source: Android Police
+          url: https://www.androidpolice.com/2019/04/22/animated-google-doodle-shows-up-in-homescreen-search-widget-and-discover-feed/
+        - title: Google reminds everyone that today is Mother’s Day w/ Doodle in Pixel Launcher
+          source: 9to5Google
+          url: https://9to5google.com/2019/05/11/mothers-day-google-doodle-pixel-launcher/
   education:
     - school: Harvard University
       degree: Bachelor of Arts
