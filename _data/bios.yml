@@ -8,8 +8,10 @@ authors:
   image_slug: parth-detroja
   bio: |
     Parth Detroja is a Product Manager at Facebook where he leads the company’s music video efforts. He previously worked at Microsoft where we laid the groundwork for Xbox’s acquisition of PlayFab. He graduated from Cornell University with a Bachelor of Science in Applied Economics and Management as a Merrill Presidential Scholar (top 1% of class).
-  links:
-    press:
+  press:
+    - category_name: Personal
+      slug: personal
+      links:
         - title: Parth Detroja confirmed as speaker for Grace Hopper Conference
           source: ABC
           url: https://www.abc6.com/story/40919886/parth-detroja-confirmed-as-speaker-for-grace-hopper-conference
@@ -34,7 +36,9 @@ authors:
         - title: Pressed for Tech Talent, Hiring Managers Consider Online Credentialing
           source: The Wall Street Journal
           url: https://blogs.wsj.com/cio/2019/01/08/pressed-for-tech-talent-hiring-managers-consider-online-credentialing/
-    work:
+    - category_name: Facebook Music
+      slug: fb-music
+      links:
         - title: Instagram Stories now lets its 400M users add soundtracks
           source: TechCrunch
           url: https://techcrunch.com/2018/06/28/instagram-stories-music/
@@ -65,6 +69,9 @@ authors:
         - title: Facebook Inks Licensing Deals With Top Music Rightsholders In India
           source: Music Business Worldwide
           url: https://www.musicbusinessworldwide.com/facebook-inks-licensing-deals-with-top-rightsholders-in-india-including-bollywood-record-label-t-series/
+    - category_name: Microsoft Gaming
+      slug: msft-gaming
+      links:
         - title: Microsoft acquires cloud gaming start-up PlayFab
           source: CNBC
           url: https://www.cnbc.com/2018/01/29/microsoft-acquires-playfab-cloud-gaming-start-up.html
@@ -87,6 +94,8 @@ authors:
       authority: Cornell University
       comments:
         - Awarded to 1.5% of class who have "demonstrated academic excellence" and pursue "innovative research"
+        
+
 - name: Aditya Agashe
   first_name: Adi
   slug: adi
