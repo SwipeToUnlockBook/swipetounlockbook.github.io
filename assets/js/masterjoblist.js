@@ -16,6 +16,7 @@ $(function(){
 function filterJobsByAttribute(attribute, value){
   // hide all jobs where its `attribute` is not `value`, and show the rest
   $('.job-block').toggle(function(){
+    // TODO im doing this wrong i think
     return $(this).data(attribute) === value
   });
 }
