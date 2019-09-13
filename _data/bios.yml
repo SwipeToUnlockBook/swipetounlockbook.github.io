@@ -8,8 +8,10 @@ authors:
   image_slug: parth-detroja
   bio: |
     Parth Detroja is a Product Manager at Facebook where he leads the company’s music video efforts. He previously worked at Microsoft where we laid the groundwork for Xbox’s acquisition of PlayFab. He graduated from Cornell University with a Bachelor of Science in Applied Economics and Management as a Merrill Presidential Scholar (top 1% of class).
-  links:
-    press:
+  press:
+    - category_name: Personal
+      slug: personal
+      links:
         - title: Parth Detroja confirmed as speaker for Grace Hopper Conference
           source: ABC
           url: https://www.abc6.com/story/40919886/parth-detroja-confirmed-as-speaker-for-grace-hopper-conference
@@ -34,7 +36,9 @@ authors:
         - title: Pressed for Tech Talent, Hiring Managers Consider Online Credentialing
           source: The Wall Street Journal
           url: https://blogs.wsj.com/cio/2019/01/08/pressed-for-tech-talent-hiring-managers-consider-online-credentialing/
-    work:
+    - category_name: Facebook Music
+      slug: fb-music
+      links:
         - title: Instagram Stories now lets its 400M users add soundtracks
           source: TechCrunch
           url: https://techcrunch.com/2018/06/28/instagram-stories-music/
@@ -65,6 +69,9 @@ authors:
         - title: Facebook Inks Licensing Deals With Top Music Rightsholders In India
           source: Music Business Worldwide
           url: https://www.musicbusinessworldwide.com/facebook-inks-licensing-deals-with-top-rightsholders-in-india-including-bollywood-record-label-t-series/
+    - category_name: Microsoft Gaming
+      slug: msft-gaming
+      links:
         - title: Microsoft acquires cloud gaming start-up PlayFab
           source: CNBC
           url: https://www.cnbc.com/2018/01/29/microsoft-acquires-playfab-cloud-gaming-start-up.html
@@ -87,6 +94,8 @@ authors:
       authority: Cornell University
       comments:
         - Awarded to 1.5% of class who have "demonstrated academic excellence" and pursue "innovative research"
+
+
 - name: Aditya Agashe
   first_name: Adi
   slug: adi
@@ -95,8 +104,10 @@ authors:
   image_slug: aditya-agashe
   bio: |
     Aditya is one of the youngest Microsoft Program Managers working on Azure cloud computing to build hyper-converged and hybrid features that help customers adopt cloud technologies. Previously on Windows, he created a roadmap for and programmed a proof of concept of OneDrive Files On-Demand, a feature that now has tens of millions of users. When he founded Belle Applications, a technology consulting firm, in college, he scaled revenue to low six figures and negotiated for a sizeable equity stake in many of his clients.
-  links:
-      press:
+  press:
+    - category_name: Personal
+      slug: personal
+      links:
         - title: Aditya Agashe will be speaking at the annual Grace Hopper Conference
           source: KTVN
           url: https://www.ktvn.com/story/40924883/aditya-agashe-will-be-speaking-at-the-annual-grace-hopper-conference
@@ -124,7 +135,9 @@ authors:
         - title: Students spend summer incubating their business ideas
           source: The Cornell Chronicle
           url: https://news.cornell.edu/stories/2015/07/students-spend-summer-incubating-their-business-ideas
-      work:
+    - category_name: Microsoft Azure
+      slug: msft-azure
+      links:
         - title: "Microsoft says 'no one's even close to what we're offering' in a cloud market that Amazon and Google are only just starting to enter"
           source: Business Insider
           url: https://www.businessinsider.com/microsoft-azure-stack-hci-data-box-hybrid-cloud-2019-3
@@ -143,6 +156,9 @@ authors:
           source: ZDNet
           url: https://www.zdnet.com/article/microsofts-azure-stack-hci-a-new-option-for-running-virtualized-apps-that-connect-to-azure
           url: https://www.forbes.com/sites/bobevans1/2017/11/01/how-microsoft-is-revolutionizing-the-cloud-satya-nadellas-strategy-to-blow-past-20-billion
+    - category_name: Microsoft OneDrive
+      slug: msft-onedrive
+      links:
         - title: Microsoft's OneDrive Files On-Demand brings better sync options to Windows 10
           source: The Verge
           url: https://www.theverge.com/2017/5/11/15616646/microsoft-onedrive-files-on-demand-feature
@@ -172,6 +188,8 @@ authors:
       authority: New York State
       comments:
         - Semifinalist among 500+ applicants
+
+
 - name: Neel Mehta
   first_name: Neel
   slug: neel
@@ -180,69 +198,79 @@ authors:
   image_slug: neel-mehta
   bio: |
     Neel is a Product Manager at Google working on the Chromebook hardware team, leading the design of the next generation of Chromebooks based on AMD chips, a potentially multi-billion dollar portfolio, and partnering with Daydream to bring AR capabilities to more Chromebooks. Previously at Microsoft, Neel launched numerous features for Microsoft Project and Planner, two products in the Office family, and was able to scale the product adoption to 150 million monthly active users. Prior to this, he founded the Civic Digital Fellowship, the first tech, data science, and PM internship program in the US government — it now sends 80+ students from top colleges to work in federal agencies every summer.
-  links:
-    press:
-      - title: Bestselling author Neel Mehta to speak at Grace Hopper Conference
-        source: The Global Tribune
-        url: http://news.theglobaltribune.com/story/237830/bestselling-author-neel-mehta-to-speak-at-grace-hopper-conference.html
-      - title: Bestselling author Neel Mehta to speak at Grace Hopper Conference
-        source: Benzinga
-        url: https://www.benzinga.com/pressreleases/19/08/ab14281820/bestselling-author-neel-mehta-to-speak-at-grace-hopper-conference
-      - title: Amazon changes prices on its products about every 10 minutes — here's how and why they do it
-        source: Business Insider
-        url: https://www.businessinsider.com/amazon-price-changes-2018-8
-      - title: HuffPost
-        source: Harvard Students Partner With U.S. Government to Address Digital Skills Gaps
-        url: https://www.huffpost.com/entry/harvard-students-partner-with-us-government-to-address_b_59658fc6e4b09be68c005645
-      - title: Opening Doors with Open Data
-        source: Harvard Political Review
-        url: http://harvardpolitics.com/harvard/open-data/
-      - title: "For the People: Improving Governments with Technology"
-        source: Harvard Political Review
-        url: http://harvardpolitics.com/covers/civic-tech/
-      - title: 7 Most Impressive Displays From HPE Discover Las Vegas 2016
-        source: Hewlett Packard Enterprise
-        url: https://www.hpe.com/us/en/newsroom/blog-post/2017/03/7-most-impressive-displays-from-hpe-discover-las-vegas-2016.html
-      - title: Interviewing and Interning at Big Tech Companies with Neel Mehta
-        source: LearnToCodeWith.Me
-        url: https://learntocodewith.me/podcast/interviewing-big-tech-companies-with-neel-mehta/
-      - title: Methacton High School student achieves perfect score on SATs
-        source: The Times Herald
-        url: https://www.timesherald.com/news/methacton-high-school-student-achieves-perfect-score-on-sats/article_ebb4920d-098b-57d1-91fb-b2fe2c5baed9.html
-      - title: Data to Make a Difference
-        source: Harvard School of Engineering and Applied Sciences
-        url: https://www.seas.harvard.edu/news/2017/03/data-to-make-difference
-      - title: "Taking on tuberculosis: Tech in the World in Peru"
-        source: Harvard Global Health Institute
-        url: https://globalhealth.harvard.edu/blog/taking-tuberculosis-tech-world-peru
-      - title: Power to the transit user in San Francisco
-        source: DataDoodle
-        url: https://www.datadoodle.com/2019/06/11/power-to-the-transit-user-in-san-francisco/
-      - title: Mehta co-authors book on blockchain
-        source: Harvard School of Engineering and Applied Sciences
-        url: https://www.seas.harvard.edu/audiences/alumni/alumni-news-briefs/2019/01/mehta-co-authors-book-on-blockchain
-      - title: Databank enables Amazon price fluctuation
-        source: WNYT
-        url: https://wnyt.com/news/amazone-on-line-shopping-prices-mehta-potrikus-databank/5177425/
-    work:
-      - title: Google Doodles are showing up on the Pixel home screen search bar
-        source: The Verge
-        url: https://www.theverge.com/2019/3/20/18274143/google-doodle-pixel-home-screen-search-bar-spring
-      - title: Google Doodles now appear in the Pixel Launcher’s Discover feed
-        source: 9to5Google
-        url: https://9to5google.com/2019/03/17/google-doodle-discover-pixel-launcher/
-      - title: Animated Google Doodle shows up in homescreen search widget and Discover feed
-        source: Android Police
-        url: https://www.androidpolice.com/2019/04/22/animated-google-doodle-shows-up-in-homescreen-search-widget-and-discover-feed/
-      - title: Google reminds everyone that today is Mother’s Day w/ Doodle in Pixel Launcher
-        source: 9to5Google
-        url: https://9to5google.com/2019/05/11/mothers-day-google-doodle-pixel-launcher/
-      - title: More AMD Chromebooks on the way with powerful Ryzen processors
-        source: 9to5Google
-        url: https://9to5google.com/2019/04/10/amd-ryzen-chromebooks/
-      - title: Stage Set For AMD-Intel Premium Chromebook Standoff
-        source: Android Headlines
-        url: https://www.androidheadlines.com/2019/04/amd-vs-intel-chromebooks.html
+  press:
+    - category_name: Personal
+      slug: personal
+      links:
+        - title: Amazon changes prices on its products about every 10 minutes — here's how and why they do it
+          source: Business Insider
+          url: https://www.businessinsider.com/amazon-price-changes-2018-8
+        - title: 7 Most Impressive Displays From HPE Discover Las Vegas 2016
+          source: Hewlett Packard Enterprise
+          url: https://www.hpe.com/us/en/newsroom/blog-post/2017/03/7-most-impressive-displays-from-hpe-discover-las-vegas-2016.html
+        - title: Bestselling author Neel Mehta to speak at Grace Hopper Conference
+          source: The Global Tribune
+          url: http://news.theglobaltribune.com/story/237830/bestselling-author-neel-mehta-to-speak-at-grace-hopper-conference.html
+        - title: Interviewing and Interning at Big Tech Companies with Neel Mehta
+          source: LearnToCodeWith.Me
+          url: https://learntocodewith.me/podcast/interviewing-big-tech-companies-with-neel-mehta/
+        - title: Data to Make a Difference
+          source: Harvard School of Engineering and Applied Sciences
+          url: https://www.seas.harvard.edu/news/2017/03/data-to-make-difference
+        - title: "Taking on tuberculosis: Tech in the World in Peru"
+          source: Harvard Global Health Institute
+          url: https://globalhealth.harvard.edu/blog/taking-tuberculosis-tech-world-peru
+        - title: Power to the transit user in San Francisco
+          source: DataDoodle
+          url: https://www.datadoodle.com/2019/06/11/power-to-the-transit-user-in-san-francisco/
+        - title: Mehta co-authors book on blockchain
+          source: Harvard School of Engineering and Applied Sciences
+          url: https://www.seas.harvard.edu/audiences/alumni/alumni-news-briefs/2019/01/mehta-co-authors-book-on-blockchain
+        - title: Databank enables Amazon price fluctuation
+          source: WNYT
+          url: https://wnyt.com/news/amazone-on-line-shopping-prices-mehta-potrikus-databank/5177425/
+    - category_name: Civic Tech
+      slug: civic-tech
+      links:
+        - title: Harvard Students Partner With U.S. Government to Address Digital Skills Gaps
+          source: HuffPost
+          url: https://www.huffpost.com/entry/harvard-students-partner-with-us-government-to-address_b_59658fc6e4b09be68c005645
+        - title: A student-run solution to govtech skill shortages
+          source: FCW
+          url: https://fcw.com/articles/2017/09/01/civic-digital-fellowship-harvard-feds.aspx
+        - title: Harvard undergraduates launch fellowship to connect students early to federal agencies
+          source: Fedscoop
+          url: https://www.fedscoop.com/harvard-undergraduates-launch-fellowship-connect-students-early-federal-agencies/
+        - title: Opening Doors with Open Data
+          source: Harvard Political Review
+          url: http://harvardpolitics.com/harvard/open-data/
+        - title: "For the People: Improving Governments with Technology"
+          source: Harvard Political Review
+          url: http://harvardpolitics.com/covers/civic-tech/
+    - category_name: Google ChromeOS
+      slug: google-chromeos
+      links:
+        - title: More AMD Chromebooks on the way with powerful Ryzen processors
+          source: 9to5Google
+          url: https://9to5google.com/2019/04/10/amd-ryzen-chromebooks/
+        - title: Stage Set For AMD-Intel Premium Chromebook Standoff
+          source: Android Headlines
+          url: https://www.androidheadlines.com/2019/04/amd-vs-intel-chromebooks.html
+    - category_name: Google Search
+      slug: google-search
+      links:
+        - title: Google Doodles are showing up on the Pixel home screen search bar
+          source: The Verge
+          url: https://www.theverge.com/2019/3/20/18274143/google-doodle-pixel-home-screen-search-bar-spring
+        - title: Google Doodles now appear in the Pixel Launcher’s Discover feed
+          source: 9to5Google
+          url: https://9to5google.com/2019/03/17/google-doodle-discover-pixel-launcher/
+        - title: Animated Google Doodle shows up in homescreen search widget and Discover feed
+          source: Android Police
+          url: https://www.androidpolice.com/2019/04/22/animated-google-doodle-shows-up-in-homescreen-search-widget-and-discover-feed/
+        - title: Google reminds everyone that today is Mother’s Day w/ Doodle in Pixel Launcher
+          source: 9to5Google
+          url: https://9to5google.com/2019/05/11/mothers-day-google-doodle-pixel-launcher/
   education:
     - school: Harvard University
       degree: Bachelor of Arts

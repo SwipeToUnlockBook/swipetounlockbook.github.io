@@ -28,28 +28,20 @@
 
         <section class="anchorable" id="press">
           <h2>Press</h2>
-          <ul>
-            {% for article in author.links.press %}
-              <li>
-                <a href="{{ article.url }}">
-                  {{ article.source }} &middot; {{ article.title }}
-                </a>
-              </li>
-            {% endfor %}
-          </ul>
-        </section>
-
-        <section class="anchorable" id="work">
-          <h2>Work</h2>
-          <ul>
-            {% for article in author.links.work %}
-              <li>
-                <a href="{{ article.url }}">
-                  {{ article.source }} &middot; {{ article.title }}
-                </a>
-              </li>
-            {% endfor %}
-          </ul>
+          {% for category in author.press %}
+            <div class="anchorable" id="{{ category.slug }}">
+              <h3>{{ category.category_name }}</h3>
+              <ul>
+                {% for article in category.links %}
+                  <li>
+                      <strong>{{ article.source }}</strong> &middot;
+                      <a href="{{ article.url }}">{{ article.title }}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endfor %}
         </section>
 
         <section class="anchorable" id="books">
