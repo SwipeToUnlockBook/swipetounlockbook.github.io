@@ -3,7 +3,7 @@
 */
 $(function(){
   // Handle selection of the job type dropdown
-  $("#job-select").on("change", function(){
+  $("#job-type-select").on("change", function(){
     var selectedValue = $(this).find("option:selected").val();
     console.log("Selected type:", selectedValue);
 
