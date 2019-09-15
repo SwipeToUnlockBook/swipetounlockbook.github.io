@@ -21,5 +21,5 @@ function filterJobsByAttribute(attribute, value){
 }
 
 function resetFilters(){
-  $('.job-block').show()
+  $('.job-block').show();
 }
