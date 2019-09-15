@@ -2,6 +2,18 @@
   This script runs on the Master Job List page
 */
 $(function(){
+  // Handle selection of the job type dropdown
+  $("#job-select").on("change", function(){
+    var selectedValue = $(this).find("option:selected").val();
+    console.log("Selected type:", selectedValue);
+
+    if (selectedValue === "All") {
+      resetFilters();
+    }
+    else {
+      filterJobsByAttribute("type", selectedValue);
+    }
+  });
 });
 
 /**
