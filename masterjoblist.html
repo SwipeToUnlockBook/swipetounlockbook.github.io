@@ -1,6 +1,6 @@
 ---
 layout: default
-title: PM and Tech Business Job List
+title: PM and Business Tech Job List
 permalink: masterjoblist
 
 scripts:
@@ -80,6 +80,29 @@ scripts:
           {% endfor %}
         </div>
 
+        <hr>
+
+        <!-- Filter widget -->
+        <section id="filter-widget">
+          <div class="well">
+            <div class="form-group">
+              <label for="job-type-select">
+                Filter by job type
+              </label>
+              <select class="form-control" id="job-type-select" autocomplete="off">
+                <option selected value="All">All</option>
+                {% for type in site.data.masterjoblist_jobtypes %}
+                  <option value="{{ type }}">
+                    {{ type }}
+                  </option>
+                {% endfor %}
+              </select>
+            </div>
+
+            <!-- TODO add a filter by rotational or technical as radios...
+                 but need to update filtering code too -->
+          </div>
+        </section>
 
         <!-- Show companies & jobs -->
         {% for company in site.data.masterjoblist_companies %}
