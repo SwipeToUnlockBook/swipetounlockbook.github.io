@@ -1,89 +1,37 @@
-<!doctype html>
-<html>
+---
+layout: article
+title: Resources for landing a job in tech
+permalink: resources
+---
 
-<head>
-  <title>Swipe to Unlock</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <meta name="keywords" content="career, career paths, code" />
-  <meta property="og:title" content="Swipe to Unlock" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://swipetounlock.com/" />
-  <meta property="og:image" content="http://swipetounlock.com/assets/img/cover/swipetounlock_5.5x8.5%20v6.png" />
-  <meta property="og:description" content="Resources" />
-  <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]
-    <link rel="stylesheet" href="assets/css/main.css" />
-    [if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-  <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+# Resources for landing a job in tech
 
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+As we mentioned in the book, *Swipe to Unlock* isn't an interview question-and-answer book,
+and it doesn't go deep into topics preparing your resume, networking, and building your career.
 
-  <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+On this page, we're listing some of our recommended resources for anyone looking for a job
+in tech -- with a particular focus on product management and non-technical roles.
 
-  <!-- Global Site Tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106554618-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments)};
-    gtag('js', new Date());
+--Neel, Adi, and Parth
 
-    gtag('config', 'UA-106554618-1');
-  </script>
+## Content from us
 
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+* [Our Master Job List of product and business roles at tech companies](masterjoblist). We've listed dozens of full-time roles, including the top new-grad product management roles around the tech industry. The list isn't tied to any specific year's job postings, so it shouldn't go out of date.
+* FAQs for [Neel](faq/neel), [Adi](faq/adi), and [Parth](faq/parth) about our backgrounds, career paths, and lessons learned from our time in the tech industry.
+* [Neel's article about Google APM](https://blog.usejournal.com/how-to-prepare-for-your-google-apm-interviews-b665584c13fc), full of tips for preparing for the interview.
+* [Parth's list of interview tips](https://swipetounlock.com/interviewtips) that have helped him get offers at Google, Facebook, Microsoft, Amazon, and more.
 
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
+## Other useful career resources
 
+* [BreakIntoTech](https://www.breakinto.tech/): Jeremy Schifeling's website full of career-building tips, including lists of recommended jobs, resume advice, and everything in between. The slide decks on this website are awesome.
+* [Tech Transparency](http://techtransparency.org/resources): an awesome nonprofit with resources to help you choose a job and company, prepare resumes and cover letters, build your LinkedIn presence, and get the offer.
 
-  <!-- custom css -->
-  <link rel="stylesheet" href="assets/css/swipetounlock.css"></link>
+## Product management resources
 
-  <!-- favicon -->
-  <link rel="icon" type="image/png" href="assets/img/favicon.png">
-</head>
+* [ThePMInterview.com](https://thepminterview.com/) has a great set of practice interview questions. Practice a few a day when you're preparing for a PM interview!
 
-<body>
-
-  <!-- Nav Bar -->
-  <div class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#stu-navbar" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="http://swipetounlock.com/">Swipe to Unlock</a>
-      </div>
-
-      <div class="collapse navbar-collapse" id="stu-navbar">
-        <form class="navbar-form navbar-right">
-          <a href="https://www.amazon.com/gp/product/B0756MTX6K/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0756MTX6K&linkCode=as2&tag=swipetounlock-20&linkId=0788862628123a7609141c7b2c4ae733" class="btn btn-default">Buy Now</a>
-        </form>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.html#the_idea">The Idea</a></li>
-          <li><a href="index.html#the_book">The Book</a></li>
-          <!-- to avoid navbar overflow on smaller screens (note: xs screens show dropdown so they're fine) -->
-          <!-- <li class="hidden-sm"><a href="#endorsements">Endorsements</a></li> -->
-          <li><a href="index.html#authors">Authors</a></li>
-          <li><a href="index.html#connect">Connect</a></li>
-          <!-- <li><a href="https://www.amazon.com/dp/B0756MTX6K/">Buy Now</a></li>  -->
-        </ul>
-      </div>
-
-    </div>
-  </div>
-
-  <section id="the_idea" class="section">
-    <div class="container">
-      <div class="row">
-        <div id="idea_core" class="col-sm-8 frosted-overlay">
-          <h1 class="h1">Resources</h1>
+<!--
+<h1>
           <p><strong>As we have mentioned before, <a href="https://www.amazon.com/gp/product/B0756MTX6K/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0756MTX6K&linkCode=as2&tag=swipetounlock-20&linkId=0788862628123a7609141c7b2c4ae733"><i>Swipe to Unlock</i></a> isn’t a interview question &amp; answers book nor does it go into things like resumes, cover letters, networking, etc. However, here are links to some of our favorite resources that do go into these sort of things.</strong></p>
 
           <p><h3>General Tech Career Guidance</h3></p>
@@ -97,7 +45,7 @@
 
           <a target="_blank"  href="https://www.amazon.com/gp/product/0615930417/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0615930417&linkCode=as2&tag=swipetounlock-20&linkId=35b9a2cd6544879b241407894dde3dce"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0615930417&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=swipetounlock-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=swipetounlock-20&l=am2&o=1&a=0615930417" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
 
-          <!-- <p>I’d definitely start with <i>Cracking the PM Interview</i>. However, if you want more interview questions and answers prep, check out <i>Decode and Conquer</i>. </p> -->
+           <p>I’d definitely start with <i>Cracking the PM Interview</i>. However, if you want more interview questions and answers prep, check out <i>Decode and Conquer</i>. </p>
 
           <p>I'd recommend starting with <i>Cracking the PM Interview</i> if you are interested in learning more about product management in general and are just beginning to explore the space. If after reading that you are sold on being a PM, definitely pick up a copy of <i>Decode and Conquer</i>. The example interview questions and answers are very helpful.</p>
 
@@ -115,47 +63,9 @@
 
           <p><h3>Job Opportunities</h3></p>
           <p>If you are ready to start looking for ways to kick your career in tech into gear, or if you are simply looking for a different career opportunity, here are some listed job openings. <br>If you are looking for a full-time position, take a look at our <a href="joblist.html">full-time job listings</a>. <br>If you are a student or someone looking for internship opportunities, take a look at our <a href="internlist.html">internship listings</a>. <br> <br>Once you've secured an interview, make sure you take a look at our <a href="interviewtips.html">interview tips</a> for help on acing the interview!</p>
-  
+
         </div>
       </div>
     </div>
   </section>
-
-  <!-- Footer
-    TODO: fix links-->
-  <footer id="footer" class="section section-primary">
-    <div class="container centered">
-
-      <p>
-        Swipe to Unlock. Copyright Neel Mehta, Aditya Agashe, and Parth Detroja 2017.
-      </p>
-
-      <a href="https://facebook.com">
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x text-white"></i>
-                <i class="fa fa-facebook fa-stack-1x"></i>
-            </span>
-      </a>
-      <a href="mailto:swipetounlock@gmail.com">
-          <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x text-white"></i>
-              <i class="fa fa-envelope fa-stack-1x"></i>
-          </span>
-      </a>
-      <a href="https://github.com/swipetounlock">
-          <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x text-white"></i>
-              <i class="fa fa-github fa-stack-1x"></i>
-          </span>
-      </a>
-    </div>
-  </footer>
-
-  <!-- Scripts -->
-  <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]
-    <script src="assets/js/main.js"></script> -->
-  <script src="/assets/js/main.js"></script>
-
-</body>
-
-</html>
+-->
