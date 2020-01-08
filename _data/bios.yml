@@ -138,6 +138,7 @@ authors:
         - title: Students spend summer incubating their business ideas
           source: The Cornell Chronicle
           url: https://news.cornell.edu/stories/2015/07/students-spend-summer-incubating-their-business-ideas
+        - title: <a href="www.google.com">Talks at Universities</a>
     - category_name: Microsoft Azure
       slug: msft-azure
       links:
