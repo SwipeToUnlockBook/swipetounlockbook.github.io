@@ -29,12 +29,18 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
 
 # Site data
 book_title: Swipe to Unlock
 book_subtitle: A Primer on Technology and Business Strategy
 description: "Swipe to Unlock: A Primer on Technology and Business Strategy. The #1 Amazon bestseller."
+
+
+# If you're using Jekyll in safe mode to mimic GitHub Pages, make sure to add jekyll-redirect-from to your whitelist:
+whitelist:
+  - jekyll-redirect-from
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
