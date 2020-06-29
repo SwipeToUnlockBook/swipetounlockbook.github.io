@@ -131,7 +131,7 @@ title: Notes for the 3rd edition, 5th revision
   1. <https://www.newyorker.com/tech/elements/how-blackberry-fell>
   1. <https://www.engadget.com/2008/11/19/blackberry-storm-review/>
   1. <http://fortune.com/2015/06/10/blackberry-storm/>
-  1. <http://business.time.com/2013/09/24/the-fatal-mistake-that-doomed-blackberry/>
+  1. <http://business.time.com/2013/09/24/the-fatal-mistake-that-doomed- blackberry/>
   1. <https://www.usatoday.com/story/tech/2013/09/20/blackberry-nokia-microsoft-apple-google/2844903/>
   1. <https://www.theverge.com/2016/9/30/13119924/blackberry-failure-success>
   1. <http://business.time.com/2013/09/24/the-fatal-mistake-that-doomed-blackberry/>
@@ -203,7 +203,7 @@ title: Notes for the 3rd edition, 5th revision
   1. <https://officechai.com/startups/kaios/>
   1. <https://www.forbes.com/sites/ewanspence/2017/07/12/microsoft-windows-phone-windows10-mobile-strategy/>
   1. <https://officechai.com/startups/kaios/>
-  1. <https://officechai.com/startups/kaios/>
+  1. <https://medium.com/decodein/kaios-expanding-the-smartphone-market-17f3514a76d3>
   1. <https://www.indiatoday.in/technology/news/story/jio-officially-launched-promises-worlds-most-affordable-4g-data-plans-338473-2016-09-01>
   1. <http://fortune.com/longform/googles-hope-and-dreams-in-india/>
   1. <https://gadgets.ndtv.com/mobiles/news/jio-phone-india-ka-smartphone-launched-by-mukesh-ambani-1727533>
@@ -221,7 +221,7 @@ title: Notes for the 3rd edition, 5th revision
   1. <https://gadgets.ndtv.com/mobiles/news/jio-phone-sales-at-nearly-40-million-units-so-far-report-1842725>
   1. <https://techcrunch.com/2019/02/25/kaios-now-with-85m-feature-phones-shipped-doubles-down-with-google-carrier-deals-and-more/>
   1. <https://www.digitaltrends.com/computing/can-macs-get-viruses/>
-  1. <http://keaneytuduthie.blogspot.com/2010/10/mac-vs-pc-commercial.html>
+  1. <http://keaneytuduthie.blogspot.com/2010/10/mac-vs-pc- commercial.html>
   1. <http://computer.howstuffworks.com/macs/can-macs-get-viruses.htm>
   1. <http://www.techadvisor.co.uk/how-to/security/do-macs-get-viruses-3418367/>
   1. <https://www.howtogeek.com/76628/online-safety-who-says-macs-dont-get-viruses/>
@@ -376,7 +376,7 @@ title: Notes for the 3rd edition, 5th revision
   1. <https://en.wikibooks.org/wiki/Communication_Networks/TCP_and_UDP_Protocols>
   1. <https://www.objc.io/issues/10-syncing-data/ip-tcp-http/>
   1. <https://www.cisco.com/c/en/us/support/docs/ip/ip-routed-protocols/22826-traceroute.html>
-  1. <https://www.bing.com/maps/>
+  1. <https://goo.gl/maps/TcegKFNpdVU9QuFW8>
   1. <https://www.lifewire.com/ip-routing-3426716>
   1. <http://whatismyipaddress.com/traceroute-tool>
   1. <http://www.whatsmyip.org/>
@@ -430,7 +430,8 @@ title: Notes for the 3rd edition, 5th revision
   1. <http://creativeoverflow.net/history-of-photoshop-journey-from-photoshop-1-0-to-photoshop-cs5/>
   1. <https://arstechnica.com/information-technology/2013/05/adobes-creative-suite-is-dead-long-live-the-creative-cloud/>
   1. <https://www.macworld.com/article/1166679/software-graphics/adobe-creative-suite-6-goes-on-sale.html>
-  1. <http://www.computerhistory.org/atchm//wp-content/uploads/2013/01/box_and_disk1.jpg>
+  1. <https://photoshop.fandom.com/wiki/Photoshop_3.0>
+  1. <https://twitter.com/web_instructor/status/1110656120543158272>
   1. <https://techcrunch.com/2013/09/04/adobe-launches-9-99month-photography-program-with-photoshop-cc-lightroom-5-behance-and-20gb-of-online-storage/>
   1. <https://arstechnica.com/information-technology/2013/05/adobes-creative-suite-is-dead-long-live-the-creative-cloud/>
   1. <https://petapixel.com/2013/06/19/adobe-photoshop-cc-has-apparently-been-cracked-one-day-after-launch/>
@@ -748,7 +749,7 @@ title: Notes for the 3rd edition, 5th revision
   1. <https://www.howtogeek.com/177790/why-you-cant-use-cpu-clock-speed-to-compare-computer-performance/>
   1. <https://www.howtogeek.com/196582/why-you-probably-dont-want-to-pay-extra-for-a-faster-cpu-in-your-laptop-or-tablet/>
   1. <https://www.howtogeek.com/180225/arm-vs.-intel-what-it-means-for-windows-chromebook-and-android-software-compatibility/>
-  1. <https://www.tomshardware.com/news/apple-mac-arm-cpus-2020-intel,38668.html>
+  1. <https://www.theverge.com/2020/6/21/21298607/first-arm-mac-macbook-pro-imac-ming-chi-kuo-wwdc-2020>
   1. <https://www.computerhope.com/jargon/h/harddriv.htm>
   1. <https://www.pcmag.com/article2/0,2817,2404258,00.asp>
   1. <http://www.tomshardware.com/reviews/understanding-hard-drive-performance,1557-4.html>
@@ -1075,7 +1076,7 @@ title: Notes for the 3rd edition, 5th revision
   1. <https://techcrunch.com/2018/12/11/tokopedia-raises-1-1b/>
   1. <https://www.forbes.com/sites/minhdo/2017/08/10/how-chinese-and-american-companies-are-turning-southeast-asia-into-a-games-of-thrones/#b10753b627ae>
   1. <https://www.comscore.com/Insights/Press-Releases/2008/11/Social-Networking-in-Brazil>
-  owllearning.com
+  1. <https://www.comscore.com/Insights/Press-Releases/2012/1/Facebook-Blasts-into-Top-Position-in-Brazilian-Social-Networking-Market?cs_edgescape_cc=US>
   1. <https://techcrunch.com/2018/07/23/the-tech-investment-wave-has-reached-latin-america/>
   1. <https://internetworldstats.com/top20.htm>
   1. <https://www.wsj.com/articles/SB10001424127887323301104578257950857891898>
@@ -1144,7 +1145,7 @@ title: Notes for the 3rd edition, 5th revision
   1. <https://www.businessinsider.com/alipay-wechat-pay-china-mobile-payments-street-vendors-musicians-2018-5>
   1. <https://a16z.com/2017/08/11/qr-codes-in-china/>
   1. <https://www.sgsme.sg/news/money/perks-give-qr-code-payments-more-bite>
-  1. <https://twitter.com/walkthechat/status/687529630249582592>
+  1. <https://asia.nikkei.com/Economy/QR-code-scams-strike-China-from-merchants-to-traffic-tickets>
   1. <https://www.travelchinacheaper.com/using-wechat-alipay-china-expat-guide>
   1. <https://www.businessinsider.com/alipay-wechat-pay-china-mobile-payments-street-vendors-musicians-2018-5/>
   1. <https://walkthechat.com/alipay-foreigners-create-account/>
@@ -1235,7 +1236,7 @@ title: Notes for the 3rd edition, 5th revision
   1. <https://www.engadget.com/2017/03/28/us-house-votes-to-let-isps-sell-your-browser-history/>
   1. <https://arstechnica.com/information-technology/2016/10/isps-will-soon-have-to-ask-you-before-sharing-private-data-with-advertisers/>
   1. <http://www.zdnet.com/article/fcc-chairman-browsing-history-freedom-of-information/>
-  1. <https://store.virginmedia.com/virgin-media-mobile/flexible-plans/free-whatsapp-facebook-messenger.html>
+  1. <https://www.virginmedia.com/mobile/why-you-will-love-us>
   1. <https://www.theverge.com/2016/11/28/13768612/att-users-directv-now-data-free>
   1. <https://www.zdnet.com/article/at-t-directv-now-the-good-the-bad-and-the-ugly/>
   1. <https://en.epicenter.works/document/1522>
