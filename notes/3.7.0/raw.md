@@ -729,10 +729,11 @@
   1. <http://www.webopedia.com/TERM/P/petabyte.html>
   1. <http://www.vcloudnews.com/every-day-big-data-statistics-2-5-quintillion-bytes-of-data-created-daily/>
   1. <http://www.ximix.biz/buying-a-computer/hardware-specs>
-  1. <https://www.cnet.com/how-to/iphone-7-storage-options-how-to-choose-the-right-model/>
+  1. <https://www.imore.com/what-storage-size-iphone-11-should-you-get>
   1. <https://www.apple.com/macbook-pro/specs/>
   1. <http://fieldguide.gizmodo.com/what-all-of-your-computers-specs-really-mean-1794869384>
-  1. <https://commons.wikimedia.org/wiki/File:Intel_CPU_Core_i7_2600K_Sandy_Bridge_top.jpg>
+  1. <https://www.extremetech.com/computing/126235-soc-vs-cpu-the-battle-for-the-future-of-computing>
+  1. <http://urbanconnection-sa.org/product/w1y35-dell-chromebook-11-motherboard-intel-1-4ghz-dual-core-cpu/>
   1. <https://www.lifewire.com/what-is-a-cpu-2618150>
   1. <https://www.lifewire.com/what-is-a-cpu-2618150>
   1. <http://fieldguide.gizmodo.com/what-all-of-your-computers-specs-really-mean-1794869384>
@@ -741,6 +742,8 @@
   1. <https://www.intel.com/content/www/us/en/products/processors/core.html>
   1. <https://www.howtogeek.com/177790/why-you-cant-use-cpu-clock-speed-to-compare-computer-performance/>
   1. <https://www.howtogeek.com/196582/why-you-probably-dont-want-to-pay-extra-for-a-faster-cpu-in-your-laptop-or-tablet/>
+  1. <https://arstechnica.com/gadgets/2021/01/qualcomm-will-acquire-chip-company-founded-by-apple-execs-for-1-4-billion/>
+  1. <https://www.androidauthority.com/nvidia-tegra-4-145126/>
   1. <https://www.howtogeek.com/180225/arm-vs.-intel-what-it-means-for-windows-chromebook-and-android-software-compatibility/>
   1. <https://www.theverge.com/2020/6/21/21298607/first-arm-mac-macbook-pro-imac-ming-chi-kuo-wwdc-2020>
   1. <https://www.computerhope.com/jargon/h/harddriv.htm>
@@ -1440,7 +1443,8 @@
   1. <https://www.gamewheel.com/will-facebooks-f8-vr-oculus-rift-news-change-ad-industry/>
   1. <https://readwrite.com/2017/07/18/facebook-spaces-vr-dl1/>
   1. <https://www.technologyreview.com/s/608267/facebook-is-adding-live-vr-broadcasts-to-your-news-feed/>
-  1. <https://www.facebook.com/spaces>
+  1. <https://www.oculus.com/facebookhorizon/>
+  1. <https://www.oculus.com/facebookhorizon/>
   1. <https://www.theverge.com/2017/3/10/14886576/oculus-gear-vr-live-stream-facebook-update>
   1. <https://www.technologyreview.com/s/525881/what-zuckerberg-sees-in-oculus-rift/>
   1. <https://www.cnbc.com/2018/06/28/amazon-to-acquire-online-pharmacy-pillpack.html>
@@ -1512,6 +1516,7 @@
   1. <https://www.quora.com/What-are-the-best-examples-of-Minimum-Viable-Product-MVP-released-by-a-Lean-Startup-in-any-industry-Including-both-successful-attempts-and-promising-attempts-that-eventually-failed>
   1. <https://www.networkworld.com/article/2182527/virtualization/virtualization-iaas-vs-paas-vs-saas.html>
   1. <https://en.wikipedia.org/wiki/SHA-3>
+  1. <https://www.extremetech.com/computing/126235-soc-vs-cpu-the-battle-for-the-future-of-computing>
   1. <https://www.b2bmarketing.net/en-gb/resources/news/top-20-most-valuable-b2b-brands-world-revealed>
   1. <https://www.digitalcommerce360.com/2016/05/27/how-coca-cola-refreshes-b2b-customers-live-chat/>
   1. <https://blog.hubspot.com/marketing/what-is-call-to-action-faqs-ht>
